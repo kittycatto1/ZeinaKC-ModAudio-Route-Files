@@ -6,5 +6,6 @@
 
 # ===== Easter Egg ===== #
 _mu_discover01 = ___default___ # Play original Effold Terrace
-_mu_discover01 = _mu_cahoots / 0.1 # 1 in 10 chance to play Slime Diva's theme when at Effold Terrace
+_mu_discover01 = <atlyss>_mu_cahoots / 0.1 # 1 in 10 chance to play Slime Diva's theme when at Effold Terrace
+
 # ===== Easter Egg ===== #
