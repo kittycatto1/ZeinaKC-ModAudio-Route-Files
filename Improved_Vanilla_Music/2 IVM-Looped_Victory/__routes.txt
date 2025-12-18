@@ -1,0 +1,9 @@
+# ===== Metadata ===== #
+%id IVM-Looped_Victory_Music
+%displayname 2-IVM: Looped Victory Music
+%enabledbydefault false # Off by default because of user preference
+# ===== Metadata ===== #
+
+# ===== Force_Looped ===== #
+music_whisper = ___default___ ~ force_loop : true # Loop the dungeon boss defeat music
+# ===== Force_Looped ===== #

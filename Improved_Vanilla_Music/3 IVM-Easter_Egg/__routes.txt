@@ -1,0 +1,10 @@
+# ===== Metadata ===== #
+%id IVM-Easter_Egg
+%displayname 3-IVM: Easter Egg
+%enabledbydefault false # Off by default because of possible nuisance on RockOn's suggestion
+# ===== Metadata ===== #
+
+# ===== Easter Egg ===== #
+_mu_discover01 = ___default___ # Play original Effold Terrace
+_mu_discover01 = _mu_cahoots / 0.1 # 1 in 10 chance to play Slime Diva's theme when at Effold Terrace
+# ===== Easter Egg ===== #
