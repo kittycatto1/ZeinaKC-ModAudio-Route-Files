@@ -1,5 +1,5 @@
 # ===== Metadata ===== #
-%id IVM-Improved_Vanilla_Music
+%id          IVM-Improved_Vanilla_Music
 %displayname 1-IVM: Improved Vanilla Music
 # ===== Metadata ===== #
 
@@ -84,3 +84,4 @@ _mu_discover03 = ___default___ ~ map_name : Crescent Keep | force_loop : true # 
 _mu_haven = ___default___ ~ map_name : Sanctum Arena | force_loop : true # Same thing as above but for Sanctum Arena as it shares with Tuul Valley
 
 # ===== Force_Looped ===== #
+
