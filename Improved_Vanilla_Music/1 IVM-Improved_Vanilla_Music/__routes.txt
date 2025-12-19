@@ -34,10 +34,11 @@ modaudio_map_crescentroad_night                                \ # Selecting Cre
     | smooth_dynamic_targeting : true                          \
     | chain_route : false
 
-_mu_laid                                                       \ # Selecting Crescent Keep day
+_mu_laid | _mu_discover03                                      \ # Selecting Crescent Keep day and Crescent Keep & Arcwood Pass night
   = | ___default___ : 1.0 : 1.0 : 1.0 : Crescent_Keep          \ # Replacing the track with its original music
     | <atlyss>_mu_ambCrispr : 1.0 : 1.0 : 1.0 : Crescent_Grove \ # Replacing that music for field "Crescent Grove" like we did with "Sanctum Catacombs"
-  ~ | force_loop : true                                        \
+  ~ | map_name : Crescent Keep                                 \ # Disconnecting `_mu_discover03` from affecting Arcwood Pass night by using map_name and only inputting "Crescent Keep"
+    | force_loop : true                                        \
     | target_group_script : target_group_CrescentKeep          \ # Selecting our function from the Lua file
     | enable_dynamic_targeting : true                          \
     | smooth_dynamic_targeting : true                          \
@@ -81,4 +82,5 @@ _mu_hell01 = ___default___ | <atlyss>_mu_hell02 # Executioner's Tomb original + 
 mu_snatchsprings | _mu_snatchNight | _mu_cane | _mu_photo | _atlyssSet_track01 = ___default___ ~ force_loop : true # Looping Sanctum & Outer Sanctum day/night and Wall of the Stars music with 1 pipeline
 _mu_discover03 = ___default___ ~ map_name : Crescent Keep | force_loop : true # Specifically only looping Crescent Keep night using map_name to avoid possible conflict
 _mu_haven = ___default___ ~ map_name : Sanctum Arena | force_loop : true # Same thing as above but for Sanctum Arena as it shares with Tuul Valley
+
 # ===== Force_Looped ===== #
