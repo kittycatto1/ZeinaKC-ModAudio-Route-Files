@@ -1,5 +1,5 @@
 # ===== Metadata ===== #
-%id IVM-Easter_Egg
+%id          IVM-Easter_Egg
 %displayname 3-IVM: Easter Egg
 %enabledbydefault false # Off by default because of possible nuisance on RockOn's suggestion
 # ===== Metadata ===== #
@@ -8,3 +8,4 @@
 _mu_discover01 = ___default___ / 0.9 # Play original Effold Terrace with a selectionWeight of 90% before calculating external packs
 _mu_discover01 = <atlyss>_mu_cahoots / 0.1 # Play Slime Diva's theme with a selectionWeight of 10% before calculating external packs
 # ===== Easter Egg ===== #
+
