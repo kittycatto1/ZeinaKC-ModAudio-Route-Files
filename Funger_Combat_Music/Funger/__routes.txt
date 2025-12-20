@@ -1,0 +1,53 @@
+# ===== Metadata ===== #
+%id           Fear_Hunger_Combat_Music
+%displayname  Fear & Hunger Combat Music
+%updatescript pack_update
+# ===== Metadata ===== #
+
+# ===== Scripts ===== #
+modaudio_map_outersanctum_action | modaudio_map_arcwoodpass_action | modaudio_map_crescentroad_action | modaudio_map_luvoragarden_action | modaudio_map_crescentroad_action | modaudio_map_tuulvalley_action  | modaudio_map_tuulenclave_action | modaudio_map_gateofthemoon_action \
+                                                          \ # ^ Change all ModAudio generated action music
+  = | Muted_Aggression : 1.0 : 1.0 : 1.0 : Regular_Combat \ # If the enemy encounter is regular, play this
+    | The_Four_Apostles : 1.0 : 1.0 : 1.0 : Elite_Combat  \ # If the enemy encounter is elite, play this
+  ~ | target_group_script : target_group_ActionMusic1     \ # Selecting our function from the Lua file
+    | enable_dynamic_targeting : true                     \ # Enables our scripts to update audio dynamically
+    | smooth_dynamic_targeting : true                     \ # Smoothens ^
+    | chain_route : true                                    # Uhh still no clue. ANYWAY this is EoF (End of File) so it doesn't need that backslash, actually you don't need them at all and you can compress this into 1 pipeline but it probably won't be fun to read
+                                                            # I won't repeat myself on everything, so refer to this block from now on
+
+_mu_cahoots | _mu_hermit                                           \ # Replacing Slime Diva and Galius routes because those are the action routes for Effold Terrace and Bularr Fortress
+  = | Muted_Aggression : 1.0 : 1.0 : 1.0 : Regular_Combat          \
+    | The_Four_Apostles : 1.0 : 1.0 : 1.0 : Elite_Combat           \
+    | Pulse_and_Anxiety_Funger : 1.0 : 1.0 : 1.0 : Miniboss_Combat \ # If the enemy encounter is Slime Diva or Galius, play this
+  ~ | force_loop : true                                            \ # Force looping because Slime Diva's track isn't looped
+    | target_group_script : target_group_ActionMusic2              \ # Selecting our function from the Lua file
+    | enable_dynamic_targeting : true                              \
+    | smooth_dynamic_targeting : true                              \
+    | chain_route : true
+
+modaudio_map_sanctumarena_action | modaudio_map_executionerstomb_action \ # Replacing the Arena routes separately to add different combat audio
+  = | Pulse_and_Anxiety_Funger : 1.0 : 1.0 : 1.0 : Regular_Combat       \ # If the enemy counter is a player, play this
+  ~ | target_group_script : target_group_ActionMusic1                   \ # Selecting our function from the Lua file
+    | enable_dynamic_targeting : true                                   \
+    | smooth_dynamic_targeting : true                                   \
+    | chain_route : true
+# ===== Scripts ===== #
+
+# ===== Sound Effects ===== #
+_creepAggroNotif = Encounter # Enemy targets the player
+# ===== Sound Effects ===== #
+
+# ===== Dungeon Music ===== #
+_atlyssSet_catacomb_action5 = Muted_Aggression # Replacing Sanctum Catacombs combat music
+_mu_wonton5 = The_Four_Apostles                # Replacing Crescent Grove combat music
+# ===== Dungeon Music ===== #
+
+# ===== Boss Music ===== #
+_mu_wasp | _mu_ecka | _mu_wonton = Pulse_and_Anxiety_Funger # Replacing all boss music
+music_whisper = Prelude_to_Darkness                         # Replacing the dungeon boss defeated music
+# ===== Boss Music ===== #
+
+# ===== Arena Music ===== #
+_mu_haven = Mist_Jingle ~ map_name : Sanctum Arena | force_loop : true # Replacing Sanctum Arena music and looping it
+_mu_hell01 = Tomb_of_the_Gods ~ relative_replacement_effects : false   # Replacing Executioner's Tomb music and ignoring the reduced pitch
+# ===== Arena Music ===== #
