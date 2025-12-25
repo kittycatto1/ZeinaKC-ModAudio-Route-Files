@@ -13,8 +13,8 @@ modaudio_map_outersanctum_action | modaudio_map_arcwoodpass_action | modaudio_ma
   ~ | target_group_script : target_group_ActionMusic1       \ # Selecting our function from the Lua file
     | enable_dynamic_targeting : true                       \ # Enables our scripts to update audio dynamically
     | smooth_dynamic_targeting : true                       \ # Smoothens ^
-    | chain_route : true                                    # Uhh still no clue. ANYWAY this is EoF (End of File) so it doesn't need that backslash, actually you don't need them at all and you can compress this into 1 pipeline but it probably won't be fun to read
-                                                            # I won't repeat myself on everything, so refer to this block from now on
+    | chain_route : true                                      # Uhh still no clue. ANYWAY this is EoF (End of File) so it doesn't need that backslash, actually you don't need them at all and you can compress this into 1 pipeline but it probably won't be fun to read
+                                                              # I won't repeat myself on everything, so refer to this block from now on
 
 _mu_cahoots | _mu_hermit                                            \ # Replacing Slime Diva and Galius routes because those are the action routes for Effold Terrace and Bularr Fortress
   = | Breath_Of_The_Moon : 1.0 : 1.0 : 1.0 : Regular_Combat         \
@@ -51,4 +51,5 @@ music_whisper = Dark_Outside                                 # Replacing the dun
 # ===== Arena Music ===== #
 _mu_haven = Mist_Jingle ~ map_name : Sanctum Arena | force_loop : true # Replacing Sanctum Arena music and looping it
 _mu_hell01 = Tomb_of_the_Gods ~ relative_replacement_effects : false   # Replacing Executioner's Tomb music and ignoring the reduced pitch
+
 # ===== Arena Music ===== #
