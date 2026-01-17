@@ -1,0 +1,22 @@
+# ===== Metadata ===== #
+%id          Improved_Vanilla_Music_ZKC
+%displayname Improved Vanilla Music (ZKC)
+# ===== Metadata ===== #
+# <atlyss>Clip = Vanilla clip
+# force_loop = fl
+# map_name = map
+# ===== Music ===== #
+modaudio_map_luvoragarden_day   = <atlyss>_mu_sailex                 # Adding music to Luvora Garden day.
+modaudio_map_luvoragarden_night = <atlyss>_mu_discover04             # Adding music to Luvora Garden night.
+_mu_hell01                      = ___default___ | <atlyss>_mu_hell02 # Executioner's Tomb original + alternate.
+
+modaudio_map_effoldterrace_night  = <atlyss>_mu_discover04 # Re-adding the night music for Effold Terrace, which was shared with Tuul Valley.
+modaudio_map_tuulvalley_night     = <atlyss>_mu_discover04 # Re-adding the night music for Tuul Valley, which was shared with Effold Terrace.
+modaudio_map_tuulenclave_night    = <atlyss>_mu_tex01      # Adding night music to Tuul Enclave.
+modaudio_map_wallofthestars_night = <atlyss>mu_select1     # Adding night music to Wall of the Stars.
+
+mu_snatchsprings | _mu_snatchNight | _mu_cane | _mu_photo | _mu_cahoots | _atlyssSet_track01 ~ fl : true # Looped all unlooped tracks.
+_mu_discover03   | _mu_haven ~ map : Crescent Keep : Sanctum Arena      | fl : true                      # Looping these two separately to avoid conflict.
+
+_mu_discover01 = ___default___ : 0.9 | <atlyss>_mu_cahoots : 0.1 # Selecting Effold Terrace then playing original music at 90% chance, and Slime Diva music at 10% chance.
+# ===== Music ===== #
