@@ -1,0 +1,75 @@
+# ===== Vanilla Voices List ===== #
+type = ___default___
+# Angela
+vox_angela01 = ___default___
+vox_angela02 = ___default___
+vox_angela05 = ___default___
+vox_angela06 = ___default___
+# Sally
+_sallyVox02 = ___default___
+_sallyVox03 = ___default___
+_sallyVox05 = ___default___
+_sallyVox06 = ___default___
+_sallyVox07 = ___default___
+# Enok
+_enok_vox04 = ___default___
+_enok_vox05 = ___default___
+_enok_vox06 = ___default___
+_enok_vox07 = ___default___
+_enok_vox08 = ___default___
+# Spike
+bobbyVox01 = ___default___
+bobbyVox03 = ___default___
+bobbyVox04 = ___default___
+bobbyVox07 = ___default___
+# Vivian
+_vivian_vox00 = ___default___
+_vivian_vox01 = ___default___
+_vivian_vox03 = ___default___
+# Skrit
+_skritVox_00 = ___default___
+_skritVox_01 = ___default___
+_skritVox_02 = ___default___
+# Imp
+_impTalk01 = ___default___
+_impTalk02 = ___default___
+_impTalk03 = ___default___
+_impTalk04 = ___default___
+_impTalk05 = ___default___
+_impTalk06 = ___default___
+# Poon
+_poonTalk01 = ___default___
+_poonTalk02 = ___default___
+_poonTalk03 = ___default___
+_poonTalk04 = ___default___
+_poonTalk05 = ___default___
+_poonTalk06 = ___default___
+# Kubold
+_kuboldTalk02 = ___default___
+_kuboldTalk03 = ___default___
+# Byrdle
+_byrdleTalk01 = ___default___
+_byrdleTalk02 = ___default___
+_byrdleTalk03 = ___default___
+_byrdleTalk04 = ___default___
+# Chang
+_changTalk01 = ___default___
+_changTalk03 = ___default___
+_changTalk04 = ___default___
+# ===== Vanilla Voices ===== #
+
+# ===== Vanilla Voices Condensed ===== #
+# NPCs
+vox_angela01  | vox_angela02  | vox_angela05 | vox_angela06              = ___default___
+_sallyVox02   | _sallyVox03   | _sallyVox05  | _sallyVox06 | _sallyVox07 = ___default___
+_enok_vox04   | _enok_vox05   | _enok_vox06  | _enok_vox07 | _enok_vox08 = ___default___
+bobbyVox01    | bobbyVox03    | bobbyVox04   | bobbyVox07                = ___default___
+_vivian_vox00 | _vivian_vox01 | _vivian_vox03                            = ___default___
+_skritVox_00  | _skritVox_01  | _skritVox_02                             = ___default___
+# Characters
+_impTalk01    | _impTalk02    | _impTalk03    | _impTalk04  | _impTalk05  | _impTalk06  = ___default___
+_poonTalk01   | _poonTalk02   | _poonTalk03   | _poonTalk04 | _poonTalk05 | _poonTalk06 = ___default___
+_kuboldTalk02 | _kuboldTalk03                                                           = ___default___
+_byrdleTalk01 | _byrdleTalk02 | _byrdleTalk03 | _byrdleTalk04                           = ___default___
+_changTalk01  | _changTalk03  | _changTalk04                                            = ___default___
+# ===== Vanilla Voices Condensed ===== #

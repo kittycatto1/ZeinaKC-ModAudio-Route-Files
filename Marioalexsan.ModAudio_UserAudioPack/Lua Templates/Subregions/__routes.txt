@@ -1,0 +1,100 @@
+# ===== Subregion Scripts ===== #
+_mu_discover02                                            \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Arcwood_Pass      \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Church            \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Sanctum_Catacombs \
+  ~ | target_group_script : target_group_ArcwoodPass      \
+    | map_name   : Arcwood Pass                           \
+    | force_loop : true                                   \
+    | force_play : true                                   \
+    | enable_dynamic_targeting     : true                 \
+    | smooth_dynamic_targeting     : true                 \
+    | relative_replacement_effects : false                \
+    | chain_route : false
+
+_mu_discover03                                            \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Arcwood_Pass      \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Church            \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Sanctum_Catacombs \
+  ~ | target_group_script : target_group_ArcwoodPass      \
+    | map_name   : Arcwood Pass                           \
+    | force_loop : true                                   \
+    | force_play : true                                   \
+    | enable_dynamic_targeting     : true                 \
+    | smooth_dynamic_targeting     : true                 \
+    | relative_replacement_effects : false                \
+    | chain_route : false
+
+modaudio_map_crescentroad_day                         \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Crescent_Road \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Crescent_Cove \
+  ~ | target_group_script : target_group_CrescentRoad \
+    | force_play : true                               \
+    | enable_dynamic_targeting     : true             \
+    | smooth_dynamic_targeting     : true             \
+    | relative_replacement_effects : false            \
+    | chain_route : false
+
+modaudio_map_crescentroad_night                       \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Crescent_Road \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Crescent_Cove \
+  ~ | target_group_script : target_group_CrescentRoad \
+    | force_play : true                               \
+    | enable_dynamic_targeting     : true             \
+    | smooth_dynamic_targeting     : true             \
+    | relative_replacement_effects : false            \
+    | chain_route : false
+
+_mu_laid                                               \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Crescent_Keep  \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Crescent_Grove \
+  ~ | target_group_script : target_group_CrescentKeep  \
+    | force_loop : true                                \
+    | force_play : true                                \
+    | enable_dynamic_targeting     : true              \
+    | smooth_dynamic_targeting     : true              \
+    | relative_replacement_effects : false             \
+    | chain_route : false
+
+_mu_discover03                                         \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Crescent_Keep  \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Crescent_Grove \
+  ~ | target_group_script : target_group_CrescentKeep  \
+    | map_name   : Crescent Keep                       \
+    | force_loop : true                                \
+    | force_play : true                                \
+    | enable_dynamic_targeting     : true              \
+    | smooth_dynamic_targeting     : true              \
+    | relative_replacement_effects : false             \
+    | chain_route : false
+
+_mu_encoderStrife                                       \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Bularr_Fortress \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Ammagon_Hut     \
+  ~ | target_group_script : target_group_BularrFortress \
+    | force_play : true                                 \
+    | enable_dynamic_targeting     : true               \
+    | smooth_dynamic_targeting     : true               \
+    | relative_replacement_effects : false              \
+    | chain_route : false
+	
+modaudio_map_gateofthemoon_day                           \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Gate_of_the_Moon \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Redwoud          \
+  ~ | target_group_script : target_group_GotM            \
+    | force_play : true                                  \
+    | enable_dynamic_targeting     : true                \
+    | smooth_dynamic_targeting     : true                \
+    | relative_replacement_effects : false               \
+    | chain_route : false
+
+modaudio_map_gateofthemoon_night                         \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Gate_of_the_Moon \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Redwoud          \
+  ~ | target_group_script : target_group_GotM            \
+    | force_play : true                                  \
+    | enable_dynamic_targeting     : true                \
+    | smooth_dynamic_targeting     : true                \
+    | relative_replacement_effects : false               \
+    | chain_route : false
+# ===== Subregion Scripts ===== #
