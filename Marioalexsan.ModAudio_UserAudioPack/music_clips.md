@@ -12,7 +12,6 @@ This file serves as a reference for all of the available music clip names within
 | _mu_cane                    | _sound/_musics/_mu_cane.ogg                    | Outer Sanctum day song.                                             |
 | _mu_photo                   | _sound/_musics/_mu_photo.ogg                   | Outer Sanctum night song.                                           |
 | _mu_discover01              | _sound/_musics/_mu_discover01.ogg              | Effold Terrace song.                                                |
-| _mu_cahoots                 | _sound/_musics/_mu_cahoots.ogg                 | Slime Diva boss song in Effold Terrace.                             |
 | _mu_discover02              | _sound/_musics/_mu_discover02.ogg              | Arcwood Pass day song.                                              |
 | _mu_discover03              | _sound/_musics/_mu_discover03.ogg              | Arcwood Pass & Crescent Keep night song.                            |
 | _mu_laid                    | _sound/_musics/_mu_laid.ogg                    | Crescent Keep day song.                                             |
@@ -26,6 +25,7 @@ This file serves as a reference for all of the available music clip names within
 | _atlyssSet_catacomb_action5 | _sound/_musics/_atlyssSet_catacomb_action5.ogg | Action song for Sanctum Catacombs.                                  |
 | _mu_ambCrispr               | _sound/_musics/_mu_ambCrispr.ogg               | Ambient song for Crescent Grove.                                    |
 | _mu_wonton5                 | _sound/_musics/_mu_wonton5.ogg                 | Action song for Crescent Grove.                                     |
+| _mu_cahoots                 | _sound/_musics/_mu_cahoots.ogg                 | Slime Diva boss song in Effold Terrace.                             |
 | _mu_wasp                    | _sound/_musics/_mu_wasp.ogg                    | Geistlord boss song in Sanctum Catacombs.                           |
 | _mu_ecka                    | _sound/_musics/_mu_ecka.ogg                    | Colossus boss song in Crescent Grove 15-20.                         |
 | _mu_wonton                  | _sound/_musics/_mu_wonton.ogg                  | Valdur boss song in Crescent Grove 20-25.                           |
@@ -40,7 +40,7 @@ This file serves as a reference for all of the available music clip names within
 | _mu_lethargy                | _sound/_musics/_mu_lethargy.ogg                | Unused.                                                             |
 | _mu_sailex                  | _sound/_musics/_mu_sailex.ogg                  | Unused.                                                             |
 | _mu_tex01                   | _sound/_musics/_mu_tex01.ogg                   | Unused.                                                             |
+| _mu_tired                   | _sound/_musics/_mu_tired.ogg                   | Unused.                                                             |
 | mu_nouCove                  | _sound/_musics/mu_nouCove.ogg                  | Unused.                                                             |
 | mu_select1                  | _sound/_musics/mu_select1.ogg                  | Unused.                                                             |
-| --------------------------- | ---------------------------------------------- | ------------------------------------------------------------------- |
 | Name                        | Path                                           | Description                                                         |
