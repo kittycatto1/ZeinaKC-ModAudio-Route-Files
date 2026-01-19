@@ -79,5 +79,4 @@ This file serves as a reference for all of the available voice clip names within
 | vc_suki5      | _sound/dialogsounds/dialog_voices/voice_sukinipps/vc_suki5.ogg       | Suki voiceline #5 (Unused)                                                                                               |
 | vc_suki6      | _sound/dialogsounds/dialog_voices/voice_sukinipps/vc_suki6.ogg       | Suki voiceline #6 (Unused)                                                                                               |
 | vc_suki7      | _sound/dialogsounds/dialog_voices/voice_sukinipps/vc_suki7.ogg       | Suki voiceline #7 (Unused)                                                                                               |
-| ------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
 | Name          | Path                                                                 | Description                                                                                                              |
