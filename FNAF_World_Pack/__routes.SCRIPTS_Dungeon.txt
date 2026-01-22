@@ -12,9 +12,9 @@ _atlyssSet_catacomb_amb3                      \ # Selecting Sanctum Catacombs am
     | Underneath_2 : 1.0 : 1.0 : 1.0 : Normal \ # If L6-12 (Normal), play this.
     | Underneath_3 : 1.0 : 1.0 : 1.0 : Hard   \ # If L12-18 (Hard), play this.
   ~ | tg_lua       : target_group_Difficulty  \ # Selecting function from the script file.
-    | tg_dyn       : true                     \ # Enables scripts to update audio dynamically.
-    | tg_smooth    : true                     \ # Smoothens dynamic targeting.
-    | rel_repl_fx  : true                     \ # Keeping the replacement Volume & Pitch relative instead of absolute.
+    | tg_dyn       : true                     \ # Dynamic targeting.
+    | tg_smooth    : true                     \ # Smooth dynamic targeting.
+    | rel_repl_fx  : true                     \ # Keeping the Volume/Pitch relative instead of absolute.
     | chain        : false                      # EoF.
 
 _mu_ambCrispr                                   \ # Selecting Crescent Grove ambience.
@@ -34,4 +34,5 @@ _mu_wonton5                                      \ # Selecting Crescent Grove ac
     | tg_smooth   : true                         \
     | rel_repl_fx : true                         \
     | chain       : false                          # EoF.
+
 # ===== Dungeon Scripts ===== #
