@@ -1,11 +1,11 @@
 # 1.0 : 1.0 : 1.0 = Weight : Volume : Pitch
-# tg_lua = target_group_script
+# target_group_script = tg_lua
 # map_name = map
 # force_loop = fl
 # force_play = fp
 # enable_dynamic_targeting = tg_dyn
 # smooth_dynamic_targeting = tg_smooth
-# rel_repl_fx = relative_replacement_effects
+# relative_replacement_effects = rel_repl_fx
 # chain_route = chain
 # EoF = End of File
 
@@ -65,8 +65,8 @@ _mu_laid                                                    \ # Selecting Cresce
     | rel_repl_fx : false                                   \
     | chain       : false                                     # EoF.
 
-_mu_discover03                                              \
-  = | 8Bit_Broken        : 1.0 : 1.0 : 1.0 : Crescent_Keep  \ # Selecting Crescent Keep night. (Shared with Arcwood Pass night).
+_mu_discover03                                              \ # Selecting Crescent Keep night. (Shared with Arcwood Pass night).
+  = | 8Bit_Broken        : 1.0 : 1.0 : 1.0 : Crescent_Keep  \
     | Dont_Open_The_Door : 1.0 : 1.0 : 1.0 : Crescent_Grove \
   ~ | tg_lua      : target_group_CrescentKeep               \
     | map         : Crescent Keep                           \
