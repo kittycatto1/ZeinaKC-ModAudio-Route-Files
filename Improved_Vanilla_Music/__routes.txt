@@ -1,6 +1,6 @@
 # ===== Metadata ===== #
-%id          Improved_Vanilla_Music_ZKC
-%displayname Improved Vanilla Music (ZKC)
+%id          Vanilla_Music_Improved_ZKC
+%displayname Vanilla Music Improved (ZKC)
 # ===== Metadata ===== #
 # <atlyss>Clip = Vanilla clip
 # force_loop = fl
@@ -21,3 +21,4 @@ _mu_haven ~ map  : Sanctum Arena   | fl : true # Looping this separately to avoi
 _mu_discover01 = ___default___ : 0.9 | <atlyss>_mu_cahoots : 0.1 # Selecting Effold Terrace then playing original music at 90% chance, and Slime Diva music at 10% chance.
 
 # ===== Music ===== #
+
