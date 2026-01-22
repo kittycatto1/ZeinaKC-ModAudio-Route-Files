@@ -14,10 +14,10 @@ modaudio_map_outersanctum_action | modaudio_map_crescentroad_action | modaudio_m
   = | Adventure_Ahead : 1.0 : 1.0 : 1.0 : Regular_Combat \ # If the enemy encounter is Regular, play this.
     | Snowpiercer     : 1.0 : 1.0 : 1.0 : Elite_Combat   \ # If the enemy encounter is Elite (or PvP), play this.
   ~ | tg_lua      : target_group_ActionMusic             \ # Selecting function from the script file.
-    | fp          : true                                 \ # Forcefully playing the combat music even if the source is stopped.
-    | tg_dyn      : true                                 \ # Enables scripts to update audio dynamically.
-    | tg_smooth   : true                                 \ # Smoothens dynamic targeting.
-    | rel_repl_fx : false                                \ # Making the replacement Volume & Pitch absolute instead of relative.
+    | fp          : true                                 \ # Force playing.
+    | tg_dyn      : true                                 \ # Dynamic targeting.
+    | tg_smooth   : true                                 \ # Smooth dynamic targeting.
+    | rel_repl_fx : false                                \ # Absolute Volume/Pitch instead of relative.
     | chain       : true                                   # EoF.
 
 modaudio_map_arcwoodpass_action | modaudio_map_luvoragarden_action | modaudio_map_crescentkeep_action \ # Selecting Arcwood Pass, Luvora Garden, and Crescent Keep.
