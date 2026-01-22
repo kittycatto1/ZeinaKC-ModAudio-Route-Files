@@ -34,5 +34,4 @@ _mu_wonton5                                      \ # Selecting Crescent Grove ac
     | tg_smooth   : true                         \
     | rel_repl_fx : true                         \
     | chain       : false                          # EoF.
-
 # ===== Dungeon Scripts ===== #
