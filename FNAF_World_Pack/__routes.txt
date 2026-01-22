@@ -3,7 +3,7 @@
 %displayname FNAF World Pack (ZKC)
 # ===== Metadata ===== #
 # map_name = map
-# rel_repl_fx = relative_replacement_effects
+# relative_replacement_effects = rel_repl_fx
 # force_loop = fl
 # ===== Music ===== #
 _mu_flyby | _mu_selee | option = One_For_The_Road ~ rel_repl_fx : false # Main menu, character selector, and creator.
@@ -18,11 +18,11 @@ _mu_calp                     = Rainbow          ~ rel_repl_fx : false           
 _mu_botany                   = Fearless_Fighter ~ rel_repl_fx : false             # Trial of the Stars night.
 modaudio_map_luvoragarden_day | modaudio_map_luvoragarden_night = Emerald_Waterfalls ~ rel_repl_fx : false
 
-_atlyssSet_catacomb_action5    = The_Tower_of_Majdel_Shams                       # Sanctum Catacombs action.
-_mu_ecka                       = Broken_Crushed_and_Burned ~ rel_repl_fx : false # Colossus.
-_mu_wonton                     = Stone_Cold                ~ rel_repl_fx : false # Valdur.
-music_whisper                  = Victory                   ~ rel_repl_fx : false # Dungeon boss defeated.
+_atlyssSet_catacomb_action5 = The_Tower_of_Majdel_Shams                       # Sanctum Catacombs action.
+_mu_ecka                    = Broken_Crushed_and_Burned ~ rel_repl_fx : false # Colossus.
+_mu_wonton                  = Stone_Cold                ~ rel_repl_fx : false # Valdur.
+music_whisper               = Victory                   ~ rel_repl_fx : false # Dungeon boss defeated.
 
-_mu_haven                      = Blaster_Cluster ~ rel_repl_fx : false | fl : true | map : Sanctum Arena
-_mu_hell01                     = Black_Lava      ~ rel_repl_fx : false # Executioner's Tomb.
+_mu_haven  = Blaster_Cluster ~ rel_repl_fx : false | fl : true | map : Sanctum Arena
+_mu_hell01 = Black_Lava      ~ rel_repl_fx : false                   # Executioner's Tomb.
 # ===== Music ===== #
