@@ -161,7 +161,7 @@ function p.target_group_ActionMusicCahoots(route)
 end
 
 function p.target_group_ActionMusicHermit(route)
-  else combatType == "Miniboss" then
+  if combatType == "Miniboss" then
     route.targetGroup = "Miniboss_Combat"
   elseif combatType == "inPvp" then
     route.targetGroup = "PVP_Combat"

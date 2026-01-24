@@ -54,7 +54,7 @@ modaudio_map_sanctumcatacombs_action | modaudio_map_crescentgrove_action | modau
 _mu_cahoots                                                \ # Selecting Slime Diva & Effold Terrace.
   = | Adventure_Ahead  : 1.0 : 1.0 : 1.0 : Regular_Combat  \
     | Snowpiercer      : 1.0 : 1.0 : 1.0 : PVP_Combat      \
-    | Melting_Titanium : 1.0 : 1.0 : 1.0 : Miniboss_Combat \ # If the enemy encounter is Miniboss, play this.
+    | Melting_Titanium : 1.0 : 1.0 : 1.0 : Miniboss_Combat \
   ~ | tg_lua      : target_group_ActionMusicCahoots        \
     | fl          : true                                   \
     | fp          : true                                   \
@@ -73,12 +73,12 @@ _mu_hermit                                             \ # Selecting Galius & Bu
     | rel_repl_fx  : false                             \
     | chain        : true                                # EoF.
 
-_mu_wasp                                                     \ # Selecting Geistlords.
-  = | Black_Lava         : 1.0 : 1.0 : 1.0 : default         \
+#_mu_wasp                                                     \ # Selecting Geistlords.
+#  = | Black_Lava         : 1.0 : 1.0 : 1.0 : default         \
 #    | Fear_of_Pixelation : 1.0 : 1.0 : 1.0 : Miniboss_Combat \
-  ~ | tg_lua      : target_group_ActionMusicGeistlord        \
-    | tg_dyn      : true                                     \
-    | tg_smooth   : true                                     \
-    | rel_repl_fx : false                                    \
-    | chain       : true                                       # EoF.
+#  ~ | tg_lua      : target_group_ActionMusicGeistlord        \
+#    | tg_dyn      : true                                     \
+#    | tg_smooth   : true                                     \
+#    | rel_repl_fx : false                                    \
+#    | chain       : true                                       # EoF.
 # ===== Boss Scripts ===== #

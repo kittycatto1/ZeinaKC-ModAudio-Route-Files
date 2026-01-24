@@ -11,7 +11,7 @@
 
 # ===== Subregion Scripts ===== #
 _mu_discover02                                             \ # Selecting Arcwood Pass day.
-  = | 8Bit_Travel_1  : 1.0 : 1.0 : 1.0 : Arcwood_Pass      \ # Replacing day music.
+  = | 8Bit_Travel    : 1.0 : 1.0 : 1.0 : Arcwood_Pass      \ # Replacing day music.
     | Running_Lights : 1.0 : 1.0 : 1.0 : Church            \ # Adding subregion music to "Chapel of the Elders".
     | Ice_Dungeon    : 1.0 : 1.0 : 1.0 : Sanctum_Catacombs \ # Adding subregion music to "Sanctum Catacombs".
   ~ | tg_lua      : target_group_ArcwoodPass               \ # Selecting function from the script.
@@ -76,7 +76,6 @@ _mu_discover03                                              \ # Selecting Cresce
     | tg_smooth   : true                                    \
     | rel_repl_fx : false                                   \
     | chain       : false                                     # EoF.
-
 
 _mu_encoderStrife                                        \ # Selecting Bularr Fortress (Null).
   = | Darkness_Ahead : 1.0 : 1.0 : 1.0 : Bularr_Fortress \

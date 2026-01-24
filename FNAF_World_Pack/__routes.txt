@@ -8,7 +8,7 @@
 # ===== Music ===== #
 _mu_flyby | _mu_selee | option = One_For_The_Road ~ rel_repl_fx : false # Main menu, character selector, and creator.
 
-mu_snatchsprings | _mu_cane  = 8Bit_Travel_1    ~ rel_repl_fx : false | fl : true # (Outer) Sanctum day.
+mu_snatchsprings | _mu_cane  = 8Bit_Travel      ~ rel_repl_fx : false | fl : true # (Outer) Sanctum day.
 _mu_snatchNight  | _mu_photo = 8Bit_Broken      ~ rel_repl_fx : false | fl : true # (Outer) Sanctum night.
 _mu_discover01               = 8Bit_Travel_2    ~ rel_repl_fx : false             # Effold Terrace.
 _mu_haven                    = Blaster_Cluster  ~ rel_repl_fx : false | fl : true # Tuul Valley & Sanctum Arena.
