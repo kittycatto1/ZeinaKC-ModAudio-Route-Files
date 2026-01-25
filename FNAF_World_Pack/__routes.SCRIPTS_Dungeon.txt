@@ -7,7 +7,7 @@
 # EoF = End of File
 
 # ===== Dungeon Scripts ===== #
-_atlyssSet_catacomb_amb3                      \ # Selecting Sanctum Catacombs ambience.
+_atlyssSet_catacomb_amb3                      \ # Selecting Sanctum Catacombs (Ambient).
   = | Underneath_1 : 1.0 : 1.0 : 1.0 : Easy   \ # If L1-6 (Easy), play this.
     | Underneath_2 : 1.0 : 1.0 : 1.0 : Normal \ # If L6-12 (Normal), play this.
     | Underneath_3 : 1.0 : 1.0 : 1.0 : Hard   \ # If L12-18 (Hard), play this.
@@ -17,7 +17,7 @@ _atlyssSet_catacomb_amb3                      \ # Selecting Sanctum Catacombs am
     | rel_repl_fx  : true                     \ # Keeping the Volume/Pitch relative instead of absolute.
     | chain        : false                      # EoF.
 
-_mu_ambCrispr                                   \ # Selecting Crescent Grove ambience.
+_mu_ambCrispr                                   \ # Selecting Crescent Grove (Ambient).
   = | Darkness_Ahead : 1.0 : 1.0 : 1.0 : Normal \ # If L15-20 (Medium), play this.
     | Bending_Flame  : 1.0 : 1.0 : 1.0 : Hard   \ # If L20-25 (Hard), play this.
   ~ | tg_lua      : target_group_Difficulty     \
@@ -26,7 +26,7 @@ _mu_ambCrispr                                   \ # Selecting Crescent Grove amb
     | rel_repl_fx : true                        \
     | chain       : false                         # EoF.
 
-_mu_wonton5                                      \ # Selecting Crescent Grove action.
+_mu_wonton5                                      \ # Selecting Crescent Grove (Action).
   = | Blaster_Cluster : 1.0 : 1.0 : 1.0 : Normal \ # If L15-20 (Medium), play this.
     | Boiling_Point   : 1.0 : 1.0 : 1.0 : Hard   \ # If L20-25 (Hard), play this.
   ~ | tg_lua      : target_group_Difficulty      \
