@@ -116,21 +116,41 @@ function p.pack_update()
   modaudio.engine.forceCombatMusic(toggleCombatMusic)
 end
 
-function p.target_group_ActionMusic1(route)
-  if combatType == "Normal" then
-    route.targetGroup = "Regular_Combat"
-  else
+function p.target_group_ActionMusic(route)
+  if combatType == "inPvp" then
     route.targetGroup = "Elite_Combat"
+  elseif combatType == "Elite" then
+    route.targetGroup = "Elite_Combat"
+  else
+    route.targetGroup = "Regular_Combat"
   end
 end
 
-function p.target_group_ActionMusic2(route)
-  if combatType == "Normal" then
-    route.targetGroup = "Regular_Combat"
-  elseif combatType == "miniboss" then
-    route.targetGroup = "Miniboss_Combat"
+function p.target_group_ActionMusicRegular(route)
+  if combatType == "inPvp" then
+    route.targetGroup = "PVP_Combat"
   else
+    route.targetGroup = "Regular_Combat"
+  end
+end
+
+function p.target_group_ActionMusicPVP(route)
+  if combatType == "inPvp" then
+    route.targetGroup = "PVP_Combat"
+  else
+    route.skipRoute = true
+  end
+end
+
+function p.target_group_ActionMusicMiniboss(route)
+  if combatType == "Miniboss" then
+    route.targetGroup = "Miniboss_Combat"
+  elseif combatType == "inPvp" then
     route.targetGroup = "Elite_Combat"
+  elseif combatType == "Elite" then
+    route.targetGroup = "Elite_Combat"
+  else
+    route.targetGroup = "Regular_Combat"
   end
 end
 

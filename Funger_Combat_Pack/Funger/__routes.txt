@@ -1,0 +1,18 @@
+# ===== Metadata ===== #
+%id               Funger_Combat_Music_ZKC
+%displayname      Funger Combat Music (ZKC)
+%enabledbydefault true
+%customclippath   ../Audio/Encounter
+%customclippath   ../Audio/Mist_Jingle
+%customclippath   ../Audio/Tomb_of_the_Gods
+# ===== Metadata ===== #
+# map_name = map
+# relative_replacement_effects = rel_repl_fx
+# force_loop = fl
+# ===== SFX & Music ===== #
+_creepAggroNotif                 = Encounter           ~ rel_repl_fx : false # Enemy targets the player.
+_mu_wasp | _mu_ecka | _mu_wonton = Pulse_and_Anxiety   ~ rel_repl_fx : false # Geistlords & King Golems.
+music_whisper                    = Prelude_to_Darkness ~ rel_repl_fx : false # Dungeon boss defeated.
+_mu_haven                        = Mist_Jingle         ~ rel_repl_fx : false | fl : true | map : Sanctum Arena
+_mu_hell01                       = Tomb_of_the_Gods    ~ rel_repl_fx : false # Executioner's Tomb.
+# ===== SFX & Music ===== #

@@ -7,7 +7,7 @@ end
 local toggleCombatMusic = false
 local combatTime = 0
 
-local combatType = "normal"
+local combatType = "Normal"
 local inPvp = false
 
 function p.pack_update()
@@ -19,7 +19,7 @@ function p.pack_update()
   local mainPlayer = atlyss.mainPlayer
 
   toggleCombatMusic = false
-  combatType = "normal"
+  combatType = "Normal"
   combatTime = math.max(0, combatTime - modaudio.context.deltaTime)
 
   local secondsSinceGameStart = modaudio.context.secondsSinceGameStart
@@ -84,11 +84,11 @@ function p.pack_update()
       threat = threat + creepThreat
 
       if enemy._scriptCreep._isElite then
-        combatType = "elite"
+        combatType = "Elite"
       end
 
       if enemy._scriptCreep._playMapInstanceActionMusic then
-        combatType = "miniboss"
+        combatType = "Miniboss"
       end
     end
 
@@ -110,25 +110,53 @@ function p.pack_update()
   end
 
   if lastPvp ~= inPvp then
-    print("Toggling PVP mode to " .. (choice(inPvp, "on", "off")))
+    print("Toggling PvP mode to " .. (choice(inPvp, "on", "off")))
   end
 
   modaudio.engine.forceCombatMusic(toggleCombatMusic)
 end
 
-function p.target_group_ActionMusic1(route)
-  if combatType == "normal" then
-    route.targetGroup = "Regular_Combat"
-  else
+function p.target_group_ActionMusic(route)
+  if combatType == "inPvp" then
+    route.targetGroup = "PVP_Combat"
+  elseif combatType == "Elite" then
     route.targetGroup = "Elite_Combat"
+  else
+    route.targetGroup = "Regular_Combat"
   end
 end
 
-function p.target_group_ActionMusic2(route)
-  if combatType == "normal" then
+function p.target_group_ActionMusicRegular(route)
+  if combatType == "inPvp" then
+    route.targetGroup = "PVP_Combat"
+  else
     route.targetGroup = "Regular_Combat"
-  elseif combatType == "miniboss" then
+  end
+end
+
+function p.target_group_ActionMusicPVP(route)
+  if combatType == "inPvp" then
+    route.targetGroup = "PVP_Combat"
+  else
+    route.skipRoute = true
+  end
+end
+
+function p.target_group_ActionMusicCahoots(route)
+  if combatType == "Miniboss" then
     route.targetGroup = "Miniboss_Combat"
+  elseif combatType == "inPvp" then
+    route.targetGroup = "PVP_Combat"
+  else
+    route.targetGroup = "Regular_Combat"
+  end
+end
+
+function p.target_group_ActionMusicHermit(route)
+  if combatType == "Miniboss" then
+    route.targetGroup = "Miniboss_Combat"
+  elseif combatType == "inPvp" then
+    route.targetGroup = "Elite_Combat"
   else
     route.targetGroup = "Elite_Combat"
   end
