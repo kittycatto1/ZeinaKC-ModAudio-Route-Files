@@ -1,5 +1,43 @@
 p = {}
 
+function p.target_group_ArcwoodPass(route)
+  if atlyss.inGameUI._reigonTitle == "Chapel Of The Elders" then
+    route.targetGroup = "Church"
+  elseif atlyss.inGameUI._reigonTitle == "Sanctum Catacombs" then
+    route.targetGroup = "Sanctum_Catacombs"
+  else
+    route.targetGroup = "Arcwood_Pass"
+  end
+end
+
+function p.target_group_Crescent(route)
+  if atlyss.inGameUI._reigonTitle == "Crescent Grove" then
+    route.targetGroup = "Crescent_Grove"
+  elseif atlyss.inGameUI._reigonTitle == "Crescent Cove" then
+    route.targetGroup = "Crescent_Cove"
+  elseif atlyss.inGameUI._reigonTitle == "Crescent Keep" then
+    route.targetGroup = "Crescent_Keep"
+  else
+    route.targetGroup = "Crescent_Road"
+  end
+end
+
+function p.target_group_BularrFortress(route)
+  if atlyss.inGameUI._reigonTitle == "Ammagon's Hut" then
+    route.targetGroup = "Ammagon_Hut"
+  else
+    route.targetGroup = "Bularr_Fortress"
+  end
+end
+
+function p.target_group_GotM(route)
+  if atlyss.inGameUI._reigonTitle == "Redwoud" then
+    route.targetGroup = "Redwoud"
+  else
+    route.targetGroup = "Gate_of_the_Moon"
+  end
+end
+
 function choice(val, a, b)
   if val then return a else return b end
 end
@@ -116,39 +154,9 @@ function p.pack_update()
   modaudio.engine.forceCombatMusic(toggleCombatMusic)
 end
 
-function p.target_group_ActionMusic(route)
-  if combatType == "inPvp" then
-    route.targetGroup = "Elite_Combat"
-  elseif combatType == "Elite" then
-    route.targetGroup = "Elite_Combat"
-  else
-    route.targetGroup = "Regular_Combat"
-  end
-end
-
 function p.target_group_ActionMusicRegular(route)
-  if combatType == "inPvp" then
-    route.targetGroup = "PVP_Combat"
-  else
+  if combatType == "Regular" then
     route.targetGroup = "Regular_Combat"
-  end
-end
-
-function p.target_group_ActionMusicPVP(route)
-  if combatType == "inPvp" then
-    route.targetGroup = "PVP_Combat"
-  else
-    route.skipRoute = true
-  end
-end
-
-function p.target_group_ActionMusicMiniboss(route)
-  if combatType == "Miniboss" then
-    route.targetGroup = "Miniboss_Combat"
-  elseif combatType == "inPvp" then
-    route.targetGroup = "Elite_Combat"
-  elseif combatType == "Elite" then
-    route.targetGroup = "Elite_Combat"
   else
     route.targetGroup = "Regular_Combat"
   end

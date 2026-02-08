@@ -1,0 +1,13 @@
+# ===== References ===== #
+# <atlyss>Clip    = Vanilla clip
+# 1.0 : 1.0 : 1.0 = Weight : Volume : Pitch
+# tg_lua = target_group_script
+# map = map_name
+# fl  = force_loop
+# fp  = force_play
+# tg_dyn      = enable_dynamic_targeting
+# tg_smooth   = smooth_dynamic_targeting
+# rel_repl_fx = relative_replacement_effects
+# chain = chain_route
+# EoF   = End of File
+# ===== References ===== #

@@ -1,0 +1,82 @@
+# ===== Subregion Scripts ===== #
+_mu_discover02                                                  \ # Arcwood Pass (Day).
+ = | Spirity_City         : 1.0 : 1.0 : 1.0 : Arcwood_Pass      \ # Replacing day music.
+   | Cabaret_Cafe         : 1.0 : 1.0 : 1.0 : Church            \ # Adding subregion music to "Chapel of the Elders".
+   | Haunted_Hallow_Halls : 1.0 : 1.0 : 1.0 : Sanctum_Catacombs \ # Adding subregion music to "Sanctum Catacombs".
+ ~ | tg_lua      : target_group_ArcwoodPass                     \ # Selecting function from the script.
+   | fl          : true                                         \ # Force looping.
+   | fp          : true                                         \ # Force playing.
+   | tg_dyn      : true                                         \ # Dynamic targeting.
+   | tg_smooth   : true                                         \ # Smooth dynamic targeting.
+   | rel_repl_fx : false                                        \ # Absolute Volume/Pitch instead of relative.
+   | chain       : false                                          # EoF.
+
+_mu_discover03                                                  \ # Arcwood Pass (Night). (Shared with Crescent Keep)
+ = | Down_the_Dark_Alley  : 1.0 : 1.0 : 1.0 : Arcwood_Pass      \ # Replacing night music.
+   | Cabaret_Cafe         : 1.0 : 1.0 : 1.0 : Church            \ # Night-compatibility (can be unique).
+   | Haunted_Hallow_Halls : 1.0 : 1.0 : 1.0 : Sanctum_Catacombs \ # Night-compatibility (can be unique).
+ ~ | tg_lua      : target_group_ArcwoodPass                     \
+   | map         : Arcwood Pass                                 \ # Only replaces the SourceClip if it's played in Arcwood Pass.
+   | fl          : true                                         \
+   | fp          : true                                         \
+   | tg_dyn      : true                                         \
+   | tg_smooth   : true                                         \
+   | rel_repl_fx : false                                        \
+   | chain       : false                                          # EoF.
+
+modaudio_map_crescentroad_day | _mu_laid              \ # Crescent Road/Keep (Day).
+ = | Pipeworld     : 1.0 : 1.0 : 1.0 : Crescent_Road  \
+   | Pipeworld     : 1.0 : 1.0 : 1.0 : Crescent_Keep  \
+   | Watery_Graves : 1.0 : 1.0 : 1.0 : Crescent_Cove  \
+   | Cabaret_Cafe  : 1.0 : 1.0 : 1.0 : Crescent_Grove \
+ ~ | tg_lua      : target_group_Crescent              \
+   | fp          : true                               \
+   | tg_dyn      : true                               \
+   | tg_smooth   : true                               \
+   | rel_repl_fx : false                              \
+   | chain       : false                                # EoF.
+
+modaudio_map_crescentroad_night | _mu_discover03         \ # Crescent Road/Keep (Night).
+ = | Phantasmal_Phunk : 1.0 : 1.0 : 1.0 : Crescent_Road  \
+   | Phantasmal_Phunk : 1.0 : 1.0 : 1.0 : Crescent_Keep  \
+   | Watery_Graves    : 1.0 : 1.0 : 1.0 : Crescent_Cove  \
+   | Cabaret_Cafe     : 1.0 : 1.0 : 1.0 : Crescent_Grove \
+ ~ | tg_lua      : target_group_Crescent                 \
+   | map         : Crescent Road | Crescent Keep         \
+   | fp          : true                                  \
+   | tg_dyn      : true                                  \
+   | tg_smooth   : true                                  \
+   | rel_repl_fx : false                                 \
+   | chain       : false                                   # EoF.
+
+_mu_encoderStrife                                      \ # Bularr Fortress.
+ = | Hieroglyphmix : 1.0 : 1.0 : 1.0 : Bularr_Fortress \
+   | Cabaret_Cafe  : 1.0 : 1.0 : 1.0 : Ammagon_Hut     \
+ ~ | tg_lua      : target_group_BularrFortress         \
+   | fp          : true                                \
+   | tg_dyn      : true                                \
+   | tg_smooth   : true                                \
+   | rel_repl_fx : false                               \
+   | chain       : false                                 # EoF.
+
+modaudio_map_gateofthemoon_day | modaudio_map_gateofthemoon_night \
+ = | Waves_of_Nostalgia : 1.0 : 1.0 : 1.0 : Gate_of_the_Moon      \ 
+   | Tengoku_Love       : 1.0 : 1.0 : 1.0 : Redwoud               \
+ ~ | tg_lua      : target_group_GotM                              \
+   | fp          : true                                           \
+   | tg_dyn      : true                                           \
+   | tg_smooth   : true                                           \
+   | rel_repl_fx : true                                           \
+   | chain       : false                                            # EoF.
+# ===== Subregion Scripts ===== #
+
+# ===== Combat Scripts ===== #
+modaudio_map_crescentkeep_action                           \
+ = | Gero_Gero_Fun_Time : 1.0 : 1.0 : 1.0 : Regular_Combat \
+ ~ | tg_lua      : target_group_ActionMusicRegular         \
+   | fp          : true                                    \
+   | tg_dyn      : true                                    \
+   | tg_smooth   : true                                    \
+   | rel_repl_fx : false                                   \
+   | chain       : true                                      # EoF.
+# ===== Combat Scripts ===== #

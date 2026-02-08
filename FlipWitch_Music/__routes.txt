@@ -1,0 +1,33 @@
+# ===== Metadata ===== #
+%id          Flipwitch_Music
+%displayname ZKC-Flipwitch Music
+# ===== Metadata ===== #
+
+# ===== Music ===== #
+_mu_flyby = Tutorial           ~ rel_repl_fx : false # Main Menu.
+_mu_selee = Switchcraft        ~ rel_repl_fx : false # Character Selector.
+option    = Waves_of_Nostalgia ~ rel_repl_fx : false # Character Creator.
+
+mu_snatchsprings   = Peaches_and_Cream         ~ rel_repl_fx : false | fl : true # Sanctum (Day).
+_mu_snatchNight    = A_Witchs_Thoughts         ~ rel_repl_fx : false | fl : true # Sanctum (Night).
+_mu_cane           = Melody_of_the_Mushrooms   ~ rel_repl_fx : false | fl : true # Outer Sanctum (Day).
+_mu_photo          = Lounge_of_the_Dead        ~ rel_repl_fx : false | fl : true # Outer Sanctum (Night).
+_mu_haven          = Oh_My_Gobbess             ~ rel_repl_fx : false | fl : true # Tuul Valley & Sanctum Arena.
+_mu_clave          = Hey_Guys_and_Goblins_ONLY ~ rel_repl_fx : false             # Tuul Enclave.
+_mu_discover01     = Slime_Citadel : 0.9 | Magical_Bubble_Bath : 0.1 ~ rel_repl_fx : false # Effold Terrace.
+_atlyssSet_track01 = Overwhelming_Sensations   ~ rel_repl_fx : false | fl : true # Wall of the Stars.
+_mu_calp           = Loonboon                  ~ rel_repl_fx : false             # Trial of the Stars (Day).
+_mu_botany         = Cerebrawl                 ~ rel_repl_fx : false             # Trial of the Stars (Night).
+
+
+_atlyssSet_catacomb_amb3    = Haunted_Hallow_Halls # Sanctum Catacombs (Ambient).
+_atlyssSet_catacomb_action5 = Club_Demon           # Sanctum Catacombs (Action).
+_mu_ambCrispr               = Temple_of_Chaos      # Crescent Grove (Ambient).
+_mu_wonton5                 = Hieroglyphmix        # Crescent Grove (Action).
+
+_mu_cahoots           = Bubble_Beat      ~ rel_repl_fx : false | fl : true # Slime Diva.
+_mu_wasp              = Substandard      ~ rel_repl_fx : false             # Geistlords.
+_mu_ecka | _mu_wonton = Sludge_Rock      ~ rel_repl_fx : false             # King Golems.
+music_whisper         = Flippin_Peaceful ~ rel_repl_fx : false             # Dungeon boss defeated.
+_mu_hell01 = Hieroglyphmix ~ rel_repl_fx : false # Executioner's Tomb.
+# ===== Music ===== #

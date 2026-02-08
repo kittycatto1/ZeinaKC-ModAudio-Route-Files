@@ -1,100 +1,72 @@
-# 1.0 : 1.0 : 1.0 = Weight : Volume : Pitch
-# target_group_script = tg_lua
-# map_name = map
-# force_loop = fl
-# force_play = fp
-# enable_dynamic_targeting = tg_dyn
-# smooth_dynamic_targeting = tg_smooth
-# relative_replacement_effects = rel_repl_fx
-# chain_route = chain
-# EoF = End of File
-
 # ===== Subregion Scripts ===== #
-_mu_discover02                                             \ # Selecting Arcwood Pass (Day).
-  = | 8Bit_Travel    : 1.0 : 1.0 : 1.0 : Arcwood_Pass      \ # Replacing day music.
-    | Running_Lights : 1.0 : 1.0 : 1.0 : Church            \ # Adding subregion music to "Chapel of the Elders".
-    | Ice_Dungeon    : 1.0 : 1.0 : 1.0 : Sanctum_Catacombs \ # Adding subregion music to "Sanctum Catacombs".
-  ~ | tg_lua      : target_group_ArcwoodPass               \ # Selecting function from the script.
-    | fl          : true                                   \ # Force looping.
-    | fp          : true                                   \ # Force playing.
-    | tg_dyn      : true                                   \ # Dynamic targeting.
-    | tg_smooth   : true                                   \ # Smooth dynamic targeting.
-    | rel_repl_fx : false                                  \ # Absolute Volume/Pitch instead of relative.
-    | chain       : false                                    # EoF.
+_mu_discover02                                            \ # Arcwood Pass (Day).
+ = | 8Bit_Travel    : 1.0 : 1.0 : 1.0 : Arcwood_Pass      \ # Replacing day music.
+   | Running_Lights : 1.0 : 1.0 : 1.0 : Church            \ # Adding subregion music to "Chapel of the Elders".
+   | Ice_Dungeon    : 1.0 : 1.0 : 1.0 : Sanctum_Catacombs \ # Adding subregion music to "Sanctum Catacombs".
+ ~ | tg_lua      : target_group_ArcwoodPass               \ # Selecting function from the script.
+   | fl          : true                                   \ # Force looping.
+   | fp          : true                                   \ # Force playing.
+   | tg_dyn      : true                                   \ # Dynamic targeting.
+   | tg_smooth   : true                                   \ # Smooth dynamic targeting.
+   | rel_repl_fx : false                                  \ # Absolute Volume/Pitch instead of relative.
+   | chain       : false                                    # EoF.
 
-_mu_discover03                                             \ # Selecting Arcwood Pass night. (Shared with Crescent Keep Night)
-  = | 8Bit_Broken    : 1.0 : 1.0 : 1.0 : Arcwood_Pass      \ # Replacing night music.
-    | Running_Lights : 1.0 : 1.0 : 1.0 : Church            \ # Night-compatibility (can be unique).
-    | Ice_Dungeon    : 1.0 : 1.0 : 1.0 : Sanctum_Catacombs \ # Night-compatibility (can be unique).
-  ~ | tg_lua      : target_group_ArcwoodPass               \
-    | map         : Arcwood Pass                           \ # Only replaces the SourceClip if it's played in Arcwood Pass.
-    | fl          : true                                   \
-    | fp          : true                                   \
-    | tg_dyn      : true                                   \
-    | tg_smooth   : true                                   \
-    | rel_repl_fx : false                                  \
-    | chain       : false                                    # EoF.
+_mu_discover03                                            \ # Arcwood Pass (Night). (Shared with Crescent Keep)
+ = | 8Bit_Broken    : 1.0 : 1.0 : 1.0 : Arcwood_Pass      \ # Replacing night music.
+   | Running_Lights : 1.0 : 1.0 : 1.0 : Church            \ # Night-compatibility (can be unique).
+   | Ice_Dungeon    : 1.0 : 1.0 : 1.0 : Sanctum_Catacombs \ # Night-compatibility (can be unique).
+ ~ | tg_lua      : target_group_ArcwoodPass               \
+   | map         : Arcwood Pass                           \ # Only replaces the SourceClip if it's played in Arcwood Pass.
+   | fl          : true                                   \
+   | fp          : true                                   \
+   | tg_dyn      : true                                   \
+   | tg_smooth   : true                                   \
+   | rel_repl_fx : false                                  \
+   | chain       : false                                    # EoF.
 
-modaudio_map_crescentroad_day                              \ # Selecting Crescent Road (Day).
-  = | 8Bit_Travel_2      : 1.0 : 1.0 : 1.0 : Crescent_Road \
-    | Emerald_Waterfalls : 1.0 : 1.0 : 1.0 : Crescent_Cove \
-  ~ | tg_lua      : target_group_CrescentRoad              \
-    | fp          : true                                   \
-    | tg_dyn      : true                                   \
-    | tg_smooth   : true                                   \
-    | rel_repl_fx : false                                  \
-    | chain       : false                                    # EoF.
+modaudio_map_crescentroad_day | _mu_laid                   \ # Crescent Road/Keep (Day).
+ = | 8Bit_Travel_2      : 1.0 : 1.0 : 1.0 : Crescent_Road  \
+   | 8Bit_Travel_2      : 1.0 : 1.0 : 1.0 : Crescent_Keep  \
+   | Emerald_Waterfalls : 1.0 : 1.0 : 1.0 : Crescent_Cove  \
+   | Dont_Open_The_Door : 1.0 : 1.0 : 1.0 : Crescent_Grove \
+ ~ | tg_lua      : target_group_Crescent                   \
+   | fp          : true                                    \
+   | tg_dyn      : true                                    \
+   | tg_smooth   : true                                    \
+   | rel_repl_fx : false                                   \
+   | chain       : false                                     # EoF.
 
-modaudio_map_crescentroad_night                            \ # Selecting Crescent Road (Night).
-  = | 8Bit_Broken        : 1.0 : 1.0 : 1.0 : Crescent_Road \
-    | Emerald_Waterfalls : 1.0 : 1.0 : 1.0 : Crescent_Cove \
-  ~ | tg_lua      : target_group_CrescentRoad              \
-    | fp          : true                                   \
-    | tg_dyn      : true                                   \
-    | tg_smooth   : true                                   \
-    | rel_repl_fx : false                                  \
-    | chain       : false                                    # EoF.
+modaudio_map_crescentroad_night | _mu_discover03           \ # Crescent Road/Keep (Night).
+ = | 8Bit_Broken        : 1.0 : 1.0 : 1.0 : Crescent_Road  \
+   | 8Bit_Broken        : 1.0 : 1.0 : 1.0 : Crescent_Keep  \
+   | Emerald_Waterfalls : 1.0 : 1.0 : 1.0 : Crescent_Cove  \
+   | Dont_Open_The_Door : 1.0 : 1.0 : 1.0 : Crescent_Grove \
+ ~ | tg_lua      : target_group_Crescent                   \
+   | map         : Crescent Road | Crescent Keep           \
+   | fp          : true                                    \
+   | tg_dyn      : true                                    \
+   | tg_smooth   : true                                    \
+   | rel_repl_fx : false                                   \
+   | chain       : false                                     # EoF.
 
-_mu_laid                                                    \ # Selecting Crescent Keep (Day).
-  = | 8Bit_Travel_2      : 1.0 : 1.0 : 1.0 : Crescent_Keep  \
-    | Dont_Open_The_Door : 1.0 : 1.0 : 1.0 : Crescent_Grove \
-  ~ | tg_lua      : target_group_CrescentKeep               \
-    | fp          : true                                    \
-    | tg_dyn      : true                                    \
-    | tg_smooth   : true                                    \
-    | rel_repl_fx : false                                   \
-    | chain       : false                                     # EoF.
+_mu_encoderStrife                                       \ # Bularr Fortress.
+ = | Darkness_Ahead : 1.0 : 1.0 : 1.0 : Bularr_Fortress \
+   | Running_Lights : 1.0 : 1.0 : 1.0 : Ammagon_Hut     \
+ ~ | tg_lua      : target_group_BularrFortress          \
+   | fp          : true                                 \
+   | tg_dyn      : true                                 \
+   | tg_smooth   : true                                 \
+   | rel_repl_fx : false                                \
+   | chain       : false                                  # EoF.
 
-_mu_discover03                                              \ # Selecting Crescent Keep (Night). (Shared with Arcwood Pass Night)
-  = | 8Bit_Broken        : 1.0 : 1.0 : 1.0 : Crescent_Keep  \
-    | Dont_Open_The_Door : 1.0 : 1.0 : 1.0 : Crescent_Grove \
-  ~ | tg_lua      : target_group_CrescentKeep               \
-    | map         : Crescent Keep                           \
-    | fl          : true                                    \
-    | fp          : true                                    \
-    | tg_dyn      : true                                    \
-    | tg_smooth   : true                                    \
-    | rel_repl_fx : false                                   \
-    | chain       : false                                     # EoF.
-
-_mu_encoderStrife                                        \ # Selecting Bularr Fortress.
-  = | Darkness_Ahead : 1.0 : 1.0 : 1.0 : Bularr_Fortress \
-    | Running_Lights : 1.0 : 1.0 : 1.0 : Ammagon_Hut     \
-  ~ | tg_lua      : target_group_BularrFortress          \
-    | fp          : true                                 \
-    | tg_dyn      : true                                 \
-    | tg_smooth   : true                                 \
-    | rel_repl_fx : false                                \
-    | chain       : false                                  # EoF.
-
-modaudio_map_gateofthemoon_day | modaudio_map_gateofthemoon_night \ # Selecting Gate of the Moon (Day/Night).
-  = | Frozen_Time : 1.0 : 1.0 : 1.0 : Gate_of_the_Moon            \
-    | Inverse     : 1.0 : 1.0 : 1.0 : Redwoud                     \
-  ~ | tg_lua      : target_group_GotM                             \
-    | fl          : true                                          \
-    | fp          : true                                          \
-    | tg_dyn      : true                                          \
-    | tg_smooth   : true                                          \
-    | rel_repl_fx : false                                         \
-    | chain       : false                                           # EoF.
+modaudio_map_gateofthemoon_day | modaudio_map_gateofthemoon_night \ # Gate of the Moon (Day/Night).
+ = | Frozen_Time : 1.0 : 1.0 : 1.0 : Gate_of_the_Moon \
+   | Inverse     : 1.0 : 1.0 : 1.0 : Redwoud          \
+ ~ | tg_lua      : target_group_GotM                  \
+   | fl          : true                               \
+   | fp          : true                               \
+   | tg_dyn      : true                               \
+   | tg_smooth   : true                               \
+   | rel_repl_fx : false                              \
+   | chain       : false                                # EoF.
 # ===== Subregion Scripts ===== #

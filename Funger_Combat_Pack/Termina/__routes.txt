@@ -1,20 +1,21 @@
 # ===== Metadata ===== #
-%id               Termina_Combat_Music_ZKC
-%displayname      Termina Combat Music (ZKC)
+%id               Termina_Combat_Pack
+%displayname      ZKC-Termina Combat Pack
 %enabledbydefault false
-%customclippath   ../Audio/Encounter
-%customclippath   ../Audio/Mist_Jingle
-%customclippath   ../Audio/Tomb_of_the_Gods
+# ===== Clips ===== #
+%customclippath Encounter        = ../Audio/Encounter
+%customclippath Mist_Jingle      = ../Audio/Mist_Jingle
+%customclippath Tomb_of_the_Gods = ../Audio/Tomb_of_the_Gods
 # ===== Metadata ===== #
-# relative_replacement_effects = rel_repl_fx
-# map_name = map
-# force_loop = fl
+
 # ===== SFX & Music ===== #
-_creepAggroNotif      = Encounter             ~ rel_repl_fx : false # Enemy targets the player.
+_creepAggroNotif = Encounter ~ rel_repl_fx : false # Enemy targets the player.
+
 _mu_wasp              = Pulse_And_Anxiety_2   ~ rel_repl_fx : false # Geistlords.
 _mu_ecka | _mu_wonton = Unknowable            ~ rel_repl_fx : false # King Golems.
 music_whisper         = Dark_Outside_Extended ~ rel_repl_fx : false | map : Sanctum Catacombs
-music_whisper         = Green_Ambience        ~ rel_repl_fx : false | map : Crescent Grove
-_mu_haven             = Mist_Jingle           ~ rel_repl_fx : false | map : Sanctum Arena | fl  : true
-_mu_hell01            = Tomb_of_the_Gods      ~ rel_repl_fx : false # Executioner's Tomb.
+music_whisper         = Green_Ambiance        ~ rel_repl_fx : false | map : Crescent Grove
+
+_mu_haven  = Mist_Jingle      ~ rel_repl_fx : false | fl : true | map : Sanctum Arena
+_mu_hell01 = Tomb_of_the_Gods ~ rel_repl_fx : false                   # Executioner's Tomb.
 # ===== SFX & Music ===== #

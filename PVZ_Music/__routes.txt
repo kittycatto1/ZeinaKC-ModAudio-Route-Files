@@ -1,0 +1,28 @@
+# ===== Metadata ===== #
+%id          PVZ_Music
+%displayname ZKC-PVZ Music
+# ===== Metadata ===== #
+
+# ===== Music ===== #
+_mu_flyby          = Crazy_Dave        ~ rel_repl_fx : false # Main Menu.
+_mu_selee | option = Choose_Your_Seeds ~ rel_repl_fx : false # Character Selector/Creator.
+
+mu_snatchsprings | _mu_snatchNight | _atlyssSet_track01 = Zen_Garden ~ rel_repl_fx : false | fl : true # Sanctum (Day/Night), Wall of the Stars.
+_mu_cane         | _mu_discover01                       = Grasswalk  ~ rel_repl_fx : false | fl : true # Outer Sanctum (Day), Effold Terrace.
+_mu_photo  = Moongrains    ~ rel_repl_fx : false | fl : true # Outer Sanctum (Night).
+_mu_haven  = Loonboon      ~ rel_repl_fx : false | fl : True # Tuul Valley & Sanctum Arena.
+_mu_clave  = Rigor_Mormist ~ rel_repl_fx : false             # Tuul Enclave.
+_mu_calp   = Loonboon      ~ rel_repl_fx : false             # Trial of the Stars (Day).
+_mu_botany = Cerebrawl     ~ rel_repl_fx : false             # Trial of the Stars (Night).
+modaudio_map_luvoragarden_day | modaudio_map_luvoragarden_night = Watery_Graves ~ rel_repl_fx : false
+
+_atlyssSet_catacomb_amb3                  = Rigor_Mormist   # Sanctum Catacombs (Ambient).
+_mu_ambCrispr                             = Loonboon        # Crescent Grove    (Ambient).
+_atlyssSet_catacomb_action5 | _mu_wonton5 = Ultimate_Battle # Both dungeon action songs.
+
+_mu_cahoots | _mu_wasp                = Zombotany       ~ rel_repl_fx : false | fl : true # Slime Diva & Geistlords.
+_mu_ecka    | _mu_wonton | _mu_hermit = Brainiac_Maniac ~ rel_repl_fx : false             # King Golems & Galius.
+music_whisper = Zombies_on_Your_Lawn  ~ rel_repl_fx : false | map : Sanctum Catacombs
+music_whisper = Uraniwa_ni_Zombies_ga ~ rel_repl_fx : false | map : Crescent Grove
+_mu_hell01    = Cerebrawl             ~ rel_repl_fx : false       # Executioner's Tomb.
+# ====== Music ===== #

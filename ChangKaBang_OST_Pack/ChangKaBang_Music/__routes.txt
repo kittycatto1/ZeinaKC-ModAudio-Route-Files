@@ -1,21 +1,24 @@
 # ===== Metadata ===== #
-%id          ChangKaBang_OST_Pack
-%displayname ChangKaBang OST Pack
+%id               ChangKaBang_OST_Pack
+%displayname      ZKC-ChangKaBang OST Pack
+%enabledbydefault true
 # ===== Metadata ===== #
 
 # ===== Music ===== #
-_mu_selee = Nudo_Select                                              # Replacing the character selector music
-option = Jibiis                                                      # Replacing the character creator music
-mu_snatchsprings = Eel_Whiskey_Day   ~ force_loop : true             # Replacing Sanctum Day and looping it
-_mu_snatchNight = Eel_Whiskey_Night ~ force_loop : true              # Replacing Sanctum Night and looping it
-_mu_cane = One_State_Drive                                           # Replacing Outer Sanctum Day
-_mu_calp = Eel_Brandy                                                # Replacing Trial of the Stars day
-_mu_botany = Bad_Beat                                                # Replacing Trial of the Stars night
-_mu_cahoots = Madlad ~ Force_loop : true                             # Replacing Slime Diva's battle theme and looping it
-_mu_wasp = New_Ark                                                   # Replacing Geistlord battle theme
-_mu_ecka = Belguinahole                                              # Replacing Colossus battle theme
-_mu_wonton = Frank_Killer                                            # Replacing Valdur battle theme
-_mu_hermit = Hairy_Guedes                                            # Replacing Galius battle theme
-music_whisper = Result                                               # Replacing the dungeon boss defeated music
-_mu_haven = Eel_Vodka ~ map_name : Sanctum Arena | force_loop : true # Replacing only Sanctum Arena music and looping it
+_mu_selee        = Nudo_Select ~ rel_repl_fx : false # Character Selector.
+option           = Jibiis      ~ rel_repl_fx : false # Character Creator.
+
+mu_snatchsprings = Eel_Whiskey_Day   ~ rel_repl_fx : false | fl : true # Sanctum (Day).
+_mu_snatchNight  = Eel_Whiskey_Night ~ rel_repl_fx : false | fl : true # Sanctum (Night).
+_mu_cane         = One_State_Drive   ~ rel_repl_fx : false             # Outer Sanctum (Day).
+_mu_calp         = Eel_Brandy        ~ rel_repl_fx : false             # Trial of the Stars (Day).
+_mu_botany       = Bad_Beat          ~ rel_repl_fx : false             # Trial of the Stars (Night).
+
+_mu_cahoots      = Madlad       ~ rel_repl_fx : false | fl : true # Slime Diva.
+_mu_wasp         = New_Ark      ~ rel_repl_fx : false             # Geistlords.
+_mu_ecka         = Belguinahole ~ rel_repl_fx : false             # Colossus.
+_mu_wonton       = Frank_Killer ~ rel_repl_fx : false             # Valdur.
+_mu_hermit       = Hairy_Guedes ~ rel_repl_fx : false             # Galius.
+music_whisper    = Result       ~ rel_repl_fx : false             # Dungeon boss defeated.
+_mu_haven        = Eel_Vodka    ~ rel_repl_fx : false ~ fl : true | map : Sanctum Arena
 # ===== Music ===== #

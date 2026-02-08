@@ -1,84 +1,78 @@
+# ===== Metadata ===== #
 %updatescript pack_update
-# 1.0 : 1.0 : 1.0 = Weight : Volume : Pitch
-# target_group_script = tg_lua
-# force_loop = fl
-# force_play = fp
-# enable_dynamic_targeting = tg_dyn
-# smooth_dynamic_targeting = tg_smooth
-# relative_replacement_effects = rel_repl_fx
-# chain_route = chain
-# EoF = End of File
+# ===== Metadata ===== #
 
 # ===== Combat Scripts ===== #
-modaudio_map_outersanctum_action | modaudio_map_crescentroad_action | modaudio_map_tuulvalley_action | modaudio_map_tuulenclave_action \ # Selecting Outer Sanctum, Crescent Road, Tuul Valley, and Tuul Enclave.
-  = | Adventure_Ahead : 1.0 : 1.0 : 1.0 : Regular_Combat \ # If the enemy encounter is Regular, play this.
-    | Snowpiercer     : 1.0 : 1.0 : 1.0 : Elite_Combat   \ # If the enemy encounter is Elite (or PvP), play this.
-  ~ | tg_lua      : target_group_ActionMusic             \ # Selecting function from the script file.
-    | fp          : true                                 \ # Force playing.
-    | tg_dyn      : true                                 \ # Dynamic targeting.
-    | tg_smooth   : true                                 \ # Smooth dynamic targeting.
-    | rel_repl_fx : false                                \ # Absolute Volume/Pitch instead of relative.
-    | chain       : true                                   # EoF.
+modaudio_map_outersanctum_action | modaudio_map_crescentroad_action | modaudio_map_tuulvalley_action | modaudio_map_tuulenclave_action \ # Outer Sanctum, Crescent Road, Tuul Valley, Tuul Enclave.
+ = | Adventure_Ahead : 1.0 : 1.0 : 1.0 : Regular_Combat \ # If the enemy encounter is Regular, play this.
+   | Snowpiercer     : 1.0 : 1.0 : 1.0 : Elite_Combat   \ # If the enemy encounter is Elite (or PvP), play this.
+ ~ | tg_lua      : target_group_ActionMusic             \ # Selecting function from the script file.
+   | fp          : true                                 \ # Force playing.
+   | tg_dyn      : true                                 \ # Dynamic targeting.
+   | tg_smooth   : true                                 \ # Smooth dynamic targeting.
+   | rel_repl_fx : false                                \ # Absolute Volume/Pitch instead of relative.
+   | chain       : true                                   # EoF.
 
-modaudio_map_arcwoodpass_action | modaudio_map_luvoragarden_action | modaudio_map_crescentkeep_action \ # Selecting Arcwood Pass, Luvora Garden, and Crescent Keep.
-  = | Adventure_Ahead : 1.0 : 1.0 : 1.0 : Regular_Combat \
-    | Snowpiercer     : 1.0 : 1.0 : 1.0 : PVP_Combat     \
-  ~ | tg_lua      : target_group_ActionMusicRegular      \
-    | fp          : true                                 \
-    | tg_dyn      : true                                 \
-    | tg_smooth   : true                                 \
-    | rel_repl_fx : false                                \
-    | chain       : true                                   # EoF.
+modaudio_map_arcwoodpass_action | modaudio_map_luvoragarden_action | modaudio_map_crescentkeep_action \ # Arcwood Pass, Luvora Garden, Crescent Keep.
+ = | Adventure_Ahead : 1.0 : 1.0 : 1.0 : Regular_Combat \
+   | Snowpiercer     : 1.0 : 1.0 : 1.0 : PVP_Combat     \
+ ~ | tg_lua      : target_group_ActionMusicRegular      \
+   | fp          : true                                 \
+   | tg_dyn      : true                                 \
+   | tg_smooth   : true                                 \
+   | rel_repl_fx : false                                \
+   | chain       : true                                   # EoF.
 
-modaudio_map_gateofthemoon_action                       \ # Selecting Gate of the Moon.
-  = | Inverse_Battle : 1.0 : 1.0 : 1.0 : Regular_Combat \
-    | Snowpiercer    : 1.0 : 1.0 : 1.0 : PVP_Combat     \
-  ~ | tg_lua      : target_group_ActionMusicRegular     \
-    | fp          : true                                \
-    | tg_dyn      : true                                \
-    | tg_smooth   : true                                \
-    | rel_repl_fx : false                               \
-    | chain       : true                                  # EoF.
+modaudio_map_gateofthemoon_action                      \ # Gate of the Moon.
+ = | Inverse_Battle : 1.0 : 1.0 : 1.0 : Regular_Combat \
+   | Snowpiercer    : 1.0 : 1.0 : 1.0 : PVP_Combat     \
+ ~ | tg_lua      : target_group_ActionMusicRegular     \
+   | fp          : true                                \
+   | tg_dyn      : true                                \
+   | tg_smooth   : true                                \
+   | rel_repl_fx : false                               \
+   | chain       : true                                  # EoF.
 
-modaudio_map_sanctumcatacombs_action | modaudio_map_crescentgrove_action | modaudio_map_sanctumarena_action | modaudio_map_executionerstomb_action | modaudio_map_trialofthestars_action \ # Selecting Sanctum Catacombs, Crescent Grove, Sanctum Arena, Executioner's Tomb, and Trial of the Stars.
-  = | Snowpiercer : 1.0 : 1.0 : 1.0 : PVP_Combat \
-  ~ | tg_lua      : target_group_ActionMusicPVP  \
-    | fp          : true                         \
-    | tg_dyn      : true                         \
-    | tg_smooth   : true                         \
-    | rel_repl_fx : false                        \
-    | chain       : true                           # EoF.
+modaudio_map_sanctumcatacombs_action | modaudio_map_crescentgrove_action | modaudio_map_sanctumarena_action | modaudio_map_executionerstomb_action | modaudio_map_trialofthestars_action \ # Sanctum Catacombs, Crescent Grove, Sanctum Arena, Executioner's Tomb, Trial of the Stars.
+ = | Snowpiercer : 1.0 : 1.0 : 1.0 : PVP_Combat \
+ ~ | tg_lua      : target_group_ActionMusicPVP  \
+   | fp          : true                         \
+   | tg_dyn      : true                         \
+   | tg_smooth   : true                         \
+   | rel_repl_fx : false                        \
+   | chain       : true                           # EoF.
 # ===== Combat Scripts ===== #
 
 # ===== Boss Scripts ===== #
-_mu_cahoots                                                \ # Selecting Slime Diva & Effold Terrace.
-  = | Adventure_Ahead  : 1.0 : 1.0 : 1.0 : Regular_Combat  \
-    | Snowpiercer      : 1.0 : 1.0 : 1.0 : PVP_Combat      \
-    | Melting_Titanium : 1.0 : 1.0 : 1.0 : Miniboss_Combat \
-  ~ | tg_lua      : target_group_ActionMusicCahoots        \
-    | fl          : true                                   \
-    | fp          : true                                   \
-    | tg_dyn      : true                                   \
-    | tg_smooth   : true                                   \
-    | rel_repl_fx : false                                  \
-    | chain       : true                                     # EoF.
+_mu_cahoots                                               \ # Slime Diva (Effold Terrace).
+ = | Adventure_Ahead  : 1.0 : 1.0 : 1.0 : Regular_Combat  \
+   | Snowpiercer      : 1.0 : 1.0 : 1.0 : PVP_Combat      \
+   | Melting_Titanium : 1.0 : 1.0 : 1.0 : Miniboss_Combat \
+ ~ | tg_lua      : target_group_ActionMusicCahoots        \
+   | fl          : true                                   \
+   | fp          : true                                   \
+   | tg_dyn      : true                                   \
+   | tg_smooth   : true                                   \
+   | rel_repl_fx : false                                  \
+   | chain       : true                                     # EoF.
 
-_mu_hermit                                             \ # Selecting Galius & Bularr Fortress.
-  = | Snowpiercer  : 1.0 : 1.0 : 1.0 : Elite_Combat    \
-    | Boiling_Boss : 1.0 : 1.0 : 1.0 : Miniboss_Combat \
-  ~ | tg_lua       : target_group_ActionMusicHermit    \
-    | fp           : true                              \
-    | tg_dyn       : true                              \
-    | tg_smooth    : true                              \
-    | rel_repl_fx  : false                             \
-    | chain        : true                                # EoF.
+_mu_hermit                                            \ # Galius (Bularr Fortress).
+ = | Snowpiercer  : 1.0 : 1.0 : 1.0 : Elite_Combat    \
+   | Boiling_Boss : 1.0 : 1.0 : 1.0 : Miniboss_Combat \
+ ~ | tg_lua       : target_group_ActionMusicHermit    \
+   | fp           : true                              \
+   | tg_dyn       : true                              \
+   | tg_smooth    : true                              \
+   | rel_repl_fx  : false                             \
+   | chain        : true                                # EoF.
 
-#_mu_wasp                                                     \ # Selecting Geistlords.
-#  = | Black_Lava         : 1.0 : 1.0 : 1.0 : default         \
-#    | Fear_of_Pixelation : 1.0 : 1.0 : 1.0 : Miniboss_Combat \
-#  ~ | tg_lua      : target_group_ActionMusicGeistlord        \
-#    | tg_dyn      : true                                     \
-#    | tg_smooth   : true                                     \
-#    | rel_repl_fx : false                                    \
-#    | chain       : true                                       # EoF.
+_mu_wasp                                                    \ # Geistlords.
+ = | Black_Lava         : 1.0 : 1.0 : 1.0 : default         \
+   | Fear_of_Pixelation : 1.0 : 1.0 : 1.0 : Miniboss_Combat \
+ ~ | tg_lua      : target_group_ActionMusicWasp             \
+   | fp          : true                                     \
+   | tg_dyn      : true                                     \
+   | tg_smooth   : true                                     \
+   | rel_repl_fx : false                                    \
+   | chain       : true                                       # EoF.
 # ===== Boss Scripts ===== #
