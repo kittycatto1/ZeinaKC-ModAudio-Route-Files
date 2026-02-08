@@ -1,4 +1,4 @@
-# Music Clips Reference
+# Game Clips Reference
 This file serves as a reference for all of the available game clip names within the game.
 
 

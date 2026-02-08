@@ -14,9 +14,9 @@ This file serves as a reference for all of the available music clip names within
 | _mu_discover01              | _sound/_musics/_mu_discover01.ogg              | Effold Terrace.                                               |
 | _mu_discover02              | _sound/_musics/_mu_discover02.ogg              | Arcwood Pass (Day).                                           |
 | _mu_discover03              | _sound/_musics/_mu_discover03.ogg              | Arcwood Pass & Crescent Keep (Night).                         |
-| _mu_laid                    | _sound/_musics/_mu_laid.ogg                    | Crescent Keep(Day).                                           |
+| _mu_laid                    | _sound/_musics/_mu_laid.ogg                    | Crescent Keep (Day).                                          |
 | _mu_haven                   | _sound/_musics/_mu_haven.ogg                   | Tuul Valley.                                                  |
-| _ambClave                   | _sound/_ambience/_ambClave.ogg                 | Tuul Enclave.                                                 |
+| _mu_clave                   | _sound/_musics/_mu_clave.ogg                   | Tuul Enclave.                                                 |
 | _mu_encoderStrife           | _sound/_musics/_mu_encoderStrife.ogg           | Bularr Fortress.                                              |
 | _atlyssSet_track01          | _sound/_musics/_atlyssSet_track01.ogg          | Wall of the Stars.                                            |
 | _mu_calp                    | _sound/_musics/_mu_calp.ogg                    | Trial of the Stars (Day).                                     |
@@ -43,4 +43,5 @@ This file serves as a reference for all of the available music clip names within
 | _mu_tired                   | _sound/_musics/_mu_tired.ogg                   | Unused.                                                       |
 | mu_nouCove                  | _sound/_musics/mu_nouCove.ogg                  | Unused.                                                       |
 | mu_select1                  | _sound/_musics/mu_select1.ogg                  | Unused.                                                       |
+| --------------------------- | ---------------------------------------------- | ------------------------------------------------------------- |
 | Name                        | Path                                           | Description                                                   |
