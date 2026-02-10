@@ -1,0 +1,9 @@
+# ===== Metadata ===== #
+%id Claps_Small
+%displayname ZKC-Claps: Small
+%enabledbydefault true
+# ===== Metadata ===== #
+
+# ===== Clap SFXs ===== #
+_clap01 = Claps_1B | Claps_2B | Claps_3B | Claps_4B | Claps_5B | Claps_6B | Claps_7B | Claps_8B | Claps_9B | Claps_10B | Claps_11B | Claps_12B
+# ===== Clap SFXs ===== #

@@ -1,0 +1,12 @@
+# ===== Metadata ===== #
+%id Squish
+%displayname ZKC-Sit: Squish
+%enabledbydefault true
+# ===== Metadata ===== #
+
+# ===== Sitting SFXs ====== #
+player_jiggle2 \
+ = | Squish_1  | Squish_2  | Squish_3  | Squish_4  | Squish_5  | Squish_6  | Squish_7  | Squish_8  | Squish_9  | Squish_10 \
+   | Squish_11 | Squish_12 | Squish_13 | Squish_14 | Squish_15 | Squish_16 | Squish_17 | Squish_18 | Squish_19 | Squish_20 \
+   | Squish_21 | Squish_22 | Squish_23 | Squish_24 | Squish_25 | Squish_26 | Squish_27 | Squish_28 | Squish_29
+# ===== Sitting SFXs ====== #

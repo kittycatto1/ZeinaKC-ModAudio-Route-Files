@@ -1,0 +1,11 @@
+# ===== Metadata ===== #
+%id Spanks_C
+%displayname ZKC-Taunt: Spanks 3
+%enabledbydefault true
+# ===== Metadata ===== #
+
+# ===== Taunting SFXs ===== #
+_smallClap \
+ = | Spank_1C  | Spank_2C  | Spank_3C  | Spank_4C  | Spank_5C  | Spank_6C  | Spank_7C  | Spank_8C  | Spank_9C | Spank_10C \
+   | Spank_11C | Spank_12C | Spank_13C | Spank_14C | Spank_15C | Spank_16C | Spank_17C | Spank_18C | Spank_19C
+# ===== Taunting SFXs ===== #
