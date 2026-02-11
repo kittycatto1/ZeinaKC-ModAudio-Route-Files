@@ -24,30 +24,47 @@ _mu_discover03                                         \ # Arcwood Pass (Night).
    | rel_repl_fx : false                               \
    | chain       : false                                 # EoF.
 
-modaudio_map_crescentroad_day | _mu_laid               \ # Crescent Road/Keep (Day).
- = | Graze_the_Roof : 1.0 : 1.0 : 1.0 : Crescent_Road  \
-   | Graze_the_Roof : 1.0 : 1.0 : 1.0 : Crescent_Keep  \
-   | Watery_Graves  : 1.0 : 1.0 : 1.0 : Crescent_Cove  \
+modaudio_map_crescentroad_day                         \ # Crescent Road (Day).
+ = | Graze_the_Roof : 1.0 : 1.0 : 1.0 : Crescent_Road \
+   | Watery_Graves  : 1.0 : 1.0 : 1.0 : Crescent_Cove \
+ ~ | tg_lua      : target_group_CrescentRoad          \
+   | fp          : true                               \
+   | tg_dyn      : true                               \
+   | tg_smooth   : true                               \
+   | rel_repl_fx : false                              \
+   | chain       : false                                # EoF.
+
+modaudio_map_crescentroad_night                      \ # Crescent Road (Night).
+ = | Cerebrawl     : 1.0 : 1.0 : 1.0 : Crescent_Road \
+   | Watery_Graves : 1.0 : 1.0 : 1.0 : Crescent_Cove \
+ ~ | tg_lua      : target_group_CrescentRoad         \
+   | fp          : true                              \
+   | tg_dyn      : true                              \
+   | tg_smooth   : true                              \
+   | rel_repl_fx : false                             \
+   | chain       : false                               # EoF.
+
+_mu_laid                                               \ # Crescent Keep (Day).
+ = | Graze_the_Roof : 1.0 : 1.0 : 1.0 : Crescent_Keep  \
    | Zen_Garden     : 1.0 : 1.0 : 1.0 : Crescent_Grove \
- ~ | tg_lua      : target_group_Crescent               \
+ ~ | tg_lua      : target_group_CrescentKeep           \
    | fp          : true                                \
    | tg_dyn      : true                                \
    | tg_smooth   : true                                \
    | rel_repl_fx : false                               \
    | chain       : false                                 # EoF.
 
-modaudio_map_crescentroad_night | _mu_discover03      \ # Crescent Road/Keep (Night).
- = | Cerebrawl     : 1.0 : 1.0 : 1.0 : Crescent_Road  \
-   | Cerebrawl     : 1.0 : 1.0 : 1.0 : Crescent_Keep  \
-   | Watery_Graves : 1.0 : 1.0 : 1.0 : Crescent_Cove  \
-   | Zen_Garden    : 1.0 : 1.0 : 1.0 : Crescent_Grove \
- ~ | tg_lua      : target_group_Crescent              \
-   | map         : Crescent Road | Crescent Keep      \
-   | fp          : true                               \
-   | tg_dyn      : true                               \
-   | tg_smooth   : true                               \
-   | rel_repl_fx : false                              \
-   | chain       : false                                # EoF.
+_mu_discover03                                      \ # Crescent Keep (Night).
+ = | Cerebrawl   : 1.0 : 1.0 : 1.0 : Crescent_Keep  \
+   | Zen_Garden  : 1.0 : 1.0 : 1.0 : Crescent_Grove \
+ ~ | tg_lua      : target_group_CrescentKeep        \
+   | map         : Crescent Keep                    \
+   | fl          : true                             \
+   | fp          : true                             \
+   | tg_dyn      : true                             \
+   | tg_smooth   : true                             \
+   | rel_repl_fx : false                            \
+   | chain       : false                              # EoF.
 
 _mu_encoderStrife                                        \ # Bularr Fortress.
  = | Ultimate_Battle : 1.0 : 1.0 : 1.0 : Bularr_Fortress \

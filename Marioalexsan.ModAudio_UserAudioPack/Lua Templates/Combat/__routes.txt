@@ -35,6 +35,18 @@ modaudio_map_sanctumcatacombs_action | modaudio_map_crescentgrove_action | modau
 # ===== Combat Scripts ===== #
 
 # ===== Boss Scripts ===== #
+_mu_cahoots | _mu_hermit                                     \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Regular_Combat       \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Elite_Combat         \
+    | ___default___ : 1.0 : 1.0 : 1.0 : PVP_Combat           \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Miniboss_Combat      \
+  ~ | target_group_script : target_group_ActionMusicMiniboss \
+    | force_loop  : true                                     \
+    | enable_dynamic_targeting     : true                    \
+    | smooth_dynamic_targeting     : true                    \
+    | relative_replacement_effects : false                   \
+    | chain_route : true
+
 _mu_cahoots                                                 \
   = | ___default___ : 1.0 : 1.0 : 1.0 : Regular_Combat      \
     | ___default___ : 1.0 : 1.0 : 1.0 : PVP_Combat          \

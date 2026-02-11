@@ -12,13 +12,13 @@ mu_snatchsprings   = Peaches_and_Cream         ~ rel_repl_fx : false | fl : true
 _mu_snatchNight    = A_Witchs_Thoughts         ~ rel_repl_fx : false | fl : true # Sanctum (Night).
 _mu_cane           = Melody_of_the_Mushrooms   ~ rel_repl_fx : false | fl : true # Outer Sanctum (Day).
 _mu_photo          = Lounge_of_the_Dead        ~ rel_repl_fx : false | fl : true # Outer Sanctum (Night).
+_mu_discover01     = Slime_Citadel             ~ rel_repl_fx : false             # Effold Terrace.
 _mu_haven          = Oh_My_Gobbess             ~ rel_repl_fx : false | fl : true # Tuul Valley & Sanctum Arena.
 _mu_clave          = Hey_Guys_and_Goblins_ONLY ~ rel_repl_fx : false             # Tuul Enclave.
-_mu_discover01     = Slime_Citadel : 0.9 | Magical_Bubble_Bath : 0.1 ~ rel_repl_fx : false # Effold Terrace.
 _atlyssSet_track01 = Overwhelming_Sensations   ~ rel_repl_fx : false | fl : true # Wall of the Stars.
-_mu_calp           = Loonboon                  ~ rel_repl_fx : false             # Trial of the Stars (Day).
-_mu_botany         = Cerebrawl                 ~ rel_repl_fx : false             # Trial of the Stars (Night).
-
+# _mu_calp           = Loonboon                  ~ rel_repl_fx : false             # Trial of the Stars (Day).
+# _mu_botany         = Cerebrawl                 ~ rel_repl_fx : false             # Trial of the Stars (Night).
+modaudio_map_luvoragarden_day | modaudio_map_luvoragarden_night = Magical_Bubble_Bath ~ rel_repl_fx : false
 
 _atlyssSet_catacomb_amb3    = Haunted_Hallow_Halls # Sanctum Catacombs (Ambient).
 _atlyssSet_catacomb_action5 = Club_Demon           # Sanctum Catacombs (Action).

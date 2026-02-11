@@ -10,15 +10,19 @@ function p.target_group_ArcwoodPass(route)
   end
 end
 
-function p.target_group_Crescent(route)
-  if atlyss.inGameUI._reigonTitle == "Crescent Grove" then
-    route.targetGroup = "Crescent_Grove"
-  elseif atlyss.inGameUI._reigonTitle == "Crescent Cove" then
+function p.target_group_CrescentRoad(route)
+  if atlyss.inGameUI._reigonTitle == "Crescent Cove" then
     route.targetGroup = "Crescent_Cove"
-  elseif atlyss.inGameUI._reigonTitle == "Crescent Keep" then
-    route.targetGroup = "Crescent_Keep"
   else
     route.targetGroup = "Crescent_Road"
+  end
+end
+
+function p.target_group_CrescentKeep(route)
+  if atlyss.inGameUI._reigonTitle == "Crescent Grove" then
+    route.targetGroup = "Crescent_Grove"
+  else
+    route.targetGroup = "Crescent_Keep"
   end
 end
 
@@ -139,6 +143,14 @@ function p.pack_update()
     toggleCombatMusic = true
   end
 
+if atlyss.inGameUI._reigonTitle == "Effold Terrace" then
+    toggleCombatMusic = false
+  end
+
+if atlyss.inGameUI._reigonTitle == "Bularr Fortress" then
+    toggleCombatMusic = false
+  end
+
   if lastCombatState ~= toggleCombatMusic then
     print("Toggling combat music " .. (choice(toggleCombatMusic, "on", "off")))
   end
@@ -154,11 +166,11 @@ function p.pack_update()
   modaudio.engine.forceCombatMusic(toggleCombatMusic)
 end
 
-function p.target_group_ActionMusicRegular(route)
+function p.target_group_ActionMusic(route)
   if combatType == "Regular" then
-    route.targetGroup = "Regular_Combat"
+    route.targetGroup = "Combat"
   else
-    route.targetGroup = "Regular_Combat"
+    route.targetGroup = "Combat"
   end
 end
 

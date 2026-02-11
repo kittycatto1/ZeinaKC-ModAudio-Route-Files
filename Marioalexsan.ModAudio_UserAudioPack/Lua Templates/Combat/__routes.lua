@@ -168,7 +168,7 @@ function p.target_group_ActionMusicMiniboss(route)
   if combatType == "Miniboss" then
     route.targetGroup = "Miniboss_Combat"
   elseif combatType == "inPvp" then
-    route.targetGroup = "Elite_Combat"
+    route.targetGroup = "PVP_Combat"
   elseif combatType == "Elite" then
     route.targetGroup = "Elite_Combat"
   else

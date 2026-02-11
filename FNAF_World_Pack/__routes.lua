@@ -10,15 +10,19 @@ function p.target_group_ArcwoodPass(route)
   end
 end
 
-function p.target_group_Crescent(route)
-  if atlyss.inGameUI._reigonTitle == "Crescent Grove" then
-    route.targetGroup = "Crescent_Grove"
-  elseif atlyss.inGameUI._reigonTitle == "Crescent Cove" then
+function p.target_group_CrescentRoad(route)
+  if atlyss.inGameUI._reigonTitle == "Crescent Cove" then
     route.targetGroup = "Crescent_Cove"
-  elseif atlyss.inGameUI._reigonTitle == "Crescent Keep" then
-    route.targetGroup = "Crescent_Keep"
   else
     route.targetGroup = "Crescent_Road"
+  end
+end
+
+function p.target_group_CrescentKeep(route)
+  if atlyss.inGameUI._reigonTitle == "Crescent Grove" then
+    route.targetGroup = "Crescent_Grove"
+  else
+    route.targetGroup = "Crescent_Keep"
   end
 end
 
@@ -139,7 +143,15 @@ function p.pack_update()
         creepThreat = creepThreat + 1.0
       end
 
-      threat = threat + creepThreat
+      local shouldAddThreat = true
+
+      if enemy._scriptCreep._creepName == "Rageboar" then
+        shouldAddThreat = false
+      end
+      
+      if shouldAddThreat then
+        threat = threat + creepThreat
+      end
 
       if enemy._scriptCreep._isElite then
         combatType = "Elite"
@@ -215,14 +227,8 @@ function p.target_group_ActionMusicHermit(route)
     route.targetGroup = "Miniboss_Combat"
   elseif combatType == "inPvp" then
     route.targetGroup = "Elite_Combat"
-  else
-    route.skipRoute = true
-  end
-end
-
-function p.target_group_ActionMusicWasp(route)
-  if combatType == "Elite" then
-    route.targetGroup = "Miniboss_Combat"
+  elseif combatType == "Elite" then
+    route.targetGroup = "Elite_Combat"
   else
     route.skipRoute = true
   end

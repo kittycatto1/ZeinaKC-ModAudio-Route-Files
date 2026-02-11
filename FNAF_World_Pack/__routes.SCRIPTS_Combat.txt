@@ -65,14 +65,4 @@ _mu_hermit                                            \ # Galius (Bularr Fortres
    | tg_smooth    : true                              \
    | rel_repl_fx  : false                             \
    | chain        : true                                # EoF.
-
-_mu_wasp                                                    \ # Geistlords.
- = | Black_Lava         : 1.0 : 1.0 : 1.0 : default         \
-   | Fear_of_Pixelation : 1.0 : 1.0 : 1.0 : Miniboss_Combat \
- ~ | tg_lua      : target_group_ActionMusicWasp             \
-   | fp          : true                                     \
-   | tg_dyn      : true                                     \
-   | tg_smooth   : true                                     \
-   | rel_repl_fx : false                                    \
-   | chain       : true                                       # EoF.
 # ===== Boss Scripts ===== #

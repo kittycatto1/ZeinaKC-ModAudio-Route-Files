@@ -17,6 +17,7 @@ _mu_botany                   = Fearless_Fighter ~ rel_repl_fx : false           
 modaudio_map_luvoragarden_day | modaudio_map_luvoragarden_night = Emerald_Waterfalls ~ rel_repl_fx : false
 
 _atlyssSet_catacomb_action5 = The_Tower_of_Majdel_Shams                       # Sanctum Catacombs (Action).
+_mu_wasp                    = Fear_of_Pixelation        ~ rel_repl_fx : false # Geistlords.
 _mu_ecka                    = Broken_Crushed_and_Burned ~ rel_repl_fx : false # Colossus.
 _mu_wonton                  = Stone_Cold                ~ rel_repl_fx : false # Valdur.
 music_whisper               = Victory                   ~ rel_repl_fx : false # Dungeon boss defeated.

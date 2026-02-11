@@ -10,15 +10,19 @@ function p.target_group_ArcwoodPass(route)
   end
 end
 
-function p.target_group_Crescent(route)
-  if atlyss.inGameUI._reigonTitle == "Crescent Grove" then
-    route.targetGroup = "Crescent_Grove"
-  elseif atlyss.inGameUI._reigonTitle == "Crescent Cove" then
+function p.target_group_CrescentRoad(route)
+  if atlyss.inGameUI._reigonTitle == "Crescent Cove" then
     route.targetGroup = "Crescent_Cove"
-  elseif atlyss.inGameUI._reigonTitle == "Crescent Keep" then
-    route.targetGroup = "Crescent_Keep"
   else
     route.targetGroup = "Crescent_Road"
+  end
+end
+
+function p.target_group_CrescentKeep(route)
+  if atlyss.inGameUI._reigonTitle == "Crescent Grove" then
+    route.targetGroup = "Crescent_Grove"
+  else
+    route.targetGroup = "Crescent_Keep"
   end
 end
 
