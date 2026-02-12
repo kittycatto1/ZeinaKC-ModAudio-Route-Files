@@ -1,0 +1,21 @@
+# ===== Metadata ===== #
+%updatescript pack_update
+# ===== Metadata ===== #
+
+# ===== Weapon Charge SFXs ===== #
+_weaponCharge                                                               \ # Charge source.                | ↓ Volume : Pitch sources.
+ = | <atlyss>debuff_bleed         : 1.0 : 0.35 : 1.50 : EnokAxe             \ # Enok's Axe.                   | Gash.
+   | <atlyss>focus                : 1.0 : 1.0  : 1.0  : SallyBroom          \ # Sally's Broom.                | Idk rn
+   | <atlyss>_castWater           : 1.0 : 0.65 : 1.50 : FishingRod          \ # Torta's Fishing Rod.          | Crya.
+   | <atlyss>_castEarth           : 1.0 : 0.65 : 1.84 : Pickaxe             \ # Ruka's Pickaxe.               | Spire/Talus.
+   | <atlyss>_cast_holy           : 1.0 : 0.65 : 1.0  : Purifier            \ # The Purifier.                 | Generalised.
+   | <atlyss>coin_grab            : 1.0 : 0.65 : 1.0  : FishingRodElite     \ # Golden Fishing Rod.           | Fishing loot.
+   | <atlyss>coin_grab            : 1.0 : 0.65 : 1.0  : PickaxeElite        \ # Golden Pickaxe.               | Mining loot.
+   | <atlyss>_cast_holy           : 1.0 : 0.60 : 0.66 : PurifierElite       \ # The Purifier Elite.           | Shadow Ward.
+   | <atlyss>_cast_03             : 1.0 : 0.45 : 1.0  : Geistlord_Injustice \ # Geistlord Blade of Injustice. | Geistlord.
+   | <atlyss>cop_turretcharge     : 1.0 : 0.38 : 0.70 : Colossal_Injustice  \ # Colossi Blade of Injustice.   | King Golem.
+   | <atlyss>_mekboar_chargeAtk01 : 1.0 : 0.32 : 1.35 : Boarus_Injustice    \ # Boarus Blade of Injustice.    | Warboar.
+   | ___default___                : 1.0 : 1.0  : 1.0  : default             \ # Safety net to play default SFXs otherwise.
+ ~ | rel_repl_fx : false                                                    \
+   | tg_lua      : target_group_WeaponCharge                                  # EoF.
+# ===== Weapon Charge SFXs ===== #

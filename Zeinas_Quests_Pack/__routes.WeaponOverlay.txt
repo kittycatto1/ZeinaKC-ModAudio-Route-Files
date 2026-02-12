@@ -1,0 +1,8 @@
+# ===== Weapon Overlays ===== #
+ZeinaKC-Zeinas_Quests_Pack-SFX-Draw-_effect_demon01                       \
+ @ | <atlyss>_geistLaugh02      : 1.0 : 0.45 : 1.0  : Geistlord_Injustice \ # Geistlord Blade of Injustice | Geistlord.
+   | <atlyss>_kinggolemDeath_00 : 1.0 : 0.38 : 0.70 : Colossal_Injustice  \ # Colossal Blade of Injustice  | Colossus/Valdur.
+   | <atlyss>_mekboar_death     : 1.0 : 0.46 : 0.46 : Boarus_Injustice    \ # Boarus Blade of Injustice    | Warboar/Gahool.
+ ~ | rel_ovl_fx  : false                                                  \ # Absolute Volume/Pitch instead of relative.
+   | chain_route : false                                                    # EoF.
+# ===== Weapon Overlays ===== #

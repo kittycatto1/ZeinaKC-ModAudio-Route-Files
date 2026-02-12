@@ -1,7 +1,5 @@
 # ===== Metadata ===== #
-%id               Zeinas_Quests_Pack
-%displayname      ZKC-Zeinas Quests Pack
-%enabledbydefault true
+%updatescript pack_update
 # ===== Metadata ===== #
 # weaponHit_TYPE(WEIGHT) are generalised by being rounded to 0.40 volume : 1.0 pitch.
 # ===== Weapon Scripts ===== #
@@ -26,6 +24,6 @@ weaponHit_Normal(light)   | weaponHit_Normal(average) | weaponHit_Normal(heavy) 
    | <atlyss>weaponHit_Normal(heavy)   : 1.0 : 0.40 : 1.0 : Boarus_Injustice    \ # Boarus Blade of Injustice.
    | ___default___                     : 1.0 : 1.0  : 1.0 : default             \ # Play default SFXs otherwise.
  ~ | rel_repl_fx : false                                                        \ # Absolute Volume/Pitch instead of relative.
-   | tg_lua      : target_group_weapon                                          \ # Selecting function from the script.
+   | tg_lua      : target_group_WeaponHit                                       \ # Selecting function from the script.
    | chain_route : false                                                          # EoF. 
 # ===== Weapon Scripts ===== #

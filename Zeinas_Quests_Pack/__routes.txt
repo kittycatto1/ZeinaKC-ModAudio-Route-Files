@@ -1,0 +1,5 @@
+# ===== Metadata ===== #
+%id               Zeinas_Quests_Pack
+%displayname      ZKC-Zeinas Quests Pack
+%enabledbydefault true
+# ===== Metadata ===== #
