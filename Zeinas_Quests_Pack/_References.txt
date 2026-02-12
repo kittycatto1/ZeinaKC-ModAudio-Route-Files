@@ -1,0 +1,10 @@
+# ===== References ===== #
+# <atlyss>Clip    = Vanilla clip
+# 1.0 : 1.0 : 1.0 = Weight : Volume : Pitch
+# V = Volume
+# P = Pitch
+# tg_lua      = target_group_script
+# rel_repl_fx = relative_replacement_effects
+# rel_ovl_fx  = relative_overlay_effects
+# EoF = End of File
+# ===== References ===== #
