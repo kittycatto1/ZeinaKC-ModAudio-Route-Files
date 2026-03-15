@@ -1,0 +1,10 @@
+# ===== Metadata ===== #
+%id          ChangKaBang_SFX_Pack
+%displayname ChangKaBang SFX Pack
+%enabledbydefault false
+# ===== Metadata ===== #
+
+# ===== Sound Effects ===== #
+_blockHit = Bat_Homerun           # Replacing the Block/Parry sound
+_player_initDeath2 = What_A_Waste # Replacing the player death sound
+# ===== Sound Effects ===== #

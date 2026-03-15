@@ -1,0 +1,11 @@
+# ===== Metadata ===== #
+%id               Suki_Nipps_Moans
+%displayname      Suki Nipps Moans (Slime Diva SFXs)
+%enabledbydefault false
+# ===== Metadata ===== #
+
+# ===== Sound Effects ===== #
+_slimeDiva_hurt01 = Suki_Moan_Orange # Play Suki's High-strength moan when Slime Diva is hurt
+_slimeDiva_moan01 = Suki_Moan_Yellow # Play Suki's Middle-strength moan when Slime Diva moans
+_slimeDiva_death = Suki_Moan_Red     # Play Suki's Orgasm when Slime Diva dies
+# ===== Sound Effects ===== #

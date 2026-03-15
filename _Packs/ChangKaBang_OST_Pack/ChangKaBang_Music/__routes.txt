@@ -1,0 +1,21 @@
+# ===== Metadata ===== #
+%id          ChangKaBang_OST_Pack
+%displayname ChangKaBang OST Pack
+# ===== Metadata ===== #
+
+# ===== Music ===== #
+_mu_selee = Nudo_Select                                              # Replacing the character selector music
+option = Jibiis                                                      # Replacing the character creator music
+mu_snatchsprings = Eel_Whiskey_Day   ~ force_loop : true             # Replacing Sanctum Day and looping it
+_mu_snatchNight = Eel_Whiskey_Night ~ force_loop : true              # Replacing Sanctum Night and looping it
+_mu_cane = One_State_Drive                                           # Replacing Outer Sanctum Day
+_mu_calp = Eel_Brandy                                                # Replacing Trial of the Stars day
+_mu_botany = Bad_Beat                                                # Replacing Trial of the Stars night
+_mu_cahoots = Madlad ~ Force_loop : true                             # Replacing Slime Diva's battle theme and looping it
+_mu_wasp = New_Ark                                                   # Replacing Geistlord battle theme
+_mu_ecka = Belguinahole                                              # Replacing Colossus battle theme
+_mu_wonton = Frank_Killer                                            # Replacing Valdur battle theme
+_mu_hermit = Hairy_Guedes                                            # Replacing Galius battle theme
+music_whisper = Result                                               # Replacing the dungeon boss defeated music
+_mu_haven = Eel_Vodka ~ map_name : Sanctum Arena | force_loop : true # Replacing only Sanctum Arena music and looping it
+# ===== Music ===== #
