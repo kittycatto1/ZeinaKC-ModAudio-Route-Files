@@ -17,8 +17,8 @@ This file serves as a reference for all of the available audio clip names within
 | fanfale4                      | _sound/fanfale4.ogg                                                  |                                                                                        |
 | focus                         | _sound/focus.ogg                                                     |                                                                                        |
 | focusoff                      | _sound/focusoff.ogg                                                  |                                                                                        |
-| forceshotgun_lv1              | _sound/forceshotgun_lv1.ogg                                          |                                                                                        |
-| forceshotgun_lv2              | _sound/forceshotgun_lv2.ogg                                          |                                                                                        |
+| forceshotgun_lv1              | _sound/forceshotgun_lv1.ogg                                          | Shotgun Swings: Amberite Boomstick, Magitek Burstgun.                                           |
+| forceshotgun_lv2              | _sound/forceshotgun_lv2.ogg                                          | Shotgun Swings: Follycannon.                                                                    |
 | hampter_defend                | _sound/hampter_defend.ogg                                            |                                                                                        |
 | hampter_login                 | _sound/hampter_login.ogg                                             |                                                                                        |
 | itemObject_pickup             | _sound/itemObject_pickup.ogg                                         |                                                                                        |
@@ -27,7 +27,7 @@ This file serves as a reference for all of the available audio clip names within
 | lockon                        | _sound/lockon.ogg                                                    |                                                                                        |
 | lockout                       | _sound/lockout.ogg                                                   |                                                                                        |
 | player_dash                   | _sound/player_dash.ogg                                               |                                                                                        |
-| player_jiggle2                | _sound/player_jiggle2.ogg                                            |                                                                                        |
+| player_jiggle2                | _sound/player_jiggle2.ogg                                            | /sit sound.                                                                                     |
 | player_jump                   | _sound/player_jump.ogg                                               |                                                                                        |
 | port                          | _sound/port.ogg                                                      |                                                                                        |
 | railgun_lv3                   | _sound/railgun_lv3.ogg                                               |                                                                                        |
@@ -50,7 +50,7 @@ This file serves as a reference for all of the available audio clip names within
 | ui_weaponQuickSwitch          | _sound/ui_weaponQuickSwitch.ogg                                      |                                                                                        |
 | warble                        | _sound/warble.ogg                                                    |                                                                                        |
 | warp1                         | _sound/warp1.ogg                                                     |                                                                                        |
-| weapon_pickup                 | _sound/weapon_pickup.ogg                                             |                                                                                        |
+| weapon_pickup                 | _sound/weapon_pickup.ogg                                             | Shotgun Draws: All.                                                                             |
 | weapon_wickCurseLv1           | _sound/weapon_wickCurseLv1.ogg                                       |                                                                                        |
 | _attributeGlyph               | _sound/_attributeGlyph.ogg                                           |                                                                                        |
 | _break01                      | _sound/_break01.ogg                                                  |                                                                                        |
@@ -59,25 +59,25 @@ This file serves as a reference for all of the available audio clip names within
 | _castLoop_00                  | _sound/_castLoop_00.ogg                                              |                                                                                        |
 | _castLoop_01                  | _sound/_castLoop_01.ogg                                              |                                                                                        |
 | _cast_00                      | _sound/_cast_00.ogg                                                  |                                                                                        |
-| _cast_01                      | _sound/_cast_01.ogg                                                  |                                                                                        |
+| _cast_01                      | _sound/_cast_01.ogg                                                  | Used by skills: Ruin (X3).                                                                      |
 | _cast_02                      | _sound/_cast_02.ogg                                                  |                                                                                        |
 | _cast_03                      | _sound/_cast_03.ogg                                                  |                                                                                        |
 | _cast_04                      | _sound/_cast_04.ogg                                                  |                                                                                        |
 | _cast_05                      | _sound/_cast_05.ogg                                                  |                                                                                        |
-| _cast_06                      | _sound/_cast_06.ogg                                                  |                                                                                        |
-| _cast_07                      | _sound/_cast_07.ogg                                                  |                                                                                        |
-| _cast_08                      | _sound/_cast_08.ogg                                                  |                                                                                        |
+| _cast_06                      | _sound/_cast_06.ogg                                                  | Used by skills: Multi Bash (X3), Execute (X3).                                                  |
+| _cast_07                      | _sound/_cast_07.ogg                                                  | Used by skills: Devious Signet (X3).                                                            |
+| _cast_08                      | _sound/_cast_08.ogg                                                  | Used by skills: Multi Bash (X3), Adrenaline.                                                    |
 | _cast_09                      | _sound/_cast_09.ogg                                                  |                                                                                        |
 | _cast_10                      | _sound/_cast_10.ogg                                                  |                                                                                        |
 | _cast_11                      | _sound/_cast_11.ogg                                                  |                                                                                        |
 | _cast_12                      | _sound/_cast_12.ogg                                                  |                                                                                        |
 | _cast_13                      | _sound/_cast_13.ogg                                                  |                                                                                        |
-| _cast_14                      | _sound/_cast_14.ogg                                                  |                                                                                        |
+| _cast_14                      | _sound/_cast_14.ogg                                                  | Used by skills: Alacrity, Sturdy, Adrenaline.                                                   |
 | _cast_15                      | _sound/_cast_15.ogg                                                  |                                                                                        |
 | _chime02                      | _sound/_chime02.ogg                                                  |                                                                                        |
 | _chime03                      | _sound/_chime03.ogg                                                  |                                                                                        |
 | _chime04                      | _sound/_chime04.ogg                                                  |                                                                                        |
-| _clap01                       | _sound/_clap01.ogg                                                   |                                                                                        |
+| _clap01                       | _sound/_clap01.ogg                                                   | /clap sound.                                                                                    |
 | _clearSkill                   | _sound/_clearSkill.ogg                                               |                                                                                        |
 | _closeShop                    | _sound/_closeShop.ogg                                                |                                                                                        |
 | _coin01                       | _sound/_coin01.ogg                                                   |                                                                                        |
@@ -89,8 +89,8 @@ This file serves as a reference for all of the available audio clip names within
 | _dungeonFloorSwitch_unpressed | _sound/_dungeonFloorSwitch_unpressed.ogg                             |                                                                                        |
 | _dungeonLock_open             | _sound/_dungeonLock_open.ogg                                         |                                                                                        |
 | _electric01                   | _sound/_electric01.ogg                                               |                                                                                        |
-| _equip01                      | _sound/_equip01.ogg                                                  |                                                                                        |
-| _equip02                      | _sound/_equip02.ogg                                                  |                                                                                        |
+| _equip01                      | _sound/_equip01.ogg                                                  | Item equipped.                                                                                  |
+| _equip02                      | _sound/_equip02.ogg                                                  | Item unequipped.                                                                                |
 | _expression_surprise          | _sound/_expression_surprise.ogg                                      |                                                                                        |
 | _fishRodBobbleSplash_00       | _sound/_fishRodBobbleSplash_00.ogg                                   |                                                                                        |
 | _fishRodReel_00               | _sound/_fishRodReel_00.ogg                                           |                                                                                        |
@@ -101,9 +101,9 @@ This file serves as a reference for all of the available audio clip names within
 | _geistLaugh02                 | _sound/_geistLaugh02.ogg                                             |                                                                                        |
 | _getClassSfx                  | _sound/_getClassSfx.ogg                                              |                                                                                        |
 | _healConsumable               | _sound/_healConsumable.ogg                                           |                                                                                        |
-| _introNoise_00                | _sound/_introNoise_00.ogg                                            |                                                                                        |
-| _introNoise_01                | _sound/_introNoise_01.ogg                                            |                                                                                        |
-| _introNoise_02                | _sound/_introNoise_02.ogg                                            |                                                                                        |
+| _introNoise_00                | _sound/_introNoise_00.ogg                                            | New character intro dialogue #1.                                                                |
+| _introNoise_01                | _sound/_introNoise_01.ogg                                            | New character intro dialogue #2.                                                                |
+| _introNoise_02                | _sound/_introNoise_02.ogg                                            | New character intro dialogue #3.                                                                |
 | _itemDrop_rare                | _sound/_itemDrop_rare.ogg                                            |                                                                                        |
 | _itemEntryPlace01             | _sound/_itemEntryPlace01.ogg                                         |                                                                                        |
 | _itemEntryPlace02             | _sound/_itemEntryPlace02.ogg                                         |                                                                                        |
@@ -171,8 +171,8 @@ This file serves as a reference for all of the available audio clip names within
 | _wolfHowl                     | _sound/_wolfHowl.ogg                                                 |                                                                                        |
 | snd_summonAngel               | _sound/castsounds/snd_summonAngel.ogg                                |                                                                                        |
 | _caltropsCast                 | _sound/castsounds/_caltropsCast.ogg                                  |                                                                                        |
-| _cast_holy                    | _sound/castsounds/_cast_holy.ogg                                     |                                                                                        |
-| _cast_taunt                   | _sound/castsounds/_cast_taunt.ogg                                    |                                                                                        |
+| _cast_holy                    | _sound/castsounds/_cast_holy.ogg                                     | Used by skills: Recovery, Curis, Divine, Chroma Ray, Genesis, Healos, Shadow Ward (X4).         |
+| _cast_taunt                   | _sound/castsounds/_cast_taunt.ogg                                    | Used by skills: Taunt.                                                                          |
 | _genesisCast_00               | _sound/castsounds/_genesisCast_00.ogg                                |                                                                                        |
 | _healosCast                   | _sound/castsounds/_healosCast.ogg                                    |                                                                                        |
 | _imbueSkillSfx                | _sound/castsounds/_imbueSkillSfx.ogg                                 |                                                                                        |
@@ -181,57 +181,57 @@ This file serves as a reference for all of the available audio clip names within
 | _floatSkull_attack02          | _sound/creeps/floatskull/_floatSkull_attack02.ogg                    |                                                                                        |
 | _floatSkull_death             | _sound/creeps/floatskull/_floatSkull_death.ogg                       |                                                                                        |
 | _floatSkull_hurt              | _sound/creeps/floatskull/_floatSkull_hurt.ogg                        |                                                                                        |
-| type                          | _sound/dialogsounds/type.ogg                                         |                                                                                        |
-| vox_angela01                  | _sound/dialogsounds/dialog_voices/voice_angelaflux/vox_angela01.ogg  | Angela voiceline #1                                                                    |
-| vox_angela02                  | _sound/dialogsounds/dialog_voices/voice_angelaflux/vox_angela02.ogg  | Angela voiceline #2                                                                    |
-| vox_angela03                  | _sound/dialogsounds/dialog_voices/voice_angelaflux/vox_angela03.ogg  | Angela voiceline #3                                                                    |
-| vox_angela04                  | _sound/dialogsounds/dialog_voices/voice_angelaflux/vox_angela04.ogg  | Angela voiceline #4                                                                    |
-| vox_angela05                  | _sound/dialogsounds/dialog_voices/voice_angelaflux/vox_angela05.ogg  | Angela voiceline #5                                                                    |
-| vox_angela06                  | _sound/dialogsounds/dialog_voices/voice_angelaflux/vox_angela06.ogg  | Angela voiceline #6                                                                    |
-| bobbyVox01                    | _sound/dialogsounds/dialog_voices/voice_bobby/bobbyVox01.ogg         | Spike voiceline #1                                                                     |
-| bobbyVox02                    | _sound/dialogsounds/dialog_voices/voice_bobby/bobbyVox02.ogg         | Spike voiceline #2                                                                     |
-| bobbyVox03                    | _sound/dialogsounds/dialog_voices/voice_bobby/bobbyVox03.ogg         | Spike voiceline #3                                                                     |
-| bobbyVox04                    | _sound/dialogsounds/dialog_voices/voice_bobby/bobbyVox04.ogg         | Spike voiceline #4                                                                     |
-| bobbyVox05                    | _sound/dialogsounds/dialog_voices/voice_bobby/bobbyVox05.ogg         | Spike voiceline #5                                                                     |
-| bobbyVox06                    | _sound/dialogsounds/dialog_voices/voice_bobby/bobbyVox06.ogg         | Spike voiceline #6                                                                     |
-| bobbyVox07                    | _sound/dialogsounds/dialog_voices/voice_bobby/bobbyVox07.ogg         | Spike voiceline #7                                                                     |
-| _enok_vox01                   | _sound/dialogsounds/dialog_voices/voice_enok/_enok_vox01.ogg         | Enok voiceline #1                                                                      |
-| _enok_vox02                   | _sound/dialogsounds/dialog_voices/voice_enok/_enok_vox02.ogg         | Enok voiceline #2                                                                      |
-| _enok_vox03                   | _sound/dialogsounds/dialog_voices/voice_enok/_enok_vox03.ogg         | Enok voiceline #3                                                                      |
-| _enok_vox04                   | _sound/dialogsounds/dialog_voices/voice_enok/_enok_vox04.ogg         | Enok voiceline #4                                                                      |
-| _enok_vox05                   | _sound/dialogsounds/dialog_voices/voice_enok/_enok_vox05.ogg         | Enok voiceline #5                                                                      |
-| _enok_vox06                   | _sound/dialogsounds/dialog_voices/voice_enok/_enok_vox06.ogg         | Enok voiceline #6                                                                      |
-| _enok_vox07                   | _sound/dialogsounds/dialog_voices/voice_enok/_enok_vox07.ogg         | Enok voiceline #7                                                                      |
-| _enok_vox08                   | _sound/dialogsounds/dialog_voices/voice_enok/_enok_vox08.ogg         | Enok voiceline #8                                                                      |
-| vc_randy1                     | _sound/dialogsounds/dialog_voices/voice_randytest/vc_randy1.ogg      | RandyTest voiceline #1                                                                 |
-| vc_randy2                     | _sound/dialogsounds/dialog_voices/voice_randytest/vc_randy2.ogg      | RandyTest voiceline #2                                                                 |
-| vc_randy3                     | _sound/dialogsounds/dialog_voices/voice_randytest/vc_randy3.ogg      | RandyTest voiceline #3                                                                 |
-| vc_randy4                     | _sound/dialogsounds/dialog_voices/voice_randytest/vc_randy4.ogg      | RandyTest voiceline #4                                                                 |
-| _sallyVox01                   | _sound/dialogsounds/dialog_voices/voice_sally/_sallyVox01.ogg        | Sally voiceline #1                                                                     |
-| _sallyVox02                   | _sound/dialogsounds/dialog_voices/voice_sally/_sallyVox02.ogg        | Sally voiceline #2                                                                     |
-| _sallyVox03                   | _sound/dialogsounds/dialog_voices/voice_sally/_sallyVox03.ogg        | Sally voiceline #3                                                                     |
-| _sallyVox04                   | _sound/dialogsounds/dialog_voices/voice_sally/_sallyVox04.ogg        | Sally voiceline #4                                                                     |
-| _sallyVox05                   | _sound/dialogsounds/dialog_voices/voice_sally/_sallyVox05.ogg        | Sally voiceline #5                                                                     |
-| _sallyVox06                   | _sound/dialogsounds/dialog_voices/voice_sally/_sallyVox06.ogg        | Sally voiceline #6                                                                     |
-| _sallyVox07                   | _sound/dialogsounds/dialog_voices/voice_sally/_sallyVox07.ogg        | Sally voiceline #7                                                                     |
-| _skritVox_00                  | _sound/dialogsounds/dialog_voices/voice_skrit/_skritVox_00.ogg       | Skrit voiceline #1                                                                     |
-| _skritVox_01                  | _sound/dialogsounds/dialog_voices/voice_skrit/_skritVox_01.ogg       | Skrit voiceline #2                                                                     |
-| _skritVox_02                  | _sound/dialogsounds/dialog_voices/voice_skrit/_skritVox_02.ogg       | Skrit voiceline #3                                                                     |
-| _skritVox_03                  | _sound/dialogsounds/dialog_voices/voice_skrit/_skritVox_03.ogg       | Skrit voiceline #4                                                                     |
-| vc_suki1                      | _sound/dialogsounds/dialog_voices/voice_sukinipps/vc_suki1.ogg       | Suki voiceline #1                                                                      |
-| vc_suki2                      | _sound/dialogsounds/dialog_voices/voice_sukinipps/vc_suki2.ogg       | Suki voiceline #2                                                                      |
-| vc_suki3                      | _sound/dialogsounds/dialog_voices/voice_sukinipps/vc_suki3.ogg       | Suki voiceline #3                                                                      |
-| vc_suki4                      | _sound/dialogsounds/dialog_voices/voice_sukinipps/vc_suki4.ogg       | Suki voiceline #4                                                                      |
-| vc_suki5                      | _sound/dialogsounds/dialog_voices/voice_sukinipps/vc_suki5.ogg       | Suki voiceline #5                                                                      |
-| vc_suki6                      | _sound/dialogsounds/dialog_voices/voice_sukinipps/vc_suki6.ogg       | Suki voiceline #6                                                                      |
-| vc_suki7                      | _sound/dialogsounds/dialog_voices/voice_sukinipps/vc_suki7.ogg       | Suki voiceline #7                                                                      |
-| vc_typewriter                 | _sound/dialogsounds/dialog_voices/voice_typewriter/vc_typewriter.ogg |                                                                                        |
-| _vivian_vox00                 | _sound/dialogsounds/dialog_voices/voice_vivian/_vivian_vox00.ogg     | Vivian voiceline #1                                                                    |
-| _vivian_vox01                 | _sound/dialogsounds/dialog_voices/voice_vivian/_vivian_vox01.ogg     | Vivian voiceline #2                                                                    |
-| _vivian_vox02                 | _sound/dialogsounds/dialog_voices/voice_vivian/_vivian_vox02.ogg     | Vivian voiceline #3                                                                    |
-| _vivian_vox03                 | _sound/dialogsounds/dialog_voices/voice_vivian/_vivian_vox03.ogg     | Vivian voiceline #4                                                                    |
-| _vivian_vox04                 | _sound/dialogsounds/dialog_voices/voice_vivian/_vivian_vox04.ogg     | Vivian voiceline #5                                                                    |
-| _vivian_vox05                 | _sound/dialogsounds/dialog_voices/voice_vivian/_vivian_vox05.ogg     | Vivian voiceline #6                                                                    |
+| type                          | _sound/dialogsounds/type.ogg                                         | Voiceline for NPCs without unique ones. (Citizens, Zuula, Ammagon, Frankie, Craig, Mad Statue, Trip, Mirror of Illusion.) |
+| vox_angela01                  | _sound/dialogsounds/dialog_voices/voice_angelaflux/vox_angela01.ogg  | Angela voiceline #1                                                                                                       |
+| vox_angela02                  | _sound/dialogsounds/dialog_voices/voice_angelaflux/vox_angela02.ogg  | Angela voiceline #2                                                                                                       |
+| vox_angela03                  | _sound/dialogsounds/dialog_voices/voice_angelaflux/vox_angela03.ogg  | Angela voiceline #3 (Unused)                                                                                              |
+| vox_angela04                  | _sound/dialogsounds/dialog_voices/voice_angelaflux/vox_angela04.ogg  | Angela voiceline #4 (Unused)                                                                                              |
+| vox_angela05                  | _sound/dialogsounds/dialog_voices/voice_angelaflux/vox_angela05.ogg  | Angela voiceline #5                                                                                                       |
+| vox_angela06                  | _sound/dialogsounds/dialog_voices/voice_angelaflux/vox_angela06.ogg  | Angela voiceline #6                                                                                                       |
+| bobbyVox01                    | _sound/dialogsounds/dialog_voices/voice_bobby/bobbyVox01.ogg         | Spike voiceline #1                                                                                                        |
+| bobbyVox02                    | _sound/dialogsounds/dialog_voices/voice_bobby/bobbyVox02.ogg         | Spike voiceline #2 (Unused)                                                                                               |
+| bobbyVox03                    | _sound/dialogsounds/dialog_voices/voice_bobby/bobbyVox03.ogg         | Spike voiceline #3                                                                                                        |
+| bobbyVox04                    | _sound/dialogsounds/dialog_voices/voice_bobby/bobbyVox04.ogg         | Spike voiceline #4                                                                                                        |
+| bobbyVox05                    | _sound/dialogsounds/dialog_voices/voice_bobby/bobbyVox05.ogg         | Spike voiceline #5 (Unused)                                                                                               |
+| bobbyVox06                    | _sound/dialogsounds/dialog_voices/voice_bobby/bobbyVox06.ogg         | Spike voiceline #6 (Unused)                                                                                               |
+| bobbyVox07                    | _sound/dialogsounds/dialog_voices/voice_bobby/bobbyVox07.ogg         | Spike voiceline #7                                                                                                        |
+| _enok_vox01                   | _sound/dialogsounds/dialog_voices/voice_enok/_enok_vox01.ogg         | Enok voiceline #1 (Unused)                                                                                                |
+| _enok_vox02                   | _sound/dialogsounds/dialog_voices/voice_enok/_enok_vox02.ogg         | Enok voiceline #2 (Unused)                                                                                                |
+| _enok_vox03                   | _sound/dialogsounds/dialog_voices/voice_enok/_enok_vox03.ogg         | Enok voiceline #3 (Unused)                                                                                                |
+| _enok_vox04                   | _sound/dialogsounds/dialog_voices/voice_enok/_enok_vox04.ogg         | Enok voiceline #4                                                                                                         |
+| _enok_vox05                   | _sound/dialogsounds/dialog_voices/voice_enok/_enok_vox05.ogg         | Enok voiceline #5                                                                                                         |
+| _enok_vox06                   | _sound/dialogsounds/dialog_voices/voice_enok/_enok_vox06.ogg         | Enok voiceline #6                                                                                                         |
+| _enok_vox07                   | _sound/dialogsounds/dialog_voices/voice_enok/_enok_vox07.ogg         | Enok voiceline #7                                                                                                         |
+| _enok_vox08                   | _sound/dialogsounds/dialog_voices/voice_enok/_enok_vox08.ogg         | Enok voiceline #8                                                                                                         |
+| vc_randy1                     | _sound/dialogsounds/dialog_voices/voice_randytest/vc_randy1.ogg      | RandyTest voiceline #1 (Unused)                                                                                           |
+| vc_randy2                     | _sound/dialogsounds/dialog_voices/voice_randytest/vc_randy2.ogg      | RandyTest voiceline #2 (Unused)                                                                                           |
+| vc_randy3                     | _sound/dialogsounds/dialog_voices/voice_randytest/vc_randy3.ogg      | RandyTest voiceline #3 (Unused)                                                                                           |
+| vc_randy4                     | _sound/dialogsounds/dialog_voices/voice_randytest/vc_randy4.ogg      | RandyTest voiceline #4 (Unused)                                                                                           |
+| _sallyVox01                   | _sound/dialogsounds/dialog_voices/voice_sally/_sallyVox01.ogg        | Sally voiceline #1 (Unused)                                                                                               |
+| _sallyVox02                   | _sound/dialogsounds/dialog_voices/voice_sally/_sallyVox02.ogg        | Sally voiceline #2                                                                                                        |
+| _sallyVox03                   | _sound/dialogsounds/dialog_voices/voice_sally/_sallyVox03.ogg        | Sally voiceline #3                                                                                                        |
+| _sallyVox04                   | _sound/dialogsounds/dialog_voices/voice_sally/_sallyVox04.ogg        | Sally voiceline #4 (Unused)                                                                                               |
+| _sallyVox05                   | _sound/dialogsounds/dialog_voices/voice_sally/_sallyVox05.ogg        | Sally voiceline #5                                                                                                        |
+| _sallyVox06                   | _sound/dialogsounds/dialog_voices/voice_sally/_sallyVox06.ogg        | Sally voiceline #6                                                                                                        |
+| _sallyVox07                   | _sound/dialogsounds/dialog_voices/voice_sally/_sallyVox07.ogg        | Sally voiceline #7                                                                                                        |
+| _skritVox_00                  | _sound/dialogsounds/dialog_voices/voice_skrit/_skritVox_00.ogg       | Skrit voiceline #1                                                                                                        |
+| _skritVox_01                  | _sound/dialogsounds/dialog_voices/voice_skrit/_skritVox_01.ogg       | Skrit voiceline #2                                                                                                        |
+| _skritVox_02                  | _sound/dialogsounds/dialog_voices/voice_skrit/_skritVox_02.ogg       | Skrit voiceline #3                                                                                                        |
+| _skritVox_03                  | _sound/dialogsounds/dialog_voices/voice_skrit/_skritVox_03.ogg       | Skrit voiceline #4 (Unused)                                                                                               |
+| vc_suki1                      | _sound/dialogsounds/dialog_voices/voice_sukinipps/vc_suki1.ogg       | Suki voiceline #1 (Unused)                                                                                                |
+| vc_suki2                      | _sound/dialogsounds/dialog_voices/voice_sukinipps/vc_suki2.ogg       | Suki voiceline #2 (Unused)                                                                                                |
+| vc_suki3                      | _sound/dialogsounds/dialog_voices/voice_sukinipps/vc_suki3.ogg       | Suki voiceline #3 (Unused)                                                                                                |
+| vc_suki4                      | _sound/dialogsounds/dialog_voices/voice_sukinipps/vc_suki4.ogg       | Suki voiceline #4 (Unused)                                                                                                |
+| vc_suki5                      | _sound/dialogsounds/dialog_voices/voice_sukinipps/vc_suki5.ogg       | Suki voiceline #5 (Unused)                                                                                                |
+| vc_suki6                      | _sound/dialogsounds/dialog_voices/voice_sukinipps/vc_suki6.ogg       | Suki voiceline #6 (Unused)                                                                                                |
+| vc_suki7                      | _sound/dialogsounds/dialog_voices/voice_sukinipps/vc_suki7.ogg       | Suki voiceline #7 (Unused)                                                                                                |
+| vc_typewriter                 | _sound/dialogsounds/dialog_voices/voice_typewriter/vc_typewriter.ogg | Unknown/Unused.                                                                                                           |
+| _vivian_vox00                 | _sound/dialogsounds/dialog_voices/voice_vivian/_vivian_vox00.ogg     | Vivian voiceline #1                                                                                                       |
+| _vivian_vox01                 | _sound/dialogsounds/dialog_voices/voice_vivian/_vivian_vox01.ogg     | Vivian voiceline #2                                                                                                       |
+| _vivian_vox02                 | _sound/dialogsounds/dialog_voices/voice_vivian/_vivian_vox02.ogg     | Vivian voiceline #3 (Unused)                                                                                              |
+| _vivian_vox03                 | _sound/dialogsounds/dialog_voices/voice_vivian/_vivian_vox03.ogg     | Vivian voiceline #4                                                                                                       |
+| _vivian_vox04                 | _sound/dialogsounds/dialog_voices/voice_vivian/_vivian_vox04.ogg     | Vivian voiceline #5 (Unused)                                                                                              |
+| _vivian_vox05                 | _sound/dialogsounds/dialog_voices/voice_vivian/_vivian_vox05.ogg     | Vivian voiceline #6 (Unused)                                                                                              |
 | castChannelShadow             | _sound/spellchannels/castChannelShadow.ogg                           |                                                                                        |
 | castChannelShadow2            | _sound/spellchannels/castChannelShadow2.ogg                          |                                                                                        |
 | _castEarth                    | _sound/spellchannels/_castEarth.ogg                                  |                                                                                        |
@@ -244,59 +244,59 @@ This file serves as a reference for all of the available audio clip names within
 | _novaSkill_init02             | _sound/spellchannels/_novaSkill_init02.ogg                           |                                                                                        |
 | _prismSkill_init01            | _sound/spellchannels/_prismSkill_init01.ogg                          |                                                                                        |
 | _prismSkill_loop01            | _sound/spellchannels/_prismSkill_loop01.ogg                          |                                                                                        |
-| amb_autum1                    | _sound/_ambience/amb_autum1.ogg                                      |                                                                                        |
-| _ambBla                       | _sound/_ambience/_ambBla.ogg                                         |                                                                                        |
-| _ambCave01                    | _sound/_ambience/_ambCave01.ogg                                      |                                                                                        |
-| _ambCave02                    | _sound/_ambience/_ambCave02.ogg                                      |                                                                                        |
-| _ambClave                     | _sound/_ambience/_ambClave.ogg                                       |                                                                                        |
-| _ambCoast                     | _sound/_ambience/_ambCoast.ogg                                       |                                                                                        |
-| _ambCricket01                 | _sound/_ambience/_ambCricket01.ogg                                   |                                                                                        |
-| _ambCuckoo                    | _sound/_ambience/_ambCuckoo.ogg                                      |                                                                                        |
-| _ambFire01                    | _sound/_ambience/_ambFire01.ogg                                      |                                                                                        |
-| _ambFrst01                    | _sound/_ambience/_ambFrst01.ogg                                      |                                                                                        |
-| _ambFrst02                    | _sound/_ambience/_ambFrst02.ogg                                      |                                                                                        |
-| _ambFrst03                    | _sound/_ambience/_ambFrst03.ogg                                      |                                                                                        |
-| _ambGlyph01                   | _sound/_ambience/_ambGlyph01.ogg                                     |                                                                                        |
-| _ambGlyph02                   | _sound/_ambience/_ambGlyph02.ogg                                     |                                                                                        |
-| _ambGlyph03                   | _sound/_ambience/_ambGlyph03.ogg                                     |                                                                                        |
-| _ambGuest01                   | _sound/_ambience/_ambGuest01.ogg                                     |                                                                                        |
-| _ambOutside01                 | _sound/_ambience/_ambOutside01.ogg                                   |                                                                                        |
-| _ambOutside02                 | _sound/_ambience/_ambOutside02.ogg                                   |                                                                                        |
-| _ambRiver01                   | _sound/_ambience/_ambRiver01.ogg                                     |                                                                                        |
-| _ambUnderwater                | _sound/_ambience/_ambUnderwater.ogg                                  |                                                                                        |
-| _ambWater01                   | _sound/_ambience/_ambWater01.ogg                                     |                                                                                        |
-| _ambWater02                   | _sound/_ambience/_ambWater02.ogg                                     |                                                                                        |
-| _ambWaterfall01               | _sound/_ambience/_ambWaterfall01.ogg                                 |                                                                                        |
-| _ambWatfall                   | _sound/_ambience/_ambWatfall.ogg                                     |                                                                                        |
-| _ambWat_cave                  | _sound/_ambience/_ambWat_cave.ogg                                    |                                                                                        |
-| _ambWind01                    | _sound/_ambience/_ambWind01.ogg                                      |                                                                                        |
-| _ambWind02                    | _sound/_ambience/_ambWind02.ogg                                      |                                                                                        |
-| _ambWind02_0                  | _sound/_ambience/_ambWind02_0.ogg                                    |                                                                                        |
-| _ambWind03                    | _sound/_ambience/_ambWind03.ogg                                      |                                                                                        |
-| _ambWind04                    | _sound/_ambience/_ambWind04.ogg                                      |                                                                                        |
-| _ambWind05                    | _sound/_ambience/_ambWind05.ogg                                      |                                                                                        |
-| _ambWind06                    | _sound/_ambience/_ambWind06.ogg                                      |                                                                                        |
-| _ambWind07                    | _sound/_ambience/_ambWind07.ogg                                      |                                                                                        |
-| _ambWindChime01               | _sound/_ambience/_ambWindChime01.ogg                                 |                                                                                        |
-| _amb_jungle00                 | _sound/_ambience/_amb_jungle00.ogg                                   |                                                                                        |
-| _amb_jungle01                 | _sound/_ambience/_amb_jungle01.ogg                                   |                                                                                        |
-| _amb_jungle02                 | _sound/_ambience/_amb_jungle02.ogg                                   |                                                                                        |
-| _amb_rain01                   | _sound/_ambience/_amb_rain01.ogg                                     |                                                                                        |
+| amb_autum1                    | _sound/_ambience/amb_autum1.ogg                                      | Gate of the Moon.                                                                                                 |
+| _ambBla                       | _sound/_ambience/_ambBla.ogg                                         | Sanctum Catacombs.                                                                                                |
+| _ambCave01                    | _sound/_ambience/_ambCave01.ogg                                      | Arcwood Pass.                                                                                                     |
+| _ambCave02                    | _sound/_ambience/_ambCave02.ogg                                      | Sanctum, Arcwood Pass (X2), Sanctum Catacombs (X2), Crescent Road, Crescent Grove (X2).                           |
+| _ambClave                     | _sound/_ambience/_ambClave.ogg                                       | Tuul Enclave.                                                                                                     |
+| _ambCoast                     | _sound/_ambience/_ambCoast.ogg                                       | Sanctum, Sanctum Arena.                                                                                           |
+| _ambCricket01                 | _sound/_ambience/_ambCricket01.ogg                                   | Effold Terrace, Arcwood Pass, Tuul Valley (X2).                                                                   |
+| _ambCuckoo                    | _sound/_ambience/_ambCuckoo.ogg                                      | Luvora Garden, Cresecent Keep, Gate of the Moon, Wall of the Stars,                                               |
+| _ambFire01                    | _sound/_ambience/_ambFire01.ogg                                      | Sanctum (X2), Outer Sanctum, Bularr Fortress.                                                                     |
+| _ambFrst01                    | _sound/_ambience/_ambFrst01.ogg                                      | Arcwood Pass, Crescent Keep, Gate of the Moon, Wall of the Stars.                                                 |
+| _ambFrst02                    | _sound/_ambience/_ambFrst02.ogg                                      | Outer Sanctum, Arcwood Pass, Crescent Road, Luvora Garden.                                                        |
+| _ambFrst03                    | _sound/_ambience/_ambFrst03.ogg                                      | Outer Sanctum, Arcwood Pass, Crescent Road.                                                                       |
+| _ambGlyph01                   | _sound/_ambience/_ambGlyph01.ogg                                     | Character menu.                                                                                                   |
+| _ambGlyph02                   | _sound/_ambience/_ambGlyph02.ogg                                     | Main Menu.                                                                                                        |
+| _ambGlyph03                   | _sound/_ambience/_ambGlyph03.ogg                                     | Unused.                                                                                                           |
+| _ambGuest01                   | _sound/_ambience/_ambGuest01.ogg                                     | Sanctum.                                                                                                          |
+| _ambOutside01                 | _sound/_ambience/_ambOutside01.ogg                                   | Tuul Valley.                                                                                                      |
+| _ambOutside02                 | _sound/_ambience/_ambOutside02.ogg                                   | Effold Terrace, Tuul Valley.                                                                                      |
+| _ambRiver01                   | _sound/_ambience/_ambRiver01.ogg                                     | Unused.                                                                                                           |
+| _ambUnderwater                | _sound/_ambience/_ambUnderwater.ogg                                  | Main Menu,                                                                                                        |
+| _ambWater01                   | _sound/_ambience/_ambWater01.ogg                                     | Arcwood Pass (X2).                                                                                                |
+| _ambWater02                   | _sound/_ambience/_ambWater02.ogg                                     | Crescent Grove.                                                                                                   |
+| _ambWaterfall01               | _sound/_ambience/_ambWaterfall01.ogg                                 | Outer Sanctum, Effold Terrace, Arcwood Pass, Tuul Valley (X2), Luvora Garden, Crescent Keep, Crescent Grove (X5). |
+| _ambWatfall                   | _sound/_ambience/_ambWatfall.ogg                                     | Character Menu, Crescent Keep (X3).                                                                               |
+| _ambWat_cave                  | _sound/_ambience/_ambWat_cave.ogg                                    | Sanctum Catacombs, Crescent Keep, Crescent Grove.                                                                 |
+| _ambWind01                    | _sound/_ambience/_ambWind01.ogg                                      | Main Menu.                                                                                                        |
+| _ambWind02                    | _sound/_ambience/_ambWind02.ogg                                      | Bularr Fortress, Crescent Grove (X2).                                                                             |
+| _ambWind02_0                  | _sound/_ambience/_ambWind02_0.ogg                                    | Unused.                                                                                                           |
+| _ambWind03                    | _sound/_ambience/_ambWind03.ogg                                      | Crescent Grove (X2).                                                                                              |
+| _ambWind04                    | _sound/_ambience/_ambWind04.ogg                                      | Arcwood Pass, Sanctum Catacombs.                                                                                  |
+| _ambWind05                    | _sound/_ambience/_ambWind05.ogg                                      | Tuul Valley (X2), Bularr Fortrss (X4).                                                                            |
+| _ambWind06                    | _sound/_ambience/_ambWind06.ogg                                      | Unused.                                                                                                           |
+| _ambWind07                    | _sound/_ambience/_ambWind07.ogg                                      | Outer Sanctum, Executioner's Tomb.                                                                                |
+| _ambWindChime01               | _sound/_ambience/_ambWindChime01.ogg                                 | Crescent Grove.                                                                                                   |
+| _amb_jungle00                 | _sound/_ambience/_amb_jungle00.ogg                                   | Crescent Grove (X3).                                                                                              |
+| _amb_jungle01                 | _sound/_ambience/_amb_jungle01.ogg                                   | Unused.                                                                                                           |
+| _amb_jungle02                 | _sound/_ambience/_amb_jungle02.ogg                                   | Cresecent Grove (X2).                                                                                             |
+| _amb_rain01                   | _sound/_ambience/_amb_rain01.ogg                                     | All zones except Sanctum Catacombs, Executioner's Tomb, Wall of the Stars, Trial of the Stars.                    |
 | attackClick                   | _sound/_combat/attackClick.ogg                                       |                                                                                        |
 | enemyPreAttack                | _sound/_combat/enemyPreAttack.ogg                                    |                                                                                        |
 | glassBreak                    | _sound/_combat/glassBreak.ogg                                        |                                                                                        |
 | glassBreak2                   | _sound/_combat/glassBreak2.ogg                                       |                                                                                        |
-| guard_block                   | _sound/_combat/guard_block.ogg                                       |                                                                                        |
-| melee_swipe                   | _sound/_combat/melee_swipe.ogg                                       |                                                                                        |
+| guard_block                   | _sound/_combat/guard_block.ogg                                       | Sound of shielding.                                                                             |
+| melee_swipe                   | _sound/_combat/melee_swipe.ogg                                       | Mace Swings: Femur Club, Splitbark Club.                                                        |
 | summonCollide                 | _sound/_combat/summonCollide.ogg                                     |                                                                                        |
 | weaponOverHeat                | _sound/_combat/weaponOverHeat.ogg                                    |                                                                                        |
 | wickhitlv1                    | _sound/_combat/wickhitlv1.ogg                                        |                                                                                        |
 | wick_equip                    | _sound/_combat/wick_equip.ogg                                        |                                                                                        |
-| _absorb                       | _sound/_combat/_absorb.ogg                                           |                                                                                        |
-| _attackMiss                   | _sound/_combat/_attackMiss.ogg                                       |                                                                                        |
-| _blockBreak                   | _sound/_combat/_blockBreak.ogg                                       |                                                                                        |
-| _blockHit                     | _sound/_combat/_blockHit.ogg                                         |                                                                                        |
-| _crit                         | _sound/_combat/_crit.ogg                                             |                                                                                        |
+| _absorb                       | _sound/_combat/_absorb.ogg                                           | Sound for the "Absorb" VFX.                                                                     |
+| _attackMiss                   | _sound/_combat/_attackMiss.ogg                                       | Sound for the "Miss" VFX.                                                                       |
+| _blockBreak                   | _sound/_combat/_blockBreak.ogg                                       | Sound for the "Shattered" VFX.                                                                  |
+| _blockHit                     | _sound/_combat/_blockHit.ogg                                         | Sound for the "Block" VFX.                                                                      |
+| _crit                         | _sound/_combat/_crit.ogg                                             | Sound for the "Crit" VFX.                                                                       |
 | _effect_demon01               | _sound/_combat/_effect_demon01.ogg                                   |                                                                                        |
 | _fistcuffs_swing01            | _sound/_combat/_fistcuffs_swing01.ogg                                |                                                                                        |
 | _fistcuffs_swing02            | _sound/_combat/_fistcuffs_swing02.ogg                                |                                                                                        |
@@ -308,12 +308,12 @@ This file serves as a reference for all of the available audio clip names within
 | _heavyInit01                  | _sound/_combat/_heavyInit01.ogg                                      |                                                                                        |
 | _heavyInit02                  | _sound/_combat/_heavyInit02.ogg                                      |                                                                                        |
 | _heavyInit03                  | _sound/_combat/_heavyInit03.ogg                                      |                                                                                        |
-| _heavySheath                  | _sound/_combat/_heavySheath.ogg                                      |                                                                                        |
+| _heavySheath                  | _sound/_combat/_heavySheath.ogg                                      | Weapon draws: All Greatblades, Slimek Axehammer, Iron Axehammer, Crypt Pounder, Quake Pummeler. |
 | _heavySheath_02               | _sound/_combat/_heavySheath_02.ogg                                   |                                                                                        |
 | _homerun_hit                  | _sound/_combat/_homerun_hit.ogg                                      |                                                                                        |
-| _lightSheath                  | _sound/_combat/_lightSheath.ogg                                      |                                                                                        |
+| _lightSheath                  | _sound/_combat/_lightSheath.ogg                                      | Weapon draws: Most Katars.                                                                      |
 | _lungePower                   | _sound/_combat/_lungePower.ogg                                       |                                                                                        |
-| _mediumSheath                 | _sound/_combat/_mediumSheath.ogg                                     |                                                                                        |
+| _mediumSheath                 | _sound/_combat/_mediumSheath.ogg                                     | Weapon Draws: Most Swords, Dawn Mace, Nulrok Mace.                                              |
 | _meeleSkillCharge             | _sound/_combat/_meeleSkillCharge.ogg                                 |                                                                                        |
 | _meleeSkillLoop               | _sound/_combat/_meleeSkillLoop.ogg                                   |                                                                                        |
 | _polearmSwing01               | _sound/_combat/_polearmSwing01.ogg                                   |                                                                                        |
@@ -325,24 +325,24 @@ This file serves as a reference for all of the available audio clip names within
 | _spinWeapon01                 | _sound/_combat/_spinWeapon01.ogg                                     |                                                                                        |
 | _swing03                      | _sound/_combat/_swing03.ogg                                          |                                                                                        |
 | _swing04                      | _sound/_combat/_swing04.ogg                                          |                                                                                        |
-| _swingHeavy                   | _sound/_combat/_swingHeavy.ogg                                       |                                                                                        |
-| _swingLight                   | _sound/_combat/_swingLight.ogg                                       |                                                                                        |
-| _swingMedium                  | _sound/_combat/_swingMedium.ogg                                      |                                                                                        |
+| _swingHeavy                   | _sound/_combat/_swingHeavy.ogg                                       | Weapon swings: All Greatblades, Hammers.                                                        |
+| _swingLight                   | _sound/_combat/_swingLight.ogg                                       | Weapon swings: All Katars.                                                                      |
+| _swingMedium                  | _sound/_combat/_swingMedium.ogg                                      | Weapon swings: All Swords, Dense Mace, Dawn Mace, Nulrok Mace.                                  |
 | _weaponCharge                 | _sound/_combat/_weaponCharge.ogg                                     |                                                                                        |
 | _weaponHitWall                | _sound/_combat/_weaponHitWall.ogg                                    |                                                                                        |
 | _weaponPutAway02              | _sound/_combat/_weaponPutAway02.ogg                                  |                                                                                        |
-| weapon_axePound               | _sound/_combat/axehammer/weapon_axePound.ogg                         |                                                                                        |
-| weapon_staffAoe(autumn)       | _sound/_combat/bell/weapon_staffAoe(autumn).ogg                      |                                                                                        |
-| weapon_staffAttack(autumn)    | _sound/_combat/bell/weapon_staffAttack(autumn).ogg                   |                                                                                        |
-| _bellSwing01                  | _sound/_combat/bell/_bellSwing01.ogg                                 |                                                                                        |
-| _bellSwing02                  | _sound/_combat/bell/_bellSwing02.ogg                                 |                                                                                        |
-| _bellSwing03                  | _sound/_combat/bell/_bellSwing03.ogg                                 |                                                                                        |
-| _bellSwing04                  | _sound/_combat/bell/_bellSwing04.ogg                                 |                                                                                        |
-| _takeOutBell                  | _sound/_combat/bell/_takeOutBell.ogg                                 |                                                                                        |
-| _takeOutBell2                 | _sound/_combat/bell/_takeOutBell2.ogg                                |                                                                                        |
-| _takeOutBell3                 | _sound/_combat/bell/_takeOutBell3.ogg                                |                                                                                        |
-| bow_fire01                    | _sound/_combat/bow/bow_fire01.ogg                                    |                                                                                        |
-| bow_takeOut                   | _sound/_combat/bow/bow_takeOut.ogg                                   |                                                                                        |
+| weapon_axePound               | _sound/_combat/axehammer/weapon_axePound.ogg                         | Hammer impact sound.                                                                            |
+| weapon_staffAoe(autumn)       | _sound/_combat/bell/weapon_staffAoe(autumn).ogg                      | Area of effect sound the music projectile "pops".                                               |
+| weapon_staffAttack(autumn)    | _sound/_combat/bell/weapon_staffAttack(autumn).ogg                   | Music Bell (Wood, Iron, Mithril, Sapphite) attack sound.                                        |
+| _bellSwing01                  | _sound/_combat/bell/_bellSwing01.ogg                                 | Bell swings: Unused.                                                                            |
+| _bellSwing02                  | _sound/_combat/bell/_bellSwing02.ogg                                 | Bell swings: Unused.                                                                            |
+| _bellSwing03                  | _sound/_combat/bell/_bellSwing03.ogg                                 | Bell swings: Unused.                                                                            |
+| _bellSwing04                  | _sound/_combat/bell/_bellSwing04.ogg                                 | Bell swings: All.                                                                               |
+| _takeOutBell                  | _sound/_combat/bell/_takeOutBell.ogg                                 | Bell draws: Unused.                                                                             |
+| _takeOutBell2                 | _sound/_combat/bell/_takeOutBell2.ogg                                | Bell draws: Unused.                                                                             |
+| _takeOutBell3                 | _sound/_combat/bell/_takeOutBell3.ogg                                | Bell draws: All.                                                                                |
+| bow_fire01                    | _sound/_combat/bow/bow_fire01.ogg                                    | Bow swings: All.                                                                                |
+| bow_takeOut                   | _sound/_combat/bow/bow_takeOut.ogg                                   | Bow draws: All.                                                                                 |
 | buff_resolute                 | _sound/_combat/buffoutputsounds/buff_resolute.ogg                    |                                                                                        |
 | debuff_bleed                  | _sound/_combat/buffoutputsounds/debuff_bleed.ogg                     |                                                                                        |
 | debuff_freeze-old1            | _sound/_combat/buffoutputsounds/debuff_freeze-old1.ogg               |                                                                                        |
@@ -356,11 +356,11 @@ This file serves as a reference for all of the available audio clip names within
 | acre_bolt                     | _sound/_combat/scepter/acre_bolt.ogg                                 |                                                                                        |
 | scepterProjectileBurst        | _sound/_combat/scepter/scepterProjectileBurst.ogg                    |                                                                                        |
 | weapon_scepterSheath          | _sound/_combat/scepter/weapon_scepterSheath.ogg                      |                                                                                        |
-| _scepterCharge                | _sound/_combat/scepter/_scepterCharge.ogg                            |                                                                                        |
-| _scepterChargeWeak            | _sound/_combat/scepter/_scepterChargeWeak.ogg                        |                                                                                        |
-| _scepterSheathe_01            | _sound/_combat/scepter/_scepterSheathe_01.ogg                        |                                                                                        |
-| _scepterSwing_00              | _sound/_combat/scepter/_scepterSwing_00.ogg                          |                                                                                        |
-| _spinScepter                  | _sound/_combat/scepter/_spinScepter.ogg                              |                                                                                        |
+| _scepterCharge                | _sound/_combat/scepter/_scepterCharge.ogg                            | Unused.                                                                                         |
+| _scepterChargeWeak            | _sound/_combat/scepter/_scepterChargeWeak.ogg                        | Bows, Shotguns, and Scepters charging sound.                                                    |
+| _scepterSheathe_01            | _sound/_combat/scepter/_scepterSheathe_01.ogg                        | Scepter draws: Voalstark Wand.                                                                  |
+| _scepterSwing_00              | _sound/_combat/scepter/_scepterSwing_00.ogg                          | Scepter swings: Voalstark Wand.                                                                 |
+| _spinScepter                  | _sound/_combat/scepter/_spinScepter.ogg                              | Scepter swings: Most.                                                                           |
 | spellCancel                   | _sound/_combat/spellchannels/spellCancel.ogg                         |                                                                                        |
 | spellChannel_fire             | _sound/_combat/spellchannels/spellChannel_fire.ogg                   |                                                                                        |
 | spellChannel_vector1          | _sound/_combat/spellchannels/spellChannel_vector1.ogg                |                                                                                        |
@@ -368,27 +368,27 @@ This file serves as a reference for all of the available audio clip names within
 | spellLearnChannel             | _sound/_combat/spellchannels/spellLearnChannel.ogg                   |                                                                                        |
 | _spellChannel_water           | _sound/_combat/spellchannels/_spellChannel_water.ogg                 |                                                                                        |
 | _spellWater_droplet           | _sound/_combat/spellchannels/_spellWater_droplet.ogg                 |                                                                                        |
-| weaponHit_Air(average)        | _sound/_combat/weaponhits/weaponHit_Air(average).ogg                 |                                                                                        |
-| weaponHit_Air(heavy)          | _sound/_combat/weaponhits/weaponHit_Air(heavy).ogg                   |                                                                                        |
-| weaponHit_Air(light)          | _sound/_combat/weaponhits/weaponHit_Air(light).ogg                   |                                                                                        |
-| weaponHit_Earth(average)      | _sound/_combat/weaponhits/weaponHit_Earth(average).ogg               |                                                                                        |
-| weaponHit_Earth(heavy)        | _sound/_combat/weaponhits/weaponHit_Earth(heavy).ogg                 |                                                                                        |
-| weaponHit_Earth(light)        | _sound/_combat/weaponhits/weaponHit_Earth(light).ogg                 |                                                                                        |
-| weaponHit_Fire(average)       | _sound/_combat/weaponhits/weaponHit_Fire(average).ogg                |                                                                                        |
-| weaponHit_Fire(heavy)         | _sound/_combat/weaponhits/weaponHit_Fire(heavy).ogg                  |                                                                                        |
-| weaponHit_Fire(light)         | _sound/_combat/weaponhits/weaponHit_Fire(light).ogg                  |                                                                                        |
-| weaponHit_Holy(average)       | _sound/_combat/weaponhits/weaponHit_Holy(average).ogg                |                                                                                        |
-| weaponHit_Holy(heavy)         | _sound/_combat/weaponhits/weaponHit_Holy(heavy).ogg                  |                                                                                        |
-| weaponHit_Holy(light)         | _sound/_combat/weaponhits/weaponHit_Holy(light).ogg                  |                                                                                        |
-| weaponHit_Normal(average)     | _sound/_combat/weaponhits/weaponHit_Normal(average).ogg              |                                                                                        |
-| weaponHit_Normal(heavy)       | _sound/_combat/weaponhits/weaponHit_Normal(heavy).ogg                |                                                                                        |
-| weaponHit_Normal(light)       | _sound/_combat/weaponhits/weaponHit_Normal(light).ogg                |                                                                                        |
-| weaponHit_Shadow(average)     | _sound/_combat/weaponhits/weaponHit_Shadow(average).ogg              |                                                                                        |
-| weaponHit_Shadow(heavy)       | _sound/_combat/weaponhits/weaponHit_Shadow(heavy).ogg                |                                                                                        |
-| weaponHit_Shadow(light)       | _sound/_combat/weaponhits/weaponHit_Shadow(light).ogg                |                                                                                        |
-| weaponHit_Water(average)      | _sound/_combat/weaponhits/weaponHit_Water(average).ogg               |                                                                                        |
-| weaponHit_Water(heavy)        | _sound/_combat/weaponhits/weaponHit_Water(heavy).ogg                 |                                                                                        |
-| weaponHit_Water(light)        | _sound/_combat/weaponhits/weaponHit_Water(light).ogg                 |                                                                                        |
+| weaponHit_Air(average)        | _sound/_combat/weaponhits/weaponHit_Air(average).ogg                 | Valdur Blade, Voalstark Wand.                                                                   |
+| weaponHit_Air(heavy)          | _sound/_combat/weaponhits/weaponHit_Air(heavy).ogg                   | Unused.                                                                                         |
+| weaponHit_Air(light)          | _sound/_combat/weaponhits/weaponHit_Air(light).ogg                   | Menace Bow, Torrentius Bow.                                                                     |
+| weaponHit_Earth(average)      | _sound/_combat/weaponhits/weaponHit_Earth(average).ogg               | Unused.                                                                                         |
+| weaponHit_Earth(heavy)        | _sound/_combat/weaponhits/weaponHit_Earth(heavy).ogg                 | Quake Pummeler, Colossus Tone.                                                                  |
+| weaponHit_Earth(light)        | _sound/_combat/weaponhits/weaponHit_Earth(light).ogg                 | Golemfist Katars.                                                                               |
+| weaponHit_Fire(average)       | _sound/_combat/weaponhits/weaponHit_Fire(average).ogg                | Firebreath Blade, Flametribe Spear, Pyre Cane, Flamepetal Staff.                                |
+| weaponHit_Fire(heavy)         | _sound/_combat/weaponhits/weaponHit_Fire(heavy).ogg                  | Dolkin's Axe.                                                                                   |
+| weaponHit_Fire(light)         | _sound/_combat/weaponhits/weaponHit_Fire(light).ogg                  | Hellsludge Shivs.                                                                               |
+| weaponHit_Holy(average)       | _sound/_combat/weaponhits/weaponHit_Holy(average).ogg                | Unused.                                                                                         |
+| weaponHit_Holy(heavy)         | _sound/_combat/weaponhits/weaponHit_Holy(heavy).ogg                  | Unused.                                                                                         |
+| weaponHit_Holy(light)         | _sound/_combat/weaponhits/weaponHit_Holy(light).ogg                  | Unused.                                                                                         |
+| weaponHit_Normal(average)     | _sound/_combat/weaponhits/weaponHit_Normal(average).ogg              | All non-elemental Swords, Maces, Polearms, Scepters.                                            |
+| weaponHit_Normal(heavy)       | _sound/_combat/weaponhits/weaponHit_Normal(heavy).ogg                | All non-elemental Greatblades, Hammers, Shotguns, Bells.                                        |
+| weaponHit_Normal(light)       | _sound/_combat/weaponhits/weaponHit_Normal(light).ogg                | All non-elemental Katars, Bows.                                                                 |
+| weaponHit_Shadow(average)     | _sound/_combat/weaponhits/weaponHit_Shadow(average).ogg              | Nethercrypt Blade, Marrow Bauble, Demicrypt Bauble, Nethercrypt Bauble.                         |
+| weaponHit_Shadow(heavy)       | _sound/_combat/weaponhits/weaponHit_Shadow(heavy).ogg                | Crypt Pounder, Deathknight Runeblade, Cryptcall Bell.                                           |
+| weaponHit_Shadow(light)       | _sound/_combat/weaponhits/weaponHit_Shadow(light).ogg                | Geistlord Claws, Petrified Bow.                                                                 |
+| weaponHit_Water(average)      | _sound/_combat/weaponhits/weaponHit_Water(average).ogg               | Coldgeist Blade, Cryotribe Spear, Cryo Cane, Aquapetal Staff, Coldgeist Frostcaller.            |
+| weaponHit_Water(heavy)        | _sound/_combat/weaponhits/weaponHit_Water(heavy).ogg                 | Coldgeist Punisher.                                                                             |
+| weaponHit_Water(light)        | _sound/_combat/weaponhits/weaponHit_Water(light).ogg                 | Frostbite Claws, Coldgeist Bow.                                                                 |
 | cop_turretcharge              | _sound/_creep/cop_turretcharge.ogg                                   |                                                                                        |
 | enemyalert                    | _sound/_creep/enemyalert.ogg                                         |                                                                                        |
 | _beamStatue_beamLoop          | _sound/_creep/_beamStatue_beamLoop.ogg                               |                                                                                        |
@@ -396,8 +396,7 @@ This file serves as a reference for all of the available audio clip names within
 | _bladeTrap_init               | _sound/_creep/_bladeTrap_init.ogg                                    |                                                                                        |
 | _bladeTrap_spinLoop           | _sound/_creep/_bladeTrap_spinLoop.ogg                                |                                                                                        |
 | _bladeTrap_spinLoop2          | _sound/_creep/_bladeTrap_spinLoop2.ogg                               |                                                                                        |
-| _creepAggroNotif              | _sound/_creep/_creepAggroNotif.ogg                                   |                                                                                        |
-| _klam_bubbleBeam              | _sound/_creep/_klam_bubbleBeam.ogg                                   |                                                                                        |
+| _creepAggroNotif              | _sound/_creep/_creepAggroNotif.ogg                                   | Enemy targets the player.                                                                       || _klam_bubbleBeam              | _sound/_creep/_klam_bubbleBeam.ogg                                   |                                                                                        |
 | _klam_death_00                | _sound/_creep/_klam_death_00.ogg                                     |                                                                                        |
 | _klam_hurt_00                 | _sound/_creep/_klam_hurt_00.ogg                                      |                                                                                        |
 | _klam_hurt_01                 | _sound/_creep/_klam_hurt_01.ogg                                      |                                                                                        |
@@ -479,44 +478,44 @@ This file serves as a reference for all of the available audio clip names within
 | _mover_metalGateClose         | _sound/_moversounds/_mover_metalGateClose.ogg                        |                                                                                        |
 | _mover_metalGateLoop          | _sound/_moversounds/_mover_metalGateLoop.ogg                         |                                                                                        |
 | _mover_metalGateOpen          | _sound/_moversounds/_mover_metalGateOpen.ogg                         |                                                                                        |
-| music_whisper                 | _sound/_musics/music_whisper.ogg                                     | Post-boss song                                                                         |
-| mu_nouCove                    | _sound/_musics/mu_nouCove.ogg                                        |                                                                                        |
-| mu_select1                    | _sound/_musics/mu_select1.ogg                                        |                                                                                        |
-| mu_snatchsprings              | _sound/_musics/mu_snatchsprings.ogg                                  | Sanctum. Day song                                                                      |
-| option                        | _sound/_musics/option.ogg                                            | Character creator song                                                                 |
-| _atlyssSet_catacomb_action5   | _sound/_musics/_atlyssSet_catacomb_action5.ogg                       | Action song for Sanctum Catacombs                                                      |
-| _atlyssSet_catacomb_amb3      | _sound/_musics/_atlyssSet_catacomb_amb3.ogg                          | Ambient song for Sanctum Catacombs                                                     |
-| _atlyssSet_track01            | _sound/_musics/_atlyssSet_track01.ogg                                |                                                                                        |
-| _mu_ambCrispr                 | _sound/_musics/_mu_ambCrispr.ogg                                     | Ambient song for Crescent Grove                                                        |
-| _mu_beaver                    | _sound/_musics/_mu_beaver.ogg                                        |                                                                                        |
-| _mu_botany                    | _sound/_musics/_mu_botany.ogg                                        | Trial of the Stars. Night song                                                         |
-| _mu_cahoots                   | _sound/_musics/_mu_cahoots.ogg                                       | Slime Diva boss song in Effold Terrace                                                 |
-| _mu_calp                      | _sound/_musics/_mu_calp.ogg                                          | Trial of the Stars. Day song                                                           |
-| _mu_cane                      | _sound/_musics/_mu_cane.ogg                                          | Old Outer Sanctum Gate and Woodreach Pass. Day song                                    |
-| _mu_clave                     | _sound/_musics/_mu_clave.ogg                                         |                                                                                        |
-| _mu_discover01                | _sound/_musics/_mu_discover01.ogg                                    | Effold Terrace. Day song                                                               |
-| _mu_discover02                | _sound/_musics/_mu_discover02.ogg                                    | Outer Sanctum. Day song                                                                |
-| _mu_discover03                | _sound/_musics/_mu_discover03.ogg                                    | Outer Sanctum & Crescent Road. Night song                                              |
-| _mu_discover04                | _sound/_musics/_mu_discover04.ogg                                    | Effold Terrace Tuul Valley. Night song                                                 |
-| _mu_discover05                | _sound/_musics/_mu_discover05.ogg                                    |                                                                                        |
-| _mu_ecka                      | _sound/_musics/_mu_ecka.ogg                                          | Colossus boss song in Crescent Grove 15-20                                             |
-| _mu_encoderStrife             | _sound/_musics/_mu_encoderStrife.ogg                                 |                                                                                        |
-| _mu_flyby                     | _sound/_musics/_mu_flyby.ogg                                         | Main menu song                                                                         |
-| _mu_haven                     | _sound/_musics/_mu_haven.ogg                                         | Tuul Valley Day, and Sanctum Arena theme (available in ModAudio, but unused in Atlyss) |
-| _mu_hell01                    | _sound/_musics/_mu_hell01.ogg                                        | Executioner's Tomb theme (available in ModAudio, but unused in Atlyss)                 |
-| _mu_hell02                    | _sound/_musics/_mu_hell02.ogg                                        |                                                                                        |
-| _mu_hermit                    | _sound/_musics/_mu_hermit.ogg                                        |                                                                                        |
-| _mu_laid                      | _sound/_musics/_mu_laid.ogg                                          | Crescent Road. Day song                                                                |
-| _mu_lethargy                  | _sound/_musics/_mu_lethargy.ogg                                      |                                                                                        |
-| _mu_photo                     | _sound/_musics/_mu_photo.ogg                                         |                                                                                        |
-| _mu_sailex                    | _sound/_musics/_mu_sailex.ogg                                        |                                                                                        |
-| _mu_selee                     | _sound/_musics/_mu_selee.ogg                                         | Character selecter song                                                                |
-| _mu_snatchNight               | _sound/_musics/_mu_snatchNight.ogg                                   | Sanctum. Night song                                                                    |
-| _mu_tex01                     | _sound/_musics/_mu_tex01.ogg                                         |                                                                                        |
-| _mu_tired                     | _sound/_musics/_mu_tired.ogg                                         |                                                                                        |
-| _mu_wasp                      | _sound/_musics/_mu_wasp.ogg                                          | Geistlord boss song in Sanctum Catacombs                                               |
-| _mu_wonton                    | _sound/_musics/_mu_wonton.ogg                                        | Valdur boss song in Crescent Grove 20-25                                               |
-| _mu_wonton5                   | _sound/_musics/_mu_wonton5.ogg                                       | Action song for Crescent Grove                                                         |
+| music_whisper                 | _sound/_musics/music_whisper.ogg                                     | Dungeon boss defeated.                                       |
+| mu_nouCove                    | _sound/_musics/mu_nouCove.ogg                                        | Unused.                                                      |
+| mu_select1                    | _sound/_musics/mu_select1.ogg                                        | Unused.                                                      |
+| mu_snatchsprings              | _sound/_musics/mu_snatchsprings.ogg                                  | Sanctum (Day).                                               |
+| option                        | _sound/_musics/option.ogg                                            | Character creator.                                           |
+| _atlyssSet_catacomb_action5   | _sound/_musics/_atlyssSet_catacomb_action5.ogg                       | Sanctum Catacombs (Action).                                  |
+| _atlyssSet_catacomb_amb3      | _sound/_musics/_atlyssSet_catacomb_amb3.ogg                          | Sanctum Catacombs (Ambient).                                 |
+| _atlyssSet_track01            | _sound/_musics/_atlyssSet_track01.ogg                                | Wall of the Stars.                                           |
+| _mu_ambCrispr                 | _sound/_musics/_mu_ambCrispr.ogg                                     | Crescent Grove (Ambient).                                    |
+| _mu_beaver                    | _sound/_musics/_mu_beaver.ogg                                        | Unused.                                                      |
+| _mu_botany                    | _sound/_musics/_mu_botany.ogg                                        | Trial of the Stars (Night).                                  |
+| _mu_cahoots                   | _sound/_musics/_mu_cahoots.ogg                                       | Slime Diva boss in Effold Terrace.                           |
+| _mu_calp                      | _sound/_musics/_mu_calp.ogg                                          | Trial of the Stars (Day).                                    |
+| _mu_cane                      | _sound/_musics/_mu_cane.ogg                                          | Outer Sanctum (Day).                                         |
+| _mu_clave                     | _sound/_musics/_mu_clave.ogg                                         | Tuul Enclave.                                                |
+| _mu_discover01                | _sound/_musics/_mu_discover01.ogg                                    | Effold Terrace.                                              |
+| _mu_discover02                | _sound/_musics/_mu_discover02.ogg                                    | Arcwood Pass (Day).                                          |
+| _mu_discover03                | _sound/_musics/_mu_discover03.ogg                                    | Arcwood Pass & Crescent Keep (Night).                        |
+| _mu_discover04                | _sound/_musics/_mu_discover04.ogg                                    | Unused.                                                      |
+| _mu_discover05                | _sound/_musics/_mu_discover05.ogg                                    | Unused.                                                      |
+| _mu_ecka                      | _sound/_musics/_mu_ecka.ogg                                          | Colossus boss in Crescent Grove 15-20.                       |
+| _mu_encoderStrife             | _sound/_musics/_mu_encoderStrife.ogg                                 | Bularr Fortress.                                             |
+| _mu_flyby                     | _sound/_musics/_mu_flyby.ogg                                         | Main menu.                                                   |
+| _mu_haven                     | _sound/_musics/_mu_haven.ogg                                         | Tuul Valley, Sanctum Arena. (Available in ModAudio, but unused in-game.).                                                 |
+| _mu_hell01                    | _sound/_musics/_mu_hell01.ogg                                        | Executioner's Tomb. (Available in ModAudio. Unused in-game.) |
+| _mu_hell02                    | _sound/_musics/_mu_hell02.ogg                                        | Unused.                                                      |
+| _mu_hermit                    | _sound/_musics/_mu_hermit.ogg                                        | Galius boss in Bularr Fortress.                              |
+| _mu_laid                      | _sound/_musics/_mu_laid.ogg                                          | Crescent Keep (Day).                                         |
+| _mu_lethargy                  | _sound/_musics/_mu_lethargy.ogg                                      | Unused.                                                      |
+| _mu_photo                     | _sound/_musics/_mu_photo.ogg                                         | Outer Sanctum (Night).                                       |
+| _mu_sailex                    | _sound/_musics/_mu_sailex.ogg                                        | Unused.                                                      |
+| _mu_selee                     | _sound/_musics/_mu_selee.ogg                                         | Character selecter.                                          |
+| _mu_snatchNight               | _sound/_musics/_mu_snatchNight.ogg                                   | Sanctum (Night).                                             |
+| _mu_tex01                     | _sound/_musics/_mu_tex01.ogg                                         | Unused.                                                      |
+| _mu_tired                     | _sound/_musics/_mu_tired.ogg                                         | Unused.                                                      |
+| _mu_wasp                      | _sound/_musics/_mu_wasp.ogg                                          | Geistlord boss in Sanctum Catacombs.                         |
+| _mu_wonton                    | _sound/_musics/_mu_wonton.ogg                                        | Valdur boss in Crescent Grove 20-25.                         |
+| _mu_wonton5                   | _sound/_musics/_mu_wonton5.ogg                                       | Crescent Grove (Action).                                     |
 | _byrdleTalk01                 | _sound/_voice/_player/_byrdle/_byrdleTalk01.ogg                      | Byrdle voiceline #1                                                                    |
 | _byrdleTalk02                 | _sound/_voice/_player/_byrdle/_byrdleTalk02.ogg                      | Byrdle voiceline #2                                                                    |
 | _byrdleTalk03                 | _sound/_voice/_player/_byrdle/_byrdleTalk03.ogg                      | Byrdle voiceline #3                                                                    |
