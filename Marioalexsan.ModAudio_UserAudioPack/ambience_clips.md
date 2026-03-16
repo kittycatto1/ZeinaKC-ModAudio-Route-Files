@@ -4,6 +4,7 @@ This file serves as a reference for all of the available ambience clip names wit
 
 | Name                          | Path                                 | Description                                                                                                       |
 | ----------------------------- | ------------------------------------ | ----------------------------------------------------------------------------------------------------------------- |
+| amb_autum1                    | _sound/_ambience/amb_autum1.ogg      | Gate of the Moon.                                                                                                 |
 | _ambBla                       | _sound/_ambience/_ambBla.ogg         | Sanctum Catacombs.                                                                                                |
 | _ambCave01                    | _sound/_ambience/_ambCave01.ogg      | Arcwood Pass.                                                                                                     |
 | _ambCave02                    | _sound/_ambience/_ambCave02.ogg      | Sanctum, Arcwood Pass (X2), Sanctum Catacombs (X2), Crescent Road, Crescent Grove (X2).                           |
