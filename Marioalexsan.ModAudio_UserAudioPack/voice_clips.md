@@ -68,7 +68,6 @@ This file serves as a reference for all of the available voice clip names within
 | _changTalk02  | _sound/_voice/_player/_chang/_changTalk02.ogg                        | Chang voiceline #2 (Unused.)                                                                                              |
 | _changTalk03  | _sound/_voice/_player/_chang/_changTalk03.ogg                        | Chang voiceline #3                                                                                                        |
 | _changTalk04  | _sound/_voice/_player/_chang/_changTalk04.ogg                        | Chang voiceline #4                                                                                                        |
-| vc_typewriter | _sound/dialogsounds/dialog_voices/voice_typewriter/vc_typewriter.ogg | Unknown/Unused.                                                                                                           |
 | vc_randy1     | _sound/dialogsounds/dialog_voices/voice_randytest/vc_randy1.ogg      | RandyTest voiceline #1 (Unused.)                                                                                          |
 | vc_randy2     | _sound/dialogsounds/dialog_voices/voice_randytest/vc_randy2.ogg      | RandyTest voiceline #2 (Unused.)                                                                                          |
 | vc_randy3     | _sound/dialogsounds/dialog_voices/voice_randytest/vc_randy3.ogg      | RandyTest voiceline #3 (Unused.)                                                                                          |
@@ -80,4 +79,5 @@ This file serves as a reference for all of the available voice clip names within
 | vc_suki5      | _sound/dialogsounds/dialog_voices/voice_sukinipps/vc_suki5.ogg       | Suki voiceline #5 (Unused.)                                                                                               |
 | vc_suki6      | _sound/dialogsounds/dialog_voices/voice_sukinipps/vc_suki6.ogg       | Suki voiceline #6 (Unused.)                                                                                               |
 | vc_suki7      | _sound/dialogsounds/dialog_voices/voice_sukinipps/vc_suki7.ogg       | Suki voiceline #7 (Unused.)                                                                                               |
+| vc_typewriter | _sound/dialogsounds/dialog_voices/voice_typewriter/vc_typewriter.ogg | Unknown/Unused.                                                                                                           |
 | Name          | Path                                                                 | Description                                                                                                               |
