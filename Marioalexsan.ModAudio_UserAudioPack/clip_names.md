@@ -3,6 +3,7 @@ This file serves as a reference for all of the available audio clip names within
 - Volume/Pitch notes:
   - If Volume or Pitch isn't stated, the value is 1.0
   - All Music
+  
 | Name                          | Path                                                                 | Description                                                                                                                                                                                                                                                                        |
 | ----------------------------- | -------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | angela_aura                   | _sound/angela_aura.ogg                                               | Angela's special spinning animation. [V:0.45]                                                                                                                                                                                                                                      |
