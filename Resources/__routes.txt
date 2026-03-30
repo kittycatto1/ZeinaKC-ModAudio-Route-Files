@@ -1,0 +1,6 @@
+# ===== Metadata ===== #
+%id               AudioPack_Identifier
+%displayname      AudioPack_EasySettings_Name
+%enabledbydefault true
+%updatescript     pack_update
+# ===== Metadata ===== #
