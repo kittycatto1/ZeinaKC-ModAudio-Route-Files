@@ -1,0 +1,74 @@
+# ===== Subregion Scripts ===== #
+modaudio_atlyss_map_arcwoodpass_day | modaudio_atlyss_map_arcwoodpass_night \ # Selecting both Arcwood Passes for uniform compatibility.
+  = | ___default___                  : 1.0 : 1.0 : 1.0 : Arcwood_Pass       \ # Replacing the tracks with their original music. "Arcwood_Pass", "Church", and "Sanctum_Catacombs" are from the script, do not touch them.
+    | <game>music_whisper            : 1.0 : 1.0 : 1.0 : Church             \ # Replacing "Chapel of the Elders" music with "music_whisper" through referencing with "<game>".
+    | <game>_atlyssSet_catacomb_amb3 : 1.0 : 1.0 : 1.0 : Sanctum_Catacombs  \ # Doing the same but to the overworld "Sanctum Catacombs" using its dungeon counterpart's ambient music.
+  ~ | tg_lua      : target_group_ArcwoodPass                                \ # Selecting function from the script file.
+    | fl          : true                                                    \ # Forcefully looping everything in this section.
+    | fp          : true                                                    \ # Forcefully playing the dynamic subregion music even if the source is stopped.
+    | tg_dyn      : true                                                    \ # Enables scripts to update audio dynamically.
+    | tg_smooth   : true                                                    \ # Smoothens dynamic targeting.
+    | rel_repl_fx : true                                                    \ # Keeping the replacement Volume & Pitch relative instead of absolute.
+    | chain       : false                                                     # EoF. I won't repeat myself on everything, so refer to this block from now on.
+
+modaudio_atlyss_map_crescentroad_day                     \
+  = | <game>_mu_laid   : 1.0 : 1.0 : 1.0 : Crescent_Road \
+    | <game>mu_nouCove : 1.0 : 1.0 : 1.0 : Crescent_Cove \
+  ~ | tg_lua      : target_group_CrescentRoad            \
+    | fp          : true                                 \
+    | tg_dyn      : true                                 \
+    | tg_smooth   : true                                 \
+    | rel_repl_fx : true                                 \
+    | chain       : false                                  # EoF.
+
+modaudio_atlyss_map_crescentroad_night                       \
+  = | <game>_mu_discover03 : 1.0 : 1.0 : 1.0 : Crescent_Road \
+    | <game>mu_nouCove     : 1.0 : 1.0 : 1.0 : Crescent_Cove \
+  ~ | tg_lua      : target_group_CrescentRoad                \
+    | fp          : true                                     \
+    | tg_dyn      : true                                     \
+    | tg_smooth   : true                                     \
+    | rel_repl_fx : true                                     \
+    | chain       : false                                      # EoF.
+
+modaudio_atlyss_map_crescentkeep_day | modaudio_atlyss_map_crescentkeep_night \
+  = | ___default___       : 1.0 : 1.0 : 1.0 : Crescent_Keep  \
+    | <game>_mu_ambCrispr : 1.0 : 1.0 : 1.0 : Crescent_Grove \
+  ~ | tg_lua      : target_group_CrescentKeep                \
+    | fl          : true                                     \
+    | fp          : true                                     \
+    | tg_dyn      : true                                     \
+    | tg_smooth   : true                                     \
+    | rel_repl_fx : true                                     \
+    | chain       : false                                      # EoF.
+
+modaudio_atlyss_map_bularrfortress_null                   \
+  = | ___default___   : 1.0 : 1.0 : 1.0 : Bularr_Fortress \
+    | <game>_mu_tired : 1.0 : 1.0 : 1.0 : Ammagon_Hut     \
+  ~ | tg_lua      : target_group_BularrFortress           \
+    | fp          : true                                  \
+    | tg_dyn      : true                                  \
+    | tg_smooth   : true                                  \
+    | rel_repl_fx : true                                  \
+    | chain       : false                                   # EoF.
+	
+modaudio_atlyss_map_gateofthemoon_day                         \
+  = | <game>_mu_beaver   : 1.0 : 1.0 : 1.0 : Gate_of_the_Moon \
+    | <game>_mu_lethargy : 1.0 : 1.0 : 1.0 : Redwoud          \
+  ~ | tg_lua      : target_group_GotM                         \
+    | fp          : true                                      \
+    | tg_dyn      : true                                      \
+    | tg_smooth   : true                                      \
+    | rel_repl_fx : true                                      \
+    | chain       : false                                       # EoF.
+
+modaudio_atlyss_map_gateofthemoon_night                         \
+  = | <game>_mu_discover05 : 1.0 : 1.0 : 1.0 : Gate_of_the_Moon \
+    | <game>_mu_lethargy   : 1.0 : 1.0 : 1.0 : Redwoud          \
+  ~ | tg_lua      : target_group_GotM                           \
+    | fp          : true                                        \
+    | tg_dyn      : true                                        \
+    | tg_smooth   : true                                        \
+    | rel_repl_fx : true                                        \
+    | chain       : false                                         # EoF.
+# ===== Subregion Scripts ===== #
