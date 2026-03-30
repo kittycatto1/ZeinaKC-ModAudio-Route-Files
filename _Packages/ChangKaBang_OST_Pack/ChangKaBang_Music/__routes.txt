@@ -5,20 +5,20 @@
 # ===== Metadata ===== #
 
 # ===== Music ===== #
-_mu_selee        = Nudo_Select ~ relative_replacement_effects : false # Character Selector.
-option           = Jibiis      ~ relative_replacement_effects : false # Character Creator.
+_mu_selee = Nudo_Select ~ rel_repl_fx : false # Character Selector.
+option    = Jibiis      ~ rel_repl_fx : false # Character Creator.
 
-mu_snatchsprings = Eel_Whiskey_Day   ~ relative_replacement_effects : false | force_loop : true # Sanctum (Day).
-_mu_snatchNight  = Eel_Whiskey_Night ~ relative_replacement_effects : false | force_loop : true # Sanctum (Night).
-_mu_cane         = One_State_Drive   ~ relative_replacement_effects : false                     # Outer Sanctum (Day).
-_mu_calp         = Eel_Brandy        ~ relative_replacement_effects : false                     # Trial of the Stars (Day).
-_mu_botany       = Bad_Beat          ~ relative_replacement_effects : false                     # Trial of the Stars (Night).
+modaudio_atlyss_map_sanctum_day           = Eel_Whiskey_Day   ~ rel_repl_fx : false | fl : true
+modaudio_atlyss_map_sanctum_night         = Eel_Whiskey_Night ~ rel_repl_fx : false | fl : true
+modaudio_atlyss_map_outersanctum_day      = One_State_Drive   ~ rel_repl_fx : false
+modaudio_atlyss_map_trialofthestars_day   = Eel_Brandy        ~ rel_repl_fx : false
+modaudio_atlyss_map_trialofthestars_night = Bad_Beat          ~ rel_repl_fx : false
+modaudio_atlyss_map_sanctumarena_null     = Eel_Vodka         ~ rel_repl_fx : false | fl : true
 
-_mu_cahoots      = Madlad       ~ relative_replacement_effects : false | force_loop : true # Slime Diva.
-_mu_wasp         = New_Ark      ~ relative_replacement_effects : false                     # Geistlords.
-_mu_ecka         = Belguinahole ~ relative_replacement_effects : false                     # Colossus.
-_mu_wonton       = Frank_Killer ~ relative_replacement_effects : false                     # Valdur.
-_mu_hermit       = Hairy_Guedes ~ relative_replacement_effects : false                     # Galius.
-music_whisper    = Result       ~ relative_replacement_effects : false                     # Dungeon boss defeated.
-_mu_haven        = Eel_Vodka    ~ relative_replacement_effects : false | force_loop : true # Tuul Valley and Sanctum Arena. Note to self: Needs an update later to make exclusive to Arena.
+_mu_cahoots      = Madlad       ~ rel_repl_fx : false | fl : true # Slime Diva.
+_mu_wasp         = New_Ark      ~ rel_repl_fx : false             # Geistlords.
+_mu_ecka         = Belguinahole ~ rel_repl_fx : false             # Colossus.
+_mu_wonton       = Frank_Killer ~ rel_repl_fx : false             # Valdur.
+_mu_hermit       = Hairy_Guedes ~ rel_repl_fx : false             # Galius.
+music_whisper    = Result       ~ rel_repl_fx : false             # Dungeon boss defeated.
 # ===== Music ===== #

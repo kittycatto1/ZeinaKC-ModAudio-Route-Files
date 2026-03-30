@@ -1,0 +1,6 @@
+# ===== References ===== #
+# modaudio_atlyss_map_{map_name}_{day/night/action/null}
+# <game>target_clip = Vanilla clips.
+# fl = force_loop
+# rel_repl_fx = relative_replacement_effects
+# ===== References ===== #
