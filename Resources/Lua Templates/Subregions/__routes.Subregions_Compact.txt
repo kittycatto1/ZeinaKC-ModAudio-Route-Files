@@ -1,0 +1,96 @@
+# ===== Subregion Scripts ===== #
+modaudio_atlyss_map_arcwoodpass_day                       \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Arcwood_Pass      \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Church            \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Sanctum_Catacombs \
+  ~ | tg_lua      : target_group_ArcwoodPass              \
+    | fl          : true                                  \
+    | fp          : true                                  \
+    | tg_dyn      : true                                  \
+    | tg_smooth   : true                                  \
+    | rel_repl_fx : true                                  \
+    | chain       : false
+
+modaudio_atlyss_map_arcwoodpass_night                     \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Arcwood_Pass      \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Church            \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Sanctum_Catacombs \
+  ~ | tg_lua      : target_group_ArcwoodPass              \
+    | fl          : true                                  \
+    | fp          : true                                  \
+    | tg_dyn      : true                                  \
+    | tg_smooth   : true                                  \
+    | rel_repl_fx : true                                  \
+    | chain       : false
+
+modaudio_map_crescentroad_day                         \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Crescent_Road \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Crescent_Cove \
+  ~ | tg_lua      : target_group_CrescentRoad         \
+    | fp          : true                              \
+    | tg_dyn      : true                              \
+    | tg_smooth   : true                              \
+    | rel_repl_fx : true                              \
+    | chain       : false
+
+modaudio_map_crescentroad_night                       \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Crescent_Road \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Crescent_Cove \
+  ~ | tg_lua      : target_group_CrescentRoad         \
+    | fp          : true                              \
+    | tg_dyn      : true                              \
+    | tg_smooth   : true                              \
+    | rel_repl_fx : true                              \
+    | chain       : false
+
+modaudio_map_crescentkeep_day                          \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Crescent_Keep  \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Crescent_Grove \
+  ~ | tg_lua : target_group_CrescentKeep               \
+    | fp          : true                               \
+    | tg_dyn      : true                               \
+    | tg_smooth   : true                               \
+    | rel_repl_fx : true                               \
+    | chain       : false
+
+modaudio_map_crescentkeep_night                        \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Crescent_Keep  \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Crescent_Grove \
+  ~ | tg_lua      : target_group_CrescentKeep          \
+    | fl          : true                               \
+    | fp          : true                               \
+    | tg_dyn      : true                               \
+    | tg_smooth   : true                               \
+    | rel_repl_fx : true                               \
+    | chain       : false
+
+modaudio_map_bularrfortreses_null                       \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Bularr_Fortress \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Ammagon_Hut     \
+  ~ | tg_lua      : target_group_BularrFortress         \
+    | fp          : true                                \
+    | tg_dyn      : true                                \
+    | tg_smooth   : true                                \
+    | rel_repl_fx : true                                \
+    | chain       : false
+	
+modaudio_map_gateofthemoon_day                           \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Gate_of_the_Moon \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Redwoud          \
+  ~ | tg_lua      : target_group_GotM                    \
+    | fp          : true                                 \
+    | tg_dyn      : true                                 \
+    | tg_smooth   : true                                 \
+    | rel_repl_fx : true                                 \
+    | chain       : false
+
+modaudio_map_gateofthemoon_night                         \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Gate_of_the_Moon \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Redwoud          \
+  ~ | tg_lua      : target_group_GotM                    \
+    | fp          : true                                 \
+    | tg_dyn      : true                                 \
+    | tg_smooth   : true                                 \
+    | rel_repl_fx : true                                 \
+    | chain       : false
+# ===== Subregion Scripts ===== #

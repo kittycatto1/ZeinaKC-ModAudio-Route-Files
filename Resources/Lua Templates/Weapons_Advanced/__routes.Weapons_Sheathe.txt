@@ -1,0 +1,10 @@
+# ===== Metadata ===== #
+%updatescript pack_update
+# ===== Metadata ===== #
+
+# ===== Weapon Sheathe SFXs ===== #
+_weaponPutAway01                                        \
+ = | <atlyss>_heavySheath : 1.0 : 1.0 : 1.0 : FryingPan \
+   | ___default___        : 1.0 : 1.0 : 1.0 : default   \
+ ~ | target_group_script  : target_group_WeaponSheathe
+# ===== Weapon Sheathe SFXs ===== #

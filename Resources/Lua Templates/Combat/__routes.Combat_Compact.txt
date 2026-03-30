@@ -1,0 +1,74 @@
+# ===== Metadata ===== #
+%updatescript pack_update
+# ===== Metadata ===== #
+
+# ===== Combat Scripts ===== #
+modaudio_atlyss_map_outersanctum_action | modaudio_atlyss_map_tuulvalley_action | modaudio_atlyss_map_tuulenclave_action | modaudio_atlyss_map_crescentroad_action \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Regular_Combat \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Elite_Combat   \
+    | ___default___ : 1.0 : 1.0 : 1.0 : PVP_Combat     \
+  ~ | tg_lua      : target_group_ActionMusic           \
+    | fp          : true                               \
+    | tg_dyn      : true                               \
+    | tg_smooth   : true                               \
+    | rel_repl_fx : true                               \
+    | chain       : true
+
+modaudio_atlyss_map_arcwoodpass_action | modaudio_atlyss_map_luvoragarden_action | modaudio_atlyss_map_crescentkeep_action | modaudio_atlyss_map_gateofthemoon_action \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Regular_Combat \
+    | ___default___ : 1.0 : 1.0 : 1.0 : PVP_Combat     \
+  ~ | tg_lua : target_group_ActionMusicRegular         \
+    | fp          : true                               \
+    | tg_dyn      : true                               \
+    | tg_smooth   : true                               \
+    | rel_repl_fx : true                               \
+    | chain       : true
+
+modaudio_atlyss_map_sanctumarena_action | modaudio_atlyss_map_executionerstomb_action | modaudio_atlyss_map_sanctumcatacombs_action | modaudio_atlyss_map_crescentgrove_action | modaudio_atlyss_map_trialofthestars_action \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : PVP_Combat \
+  ~ | tg_lua : target_group_ActionMusicPVP         \
+    | fp          : true                           \
+    | tg_dyn      : true                           \
+    | tg_smooth   : true                           \
+    | rel_repl_fx : true                           \
+    | chain       : true
+# ===== Combat Scripts ===== #
+
+# ===== Boss Scripts ===== #
+_mu_cahoots | _mu_hermit                                \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Regular_Combat  \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Elite_Combat    \
+    | ___default___ : 1.0 : 1.0 : 1.0 : PVP_Combat      \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Miniboss_Combat \
+  ~ | tg_lua : target_group_ActionMusicMiniboss         \
+    | fl          : true                                \
+    | fp          : true                                \
+    | tg_dyn      : true                                \
+    | tg_smooth   : true                                \
+    | rel_repl_fx : true                                \
+    | chain       : true
+
+_mu_cahoots                                             \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Regular_Combat  \
+    | ___default___ : 1.0 : 1.0 : 1.0 : PVP_Combat      \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Miniboss_Combat \
+  ~ | tg_lua      : target_group_ActionMusicCahoots     \
+    | fl          : true                                \
+    | fp          : true                                \
+    | tg_dyn      : true                                \
+    | tg_smooth   : true                                \
+    | rel_repl_fx : true                                \
+    | chain       : true
+
+_mu_hermit                                              \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Regular_Combat  \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Elite_Combat    \
+    | ___default___ : 1.0 : 1.0 : 1.0 : PVP_Combat      \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Miniboss_Combat \
+  ~ | tg_lua      : target_group_ActionMusicHermit      \
+    | fp          : true                                \
+    | tg_dyn      : true                                \
+    | tg_smooth   : true                                \
+    | rel_repl_fx : true                                \
+    | chain       : true
+# ===== Boss Scripts ===== #

@@ -1,0 +1,16 @@
+# ===== Metadata ===== #
+%updatescript pack_update
+# ===== Metadata ===== #
+
+# ===== Weapon Scripts ===== #
+weaponHit_Normal(light)   | weaponHit_Normal(average) | weaponHit_Normal(heavy) \
+| weaponHit_Fire(light)   | weaponHit_Fire(average)   | weaponHit_Fire(heavy)   \
+| weaponHit_Water(light)  | weaponHit_Water(average)  | weaponHit_Water(heavy)  \
+| weaponHit_Air(light     | weaponHit_Air(average)    | weaponHit_Air(heavy)    \
+| weaponHit_Earth(light)  | weaponHit_Earth(average)  | weaponHit_Earth(height) \
+| weaponHit_Holy(light)   | weaponHit_Holy(average)   | weaponHit_Holy(heavy)   \
+| weaponHit_Shadow(light) | weaponHit_Shadow(average) | weaponHit_Shadow(heavy) \
+  = | <game>weaponHit_Normal(heavy) : 1.0 : 1.0 : 1.0 : FryingPan \
+    | ___default___                 : 1.0 : 1.0 : 1.0 : default   \
+  ~ | target_group_script : target_group_weapon
+# ===== Weapon Scripts ===== #

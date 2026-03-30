@@ -1,0 +1,10 @@
+# ===== Metadata ===== #
+%updatescript pack_update
+# ===== Metadata ===== #
+
+# ===== Weapon Charge SFXs ===== #
+_weaponCharge                                               \
+  = | <atlyss>_heavySheath_02 : 1.0 : 1.0 : 1.0 : FryingPan \
+    | ___default___           : 1.0 : 1.0  : 1.0  : default \
+  ~ | target_group_script     : target_group_WeaponCharge
+# ===== Weapon Charge SFXs ===== #
