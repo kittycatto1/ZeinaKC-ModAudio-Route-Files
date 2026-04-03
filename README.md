@@ -16,3 +16,8 @@ Work in progress projects are put on the Submissive branch.\
 - **RockOn** ([Thunderstore](https://thunderstore.io/c/atlyss/p/RockOn/))
 - **Miss Monster** ([Thunderstore](https://thunderstore.io/c/atlyss/p/MissMonster/))
 - **Vale**
+
+Other indirect contributors includes
+- **Zera** for the Subregion script ([Thunderstore](https://thunderstore.io/c/atlyss/p/ZenFishes/) [Github](https://github.com/LefiloMandering/))
+- **Kiruex** for the difficulty script ([Thunderstore](https://thunderstore.io/c/atlyss/p/TZH/))
+- **Stoingularity** for the weapons script ([Thunderstore](https://thunderstore.io/c/atlyss/p/Stoingularity/))

@@ -4,6 +4,7 @@ _atlyssSet_catacomb_amb3                            \
     | ___default___ : 1.0 : 1.0 : 1.0 : Normal      \
     | ___default___ : 1.0 : 1.0 : 1.0 : Hard        \
   ~ | target_group_script : target_group_Difficulty \
+    | enable_dynamic_targeting : true               \
     | chain_route : false
 
 _atlyssSet_catacomb_action5                         \
@@ -11,17 +12,20 @@ _atlyssSet_catacomb_action5                         \
     | ___default___ : 1.0 : 1.0 : 1.0 : Normal      \
     | ___default___ : 1.0 : 1.0 : 1.0 : Hard        \
   ~ | target_group_script : target_group_Difficulty \
+    | enable_dynamic_targeting : true               \
     | chain_route : false
 
 _mu_ambCrispr                                       \
   = | ___default___ : 1.0 : 1.0 : 1.0 : Normal      \
     | ___default___ : 1.0 : 1.0 : 1.0 : Hard        \
   ~ | target_group_script : target_group_Difficulty \
+    | enable_dynamic_targeting : true               \
     | chain_route : false
 
 _mu_wonton5                                         \
   = | ___default___ : 1.0 : 1.0 : 1.0 : Normal      \
     | ___default___ : 1.0 : 1.0 : 1.0 : Hard        \
   ~ | target_group_script : target_group_Difficulty \
+    | enable_dynamic_targeting : true               \
     | chain_route : false
 # ===== Dungeon Scripts ===== #

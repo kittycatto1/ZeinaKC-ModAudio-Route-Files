@@ -117,7 +117,7 @@ function p.pack_update()
 end
 
 function p.target_group_ActionMusic(route)
-  if combatType == "inPvp" then
+  if inPvp then
     route.targetGroup = "PVP_Combat"
   elseif combatType == "Elite" then
     route.targetGroup = "Elite_Combat"
@@ -127,7 +127,7 @@ function p.target_group_ActionMusic(route)
 end
 
 function p.target_group_ActionMusicRegular(route)
-  if combatType == "inPvp" then
+  if inPvp then
     route.targetGroup = "PVP_Combat"
   else
     route.targetGroup = "Regular_Combat"
@@ -135,7 +135,7 @@ function p.target_group_ActionMusicRegular(route)
 end
 
 function p.target_group_ActionMusicPVP(route)
-  if combatType == "inPvp" then
+  if inPvp then
     route.targetGroup = "PVP_Combat"
   else
     route.skipRoute = true
@@ -145,7 +145,7 @@ end
 function p.target_group_ActionMusicCahoots(route)
   if combatType == "Miniboss" then
     route.targetGroup = "Miniboss_Combat"
-  elseif combatType == "inPvp" then
+  elseif inPvp then
     route.targetGroup = "PVP_Combat"
   else
     route.targetGroup = "Regular_Combat"
@@ -155,7 +155,7 @@ end
 function p.target_group_ActionMusicHermit(route)
   if combatType == "Miniboss" then
     route.targetGroup = "Miniboss_Combat"
-  elseif combatType == "inPvp" then
+  elseif inPvp then
     route.targetGroup = "PVP_Combat"
   elseif combatType == "Elite" then
     route.targetGroup = "Elite_Combat"
@@ -167,7 +167,7 @@ end
 function p.target_group_ActionMusicMiniboss(route)
   if combatType == "Miniboss" then
     route.targetGroup = "Miniboss_Combat"
-  elseif combatType == "inPvp" then
+  elseif inPvp then
     route.targetGroup = "PVP_Combat"
   elseif combatType == "Elite" then
     route.targetGroup = "Elite_Combat"
