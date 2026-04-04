@@ -1,0 +1,31 @@
+# ===== Ambience ===== #
+_ambGlyph01     = ___default___
+_ambCoast       = ___default___
+_ambClave       = ___default___
+amb_autum1      = ___default___
+_ambFrst02      = ___default___
+_ambFrst01      = ___default___
+_ambOutside02   = ___default___
+_ambOutside01   = ___default___
+_ambFrst03      = ___default___
+_ambCricket01   = ___default___
+_ambCuckoo      = ___default___
+_ambFire01      = ___default___
+_ambWind01      = ___default___
+_ambWind07      = ___default___
+_ambWind04      = ___default___
+_ambWind05      = ___default___
+_ambWind02      = ___default___
+_ambWind03      = ___default___
+_ambWindChime01 = ___default___
+_ambWatfall     = ___default___
+_ambWaterfall01 = ___default___
+_ambWater01     = ___default___
+_ambBla         = ___default___
+_ambWater02     = ___default___
+_ambCave02      = ___default___
+_ambCave01      = ___default___
+_ambWat_cave    = ___default___
+_amb_jungle02   = ___default___
+_amb_jungle00   = ___default___
+# ===== Ambience ===== #

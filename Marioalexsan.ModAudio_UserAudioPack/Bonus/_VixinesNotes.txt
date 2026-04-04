@@ -1,0 +1,249 @@
+Sound notes [Use the README for copying the audio file names]
+
+Cast octane used for pierce arrow sounds! Also for bandit imbue
+Slimediva_titbullet - Used for poison bow skill
+Cast flame burst is used for fire spell, and all attacks on fire staff
+Cast mystic spell is for dash and some other mystic spells
+Cast_00 - Zuuls 3 ball spell atk
+Cast_01 - Zuuls spin diamond atk
+Cast_03 - Zuuls beam prep
+Chime03/04 - Angelas footsteps
+AngelaAura - WHen she spins and refresh
+Playerport - When player teleports in an area via teleporters, also when the appear after invis
+Roostersft - When it turns day (Max 30 seconds without sound overlays)
+WolfHowl - When it turns night (Max 30 seconds without sound overlays)
+WeapongOverheat - Turning invisible
+Bobby vox for the chest character
+glassbreak - when you unlock teleporter
+novaskillinit1 - for stomp sound effect
+Playerjiggle2 - Sit sound
+PoonBounce2 - bandit jump ability
+Swing04 - bandit jump dash / triple jump
+intro noise - all 3 is angela speaking to you on character creation
+expression surprise - Startling Angela
+slap - when angela slaps you away, player knocked back
+small clap - ass spanking
+clap01 - when you clap emote
+HeavyInit1/2 - Prepare to swing hammer
+exp pickup f - Use exp books
+attribute glyph - when you got your attributes attuned, use a skill scroll
+creep aggro notif - when enemy spot you
+homerun hit - Shieldbash hit
+prism skill init01 - Cast prism skill
+prism skill loop - prism while active
+absorb - when prism absorbs blows
+castchannelshadow2 - when casting summon leech
+wickhitlvl1 - when leech hits?
+summoncollide - when leech projectile fires?
+weapon hit shadow average - when leech hits
+cast mystic spell for fluxbolt
+satch explode for fluxbolt exploding too?
+_healconsumable - for all consumables?
+guard block - when guard is up
+block hit - when guard is hit
+block break - when guard breaks/broken
+cop_turretcharge - when turret charges it's laser atk
+cast05 for blue minchroom staff
+_electric01 - for wizboar staff weapon
+book handled - when selecting a quest
+_swingheavy - when player throws rock
+breakbox1 - break vase
+dungeon lock open - when you unlock door
+gate door 3 - when door opens
+gate door 1 - when door opens
+gate vertical message 9 - when lever is used?
+seed pickup - pick up dungeon key
+player port - when player teleports anywhere?
+spell channecl vector 1 - recall loop
+amb fire 1 - campfire sound
+dungeon floor switch pressed - dungeon pressure plate
+portal interact - interacting with those warp portals between zones
+_thud01 - when player falls onto ground dead
+buy item - when you buy something from shop
+open shop - when shop menu appears
+buff resolute - jingle when player levels up?
+weapon staff aoe autumn - bell aoe jingle/explode
+weapon staff atk autumn - bell swing jingle
+satch explode lv 2 - bell explode also
+hampter login - bring up text box
+Sturdy - Uses channel earth for casting spell I bet then cast earth when in use. What is beep though? Spell learn channel?
+spike panel init - when spike trap is on
+spike panel close - when spike trap is off
+spawn03 - when player loads on screen in select screen
+weapon pickup - when cannon boar preps to fire
+bombkick - parry sound
+push block stop - crescent door open end
+weapon hit holy heavy - crescent door open start
+stump vomit - When stump enemy vomits projectiles
+stump proj ball - When each vomit ball comes out [BLIGHTWOOD ONLY]
+stump death - when stump enemy does the stomp attack
+stump hurt 2 - when stump enemy takes damage
+stump death 2 - when stump enemy dies
+stump hurt 1 - For the colossus charge attack when he smacks you
+pig charge attack 3 - when wizboar casts wizard attack
+minchrooms use geist attack 02 for their dash attack
+minchrooms use slime diva tit bullet as their prep attack
+snd summon angel - when you use restora/carbuncles casting spells
+water pillar init - when you use rerstora
+weapon hit water heavy - when each ice needle gets spawned
+cast water - when icy needle is being cast
+glassbreak02 - when icicles break
+spell channel fire - when casting fireball
+fluxspear01 - when fluxspear is cast
+item object spawn - when sally gets her broom out
+party init 01 - when you join a party
+party invite SFX - when invited to join a party
+item object spawn - When an item spawns
+item object pick up - When an item spawns
+ui_ weapon quick switch - when switching weapons with Q
+item object pick up 2 - when the player picks up an item
+ghost boss uses float skull hit for taking damage
+_equip01 - Putting weapons on player in inventory
+_equip02 - Taking weapons off player in inventory
+weapon put away 01 - for putting weapons away
+_weapon charge - for charging weapon attacks
+_polearm take out 01 - pulling out polearm weapons
+_polearm swings use polearm swing 03
+bow_take out - pulling out bow weapons
+bow_fire 01 - shooting bow weapons
+_medium sheath - pulling out sword weapons
+_ swing medium - swinging sword weapons
+_heavy sheath - pulling out heavy weapons
+_heavy init 02 - Wind up to swinging heavy weapons
+_swing heavy - swinging heavy weapons
+_light sheath - pulling out katar weapons
+_swing light - swinging katar weapons
+_swing03 - Katars charge atk
+_take out bell 3 - pulling out bell weapons
+bell swing 4 - swinging bells
+weapon_staffaoe(autumn) - aoe charge attack of regular bells
+debuff freeze - when casting Zuuls spinning diamond attack
+cast loop 0 - when Zuuls orb attack projectile lingers
+weapon_scepter sheath - pulling out scepter weapons
+_spin scepter - swinging scepter weapons [Does it twice quickly before firing]
+_scepter charge weak - charging the scepters charge attack
+_scepter charge - charging the bell's charge attack
+_lungepower - For lunge attacks
+channel earth spell - for charging spire, sturdy,
+cast earth - castping spire, sturdy,
+rock_impact - each time a spire comes out [Plays a lot!],
+spell learn channel - Loop for when you are sturdy?
+cast shadow 2 - charging siphon leech [Bug from game where sometimes this is replaces other cast loop sounds like recall]
+summoncollide - When firing siphon leech, each time maw/mouth poison projectile bounce, charge dark scepter attack
+summonSelect - When shooting dark scepters like the marrow bauble
+wickhitlv1 - When siphon leech lands on a target
+spell channel vector 1 - charging recall
+spell channel vector 2 - charging divine
+_cast_holy - casting divine/recovery
+_res shring loop - while divine is active
+_lexicon bell - casting divine, pitched super low!
+unlearn sfx - when you reset your skills/stats using the tombs
+ui input 2 - Press + in skills/stats allocation,
+meleeskillloop - while charging lethal strike
+_meele skill charge [Typo intentional] - when lethal strike is ready to cast
+_effect_demon01 - for casting lethal strike / blood gush, Ghost boss breaks free
+cannonbug_beginMove - casting cyclone
+cannonbug_cannonShot - When volley spell fires
+cannonbug_chargeShot - When Colossus does a slam attack
+cannonbug_frontalAttack - when ghost boss dies, cyclone returns to player
+cannonbug_spin - casting cyclone
+volleyloop3 - when volley is raining arrows
+item entry place 01 - inventory when grabbing an item
+item entry place 02 - inventory when placing an item
+item object_pickup - when swapping between storage tabs
+_uigametabmenu - When opening tab menu
+_uigametabmenuClose - When closing tab menu
+item object_pickup - when an item drops
+item object_spawn - when an item drops, when the floating skulls do their bounce move
+ui_errorprompt - When you try to do something ingame you can't do error
+snd_angel - when casting  restora
+_water pillar init - when casting restora
+_heal consumable - when using a heal item
+consumable heal - when healing using restora, life tap
+player port - when player teleports, when player reappears from invisibility
+warp 1 - when player teleports using the warp pads
+port - when player disconnects, when you enter a monster room
+snd _ grub dog bite - When mouth/maws bite
+_skillSet - When setting skills from UI
+_novaSkill_init02 - Casting life tap
+player_dash - player dash
+ui_select01 - the dun sound from loading the main menu?
+_uiClick02 - When you click the buttons on top of the main menu, interact with dungeon portals, world portal
+land_water - When you land in water
+_waterEnter - When you land in water
+_WaterExit - When you jump out of the water
+_dungeonFloorSwitch_pressed - When you press on a dungeon pressure plate [One at a Grove layout]
+scepterProjectileBurst - When enemy poofs away after death, fireball cast
+weaponOverHeat - When player goes invisible
+acre_bolt - For colossus Tone attack, normal type scepters
+_castWater - For casting water attacks like the blue minchroom scepter
+seekr_equip - When the Colossus rises
+_smallClap - When player taunts and smacks their ass
+_clap01 - When player claps their hands [5 times per clap emote]
+_triggerMessageTone - When a message appears on screen, like Zuul's awaken message
+geistattack01 - Geists overhead swing attack
+geistattack02 - Geists side swing attack, also plays for overhead attack
+geistlaugh01 - Not used for ghost boss? It is used for the coldgeist bell charge atk
+geistlaugh02 - When ghost boss warps away
+cast4 - When ghost boss first emerges and roars
+fanfale4 - Payday attack
+CoinSell - Coins effect from payday
+Coin01 - Coins effect from payday
+weapon_wickCurseLv1 - When you land poison jab on an enemy
+Angela's voice clips - 1 2 5 6
+Sally's voice clips - 2 3 5 6 7
+Spike voice clips - 1 3 4 7
+Enok voice clips - 4 5 6 7 8
+Vivian voice clips - 0 1 3
+Skrit voice clips - 0 1 2
+weapon - staff attack autumn - For Inner Focus cast on and cast off
+_scepter Charge - For Inner Focus cast on
+_meleeSkillLoop - For Inner Focus duration loop
+_cast_holy - For Inner Focus cast on
+Spell Channel Vector 2 - While Focus is being prep to cast
+currency - when your coin counter goes up [bottom right] [Happens first before coin01]
+coin01 - when your obtain ANYTHING [levitates to you] / a coin spawns from payday
+coin01sell - When you land payday [And the enemy doesn't die], When you sell something!
+Fistcuff Swing 05 - Swing attack for payday
+_uiClick02 - Main menu accept
+_uiClick03 - Main menu close
+_uiClose - The DUN sound in the main menu
+
+
+
+mus photo - plays at outer sanctum bridge at night / woodreach pass night
+_mu_discover03 - plays at outer sanctum at night / [keep night song] / plays at Tuul Valley Night
+mus cane - plays at woodreach pass day / Outer sanctum bridge day
+_mu_haven - Tuul Valley day
+_mu_discover04 - plays at terrace night
+_mu_discover01 - plays at terrace day
+_mu_discover02 - Plays at outer sanctum day
+
+
+
+_ambUnderwater - When your camera is underwater
+_ambGlyph01 - Character Select
+_ambGlyph02 - Load loop
+_ambCoast - Sanctum, Sanctum Arena
+_ambWat_cave - Cata (Water in the "How Rewarding!" room), Grove
+_ambBla - Cata
+_amb_jungle00 - Grove [x3]
+_amb_jungle02 - Grove (Pothouse)
+_amb_rain01 - Sanctum and Sanctum Arena (When it rains), Grove (Boss Room)
+_ambOutside01 - Tuul D
+_ambOutside02 - Sanc Gate D, Outer Sanc D, Terrace D, Wood D
+_ambCricket01 - Sanc Gate N, Outer Sanc N, Terrace N, Wood N, Tuul N
+_ambFrst01 - Keep D, Gate Moon D, Wall Stars D
+_ambCuckoo - Keep N, Gate Moon N, Wall Stars N
+_ambCave02 - Outer Sanc, Tuul, Sanctum (Barracks Ambience), Cata [x2] (One in boss room), Grove [x2]
+_ambWind01 - Main menu wind
+_ambWind02 - Outer Sanc, Tuul [x5], Grove [x2] (One at outside ledge area)
+_anbWind03 - Tuul, Grove [x2]
+_ambWind04 - Cata,
+_ambWind07 - Cata Arena (Pitch 0.8)
+_anbWindChime01 - Grove (Outside ledge area)
+_ambWatfall - Outer Sanctum, Keep [x3], Character Select
+_ambWaterfall01 - Keep, Grove [x5]
+_ambFire01 - Tuul, Sanctum [X2]
+
+_mu_hell01 - Plays at Cata Arena, but volume is set to 0, is it possible to use? [Got no luck]
