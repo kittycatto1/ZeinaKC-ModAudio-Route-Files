@@ -1,0 +1,23 @@
+# ===== Dungeon Scripts ===== #
+_atlyssSet_catacomb_amb3                     \ # Sanctum Catacombs (Ambient).
+ = | Underneath_1 : 1.0 : 1.0 : 1.0 : Easy   \ # If L1-6 (Easy), play this.
+   | Underneath_2 : 1.0 : 1.0 : 1.0 : Normal \ # If L6-12 (Normal), play this.
+   | Underneath_3 : 1.0 : 1.0 : 1.0 : Hard   \ # If L12-18 (Hard), play this.
+ ~ | tg_lua : target_group_Difficulty        \ # Selecting function from the script file.
+   | tg_dyn : true                           \ # Dynamic targeting.
+   | chain  : false                            # EoF.
+
+_mu_ambCrispr                                  \ # Crescent Grove (Ambient).
+ = | Darkness_Ahead : 1.0 : 1.0 : 1.0 : Normal \ # If L15-20 (Medium), play this.
+   | Bending_Flame  : 1.0 : 1.0 : 1.0 : Hard   \ # If L20-25 (Hard), play this.
+ ~ | tg_lua : target_group_Difficulty          \
+   | tg_dyn : true                             \
+   | chain  : false                              # EoF.
+
+_mu_wonton5                                     \ # Crescent Grove (Action).
+ = | Blaster_Cluster : 1.0 : 1.0 : 1.0 : Normal \
+   | Boiling_Point   : 1.0 : 1.0 : 1.0 : Hard   \
+ ~ | tg_lua : target_group_Difficulty           \
+   | tg_dyn : true                              \
+   | chain  : false                               # EoF.
+# ===== Dungeon Scripts ===== #
