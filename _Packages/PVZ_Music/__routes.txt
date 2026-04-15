@@ -1,0 +1,24 @@
+# ===== Metadata ===== #
+%id          PVZ_Music
+%displayname ZKC-PVZ Music
+# ===== Metadata ===== #
+
+# ===== Music ===== #
+_mu_flyby          = Crazy_Dave        ~ rel_repl_fx : false # Main menu.
+_mu_selee | option = Choose_Your_Seeds ~ rel_repl_fx : false # Character menu.
+modaudio_atlyss_map_effoldterrace_null = ___disable___
+modaudio_atlyss_map_luvoragarden_null  = Watery_Graves ~ rel_repl_fx : false
+modaudio_atlyss_map_tuulenclave_null   = Rigor_Mormist ~ rel_repl_fx : false
+modaudio_atlyss_map_sanctum_null          | modaudio_atlyss_map_wallofthestars_null   = Zen_Garden ~ rel_repl_fx : false | fl : true
+modaudio_atlyss_map_outersanctum_day      | modaudio_atlyss_map_effoldterrace_day     = Grasswalk  ~ rel_repl_fx : false | fl : true
+modaudio_atlyss_map_outersanctum_night    | modaudio_atlyss_map_effoldterrace_night   = Moongrains ~ rel_repl_fx : false | fl : true
+modaudio_atlyss_map_trialofthestars_night | modaudio_atlyss_map_executionerstomb_null = Cerebrawl  ~ rel_repl_fx : false
+modaudio_atlyss_map_sanctumarena_null     | modaudio_atlyss_map_tuulvalley_null | modaudio_atlyss_map_trialofthestars_day = Loonboon ~ rel_repl_fx : false | fl : true
+_atlyssSet_catacomb_amb3                  = Rigor_Mormist   # Sanctum Catacombs (Ambient).
+_mu_ambCrispr                             = Loonboon        # Crescent Grove    (Ambient).
+_atlyssSet_catacomb_action5 | _mu_wonton5 = Ultimate_Battle # Both dungeon action songs.
+_mu_cahoots | _mu_wasp   = Zombotany  ~ fl : true       # Slime Diva  & Geistlords.
+_mu_ecka    | _mu_wonton | _mu_hermit = Brainiac_Maniac # King Golems & Galius.
+music_whisper = Zombies_on_Your_Lawn  ~ map : Sanctum Catacombs
+music_whisper = Uraniwa_ni_Zombies_ga ~ map : Crescent Grove
+# ====== Music ===== #
