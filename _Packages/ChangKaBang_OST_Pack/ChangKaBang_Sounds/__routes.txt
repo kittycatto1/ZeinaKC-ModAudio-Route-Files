@@ -4,7 +4,9 @@
 %enabledbydefault false
 # ===== Metadata ===== #
 
-# ===== Sound Effects ===== #
-_blockHit          = <game>_homerun_hit # Replacing the Block/Parry sound.
-_player_initDeath2 = What_A_Waste       # Replacing the player death sound.
-# ===== Sound Effects ===== #
+# ===== SFXs ===== #
+_blockHit       = Bat_Homerun # Replacement for blocked/parried sound. Exists in-game as "_homerun_hit" for Shield Bash.
+snd_summonAngel = Game_Session_Start ~ map : ___nomap___ # Selected character sound.
+chestOpen          @ Oh_Yeah # Overlay for opening loot chests.
+_player_initDeath2 @ What_A_Waste | Hell_Pay # Overlays for character death sounds.
+# ===== SFXs ===== #

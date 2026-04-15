@@ -5,20 +5,18 @@
 # ===== Metadata ===== #
 
 # ===== Music ===== #
-_mu_selee = Nudo_Select ~ rel_repl_fx : false # Character Selector.
-option    = Jibiis      ~ rel_repl_fx : false # Character Creator.
-
+_mu_selee = Nudo_Select ~ rel_repl_fx : false # Character selector.
+option    = Jibiis      ~ rel_repl_fx : false # Character creator.
 modaudio_atlyss_map_sanctum_day           = Eel_Whiskey_Day   ~ rel_repl_fx : false | fl : true
 modaudio_atlyss_map_sanctum_night         = Eel_Whiskey_Night ~ rel_repl_fx : false | fl : true
-modaudio_atlyss_map_outersanctum_day      = One_State_Drive   ~ rel_repl_fx : false
+modaudio_atlyss_map_sanctumarena_null     = Eel_Vodka         ~ rel_repl_fx : false | fl : true
+modaudio_atlyss_map_outersanctum_day      = One_State_Drive   ~ rel_repl_fx : false | fl : true
 modaudio_atlyss_map_trialofthestars_day   = Eel_Brandy        ~ rel_repl_fx : false
 modaudio_atlyss_map_trialofthestars_night = Bad_Beat          ~ rel_repl_fx : false
-modaudio_atlyss_map_sanctumarena_null     = Eel_Vodka         ~ rel_repl_fx : false | fl : true
-
-_mu_cahoots      = Madlad       ~ rel_repl_fx : false | fl : true # Slime Diva.
-_mu_wasp         = New_Ark      ~ rel_repl_fx : false             # Geistlords.
-_mu_ecka         = Belguinahole ~ rel_repl_fx : false             # Colossus.
-_mu_wonton       = Frank_Killer ~ rel_repl_fx : false             # Valdur.
-_mu_hermit       = Hairy_Guedes ~ rel_repl_fx : false             # Galius.
-music_whisper    = Result       ~ rel_repl_fx : false             # Dungeon boss defeated.
+_mu_cahoots   = Madlad  ~ fl : true # Slime Diva.
+_mu_wasp      = New_Ark      # Geistlords.
+_mu_ecka      = Belguinahole # Colossus.
+_mu_wonton    = Frank_Killer # Valdur.
+_mu_hermit    = Hairy_Guedes # Galius.
+music_whisper = Result       # Dungeon boss defeated.
 # ===== Music ===== #
