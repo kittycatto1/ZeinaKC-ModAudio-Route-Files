@@ -1,5 +1,22 @@
 p = {}
 
+function p.target_group_Difficulty(route)
+  local ZoneDifficulty =
+  {
+    NORMAL = 1,
+    HARD = 2
+  }
+  local DungeonDifficulty = accessPath(atlyss, "mainPlayer", "_playerMapInstance", "_patternInstance", "_setDungeonDifficulty")
+
+  if DungeonDifficulty == ZoneDifficulty.NORMAL then
+    route.targetGroup = "Normal"
+  elseif DungeonDifficulty == ZoneDifficulty.HARD then
+    route.targetGroup = "Hard"
+  else
+    route.targetGroup = "Normal"
+  end
+end
+
 function choice(val, a, b)
   if val then return a else return b end
 end
@@ -32,17 +49,11 @@ function p.pack_update()
   end
 
   if mainPlayer ~= nil and mainPlayer._currentPlayerCondition == 3 then
-    -- Remind yourself that overconfidence is a slow and insidious killer
     combatTime = 0
     inPvp = false
   end
   
   if inPvp then
-    -- Conditions to break PVP:
-    -- - You die (handled by death condtion)
-    -- - 20 seconds have passed since last PVP event
-    -- - 5 seconds have passed since last PVP event and the player involved in it is dead
-    -- - Players have different map instances (such as from teleporting)
 
     if timeSinceLastPvp >= 20 then
       inPvp = false
@@ -116,21 +127,37 @@ function p.pack_update()
   modaudio.engine.forceCombatMusic(toggleCombatMusic)
 end
 
-function p.target_group_ActionMusic1(route)
-  if combatType == "Normal" then
-    route.targetGroup = "Regular_Combat"
-  else
+function p.target_group_ActionMusic(route)
+  if inPvp or combatType == "Elite" then
     route.targetGroup = "Elite_Combat"
+  else
+    route.targetGroup = "Regular_Combat"
   end
 end
 
-function p.target_group_ActionMusic2(route)
-  if combatType == "Normal" then
-    route.targetGroup = "Regular_Combat"
-  elseif combatType == "miniboss" then
-    route.targetGroup = "Miniboss_Combat"
+function p.target_group_ActionMusicRegular(route)
+  if inPvp then
+    route.targetGroup = "PVP_Combat"
   else
+    route.targetGroup = "Regular_Combat"
+  end
+end
+
+function p.target_group_ActionMusicPVP(route)
+  if inPvp then
+    route.targetGroup = "PVP_Combat"
+  else
+    route.skipRoute = true
+  end
+end
+
+function p.target_group_ActionMusicMiniboss(route)
+  if combatType == "Miniboss" then
+    route.targetGroup = "Miniboss_Combat"
+  elseif inPvp or combatType == "Elite" then
     route.targetGroup = "Elite_Combat"
+  else
+    route.targetGroup = "Regular_Combat"
   end
 end
 

@@ -1,0 +1,16 @@
+# ===== Metadata ===== #
+%id               Funger_Combat_Pack
+%displayname      ZKC-Funger Combat Pack
+%enabledbydefault true
+# ===== Clips ===== #
+%customclippath Mist_Jingle         = ../_customclippath/Mist_Jingle
+%customclippath Tomb_of_the_Gods    = ../_customclippath/Tomb_of_the_Gods
+%customclippath Prelude_to_Darkness = ../_customclippath/Prelude_to_Darkness
+# ===== Metadata ===== #
+
+# ===== Music ===== #
+modaudio_atlyss_map_sanctumarena_null     = Mist_Jingle      ~ rel_repl_fx : false | fl : true
+modaudio_atlyss_map_executionerstomb_null = Tomb_of_the_Gods ~ rel_repl_fx : false
+_mu_wasp | _mu_ecka | _mu_wonton = Pulse_and_Anxiety   ~ rel_repl_fx : false # Dungeon bosses.
+music_whisper                    = Prelude_to_Darkness ~ rel_repl_fx : false # Dungeon boss defeated.
+# ===== Music ===== #

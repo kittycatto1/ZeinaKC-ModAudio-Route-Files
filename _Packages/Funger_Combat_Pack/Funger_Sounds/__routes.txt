@@ -1,0 +1,10 @@
+# ===== Metadata ===== #
+%id               Funger_SFXs
+%displayname      ZKC-Funger SFX Pack
+%enabledbydefault true
+# ===== Metadata ===== #
+
+# ===== SFXs ===== #
+_creepAggroNotif   = Into_Darkness # Replacement for enemies aggroing the player.
+_player_initDeath2 = Alll-Mer_Bell # Replacement for for character death sounds.
+# ===== SFXs ===== #

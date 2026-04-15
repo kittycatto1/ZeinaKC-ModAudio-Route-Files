@@ -1,0 +1,72 @@
+# ===== Metadata ===== #
+%updatescript   pack_update
+# ===== Metadata ===== #
+
+# ===== Combat Scripts ===== #
+modaudio_atlyss_map_outersanctum_action | modaudio_atlyss_map_arcwoodpass_action | modaudio_atlyss_map_tuulvalley_action | modaudio_atlyss_map_crescentroad_action | modaudio_atlyss_map_luvoragarden_action | modaudio_atlyss_map_crescentkeep_action | modaudio_atlyss_map_tuulenclave_action | modaudio_atlyss_map_gateofthemoon_action \
+  = | Breath_Of_The_Moon : 1.0 : 1.0 : 1.0 : Regular_Combat \ # If the enemy encounter is Regular, play this.
+    | Desperation        : 1.0 : 1.0 : 1.0 : Elite_Combat   \ # If the enemy encounter is Elite/PvP, play this.
+  ~ | tg_lua      : target_group_ActionMusic                \ # Selecting function from the script file.
+    | fp          : true                                    \ # Force playing.
+    | tg_dyn      : true                                    \ # Dynamic targeting.
+    | tg_smooth   : true                                    \ # Smooth dynamic targeting.
+    | rel_repl_fx : false                                   \ # Absolute Volume/Pitch instead of relative.
+    | chain       : true                                      # EoF.
+
+modaudio_atlyss_map_sanctumcatacombs_action | modaudio_atlyss_map_crescentgrove_action | modaudio_atlyss_map_trialofthestars_action \
+  = | Desperation : 1.0 : 1.0 : 1.0 : PVP_Combat \
+  ~ | tg_lua      : target_group_ActionMusicPVP  \
+    | fp          : true                         \
+    | tg_dyn      : true                         \
+    | tg_smooth   : true                         \
+    | rel_repl_fx : false                        \
+    | chain       : true                           # EoF.
+
+modaudio_atlyss_map_sanctumarena_action | modaudio_atlyss_map_executionerstomb_action \
+  = | Denied_The_Light : 1.0 : 1.0 : 1.0 : PVP_Combat \
+  ~ | tg_lua      : target_group_ActionMusicPVP       \
+    | fp          : true                              \
+    | tg_dyn      : true                              \
+    | tg_smooth   : true                              \
+    | rel_repl_fx : false                             \
+    | chain       : true                                # EoF.
+# ===== Combat Scripts ===== #
+
+# ===== Boss Scripts ===== #
+modaudio_atlyss_map_effoldterrace_action                     \ # +Slime Diva.
+  = | Breath_Of_The_Moon : 1.0 : 1.0 : 1.0 : Regular_Combat  \
+    | Desperation        : 1.0 : 1.0 : 1.0 : Elite_Combat    \
+    | Secret_Song        : 1.0 : 1.0 : 1.0 : Miniboss_Combat \
+  ~ | tg_lua      : target_group_ActionMusicMiniboss         \
+    | fl          : true                                     \
+    | fp          : true                                     \
+    | tg_dyn      : true                                     \
+    | tg_smooth   : true                                     \
+    | rel_repl_fx : false                                    \
+    | chain       : true                                       # EoF.
+
+modaudio_atlyss_map_bularrfortress_action                          \ # +Galius.
+  = | Breath_Of_The_Moon       : 1.0 : 1.0 : 1.0 : Regular_Combat  \
+    | Desperation              : 1.0 : 1.0 : 1.0 : Elite_Combat    \
+    | Mataneko-kone_Magnificat : 1.0 : 1.0 : 1.0 : Miniboss_Combat \
+  ~ | tg_lua       : target_group_ActionMusicMiniboss              \
+    | fp           : true                                          \
+    | tg_dyn       : true                                          \
+    | tg_smooth    : true                                          \
+    | rel_repl_fx  : false                                         \
+    | chain        : true                                            # EoF.
+
+music_whisper                                          \ # Dungeon boss defeated: Colossus.
+  = | Dark_Outside_Extended : 1.0 : 1.0 : 1.0 : Normal \ # If L15-20 (Medium), play this.
+  ~ | tg_lua : target_group_Difficulty                 \
+    | map    : Crescent Grove                          \ # Disconnecting from the Geistlords in Sanctum Catacombs.
+    | tg_dyn : true                                    \
+    | chain  : false                                     # EoF.
+
+music_whisper                                 \ # Dungeon boss defeated: Valdur.
+  = | Green_Ambiance : 1.0 : 1.0 : 1.0 : Hard \ # If L20-25 (Hard), play this.
+  ~ | tg_lua : target_group_Difficulty        \
+    | map    : Crescent Grove                 \
+    | tg_dyn : true                           \
+    | chain  : false                            # EoF.
+# ===== Boss Scripts ===== #
