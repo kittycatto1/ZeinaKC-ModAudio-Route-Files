@@ -4,20 +4,18 @@
 # ===== Metadata ===== #
 
 # ===== Music ===== #
-modaudio_atlyss_map_luvoragarden_day   = <game>_mu_sailex
-modaudio_atlyss_map_luvoragarden_night = <game>_mu_discover04
-_mu_hell01 = ___default___ | <game>_mu_hell02 # Executioner's Tomb.
-
-modaudio_atlyss_map_effoldterrace_null | modaudio_atlyss_map_tuulvalley_null | modaudio_atlyss_map_tuulenclave_null | modaudio_atlyss_map_wallofthestars_null = ___disable___
+modaudio_atlyss_map_effoldterrace_null   | modaudio_atlyss_map_tuulvalley_null | modaudio_atlyss_map_tuulenclave_null | modaudio_atlyss_map_wallofthestars_null = ___disable___
+modaudio_atlyss_map_executioneres_null   = <game>_mu_hell01 | <game>_mu_hell02
 modaudio_atlyss_map_effoldterrace_day    = <game>_mu_discover01 : 0.9 | <game>_mu_cahoots : 0.1
 modaudio_atlyss_map_effoldterrace_night  = <game>_mu_discover04 : 0.9 | <game>_mu_cahoots : 0.1
 modaudio_atlyss_map_tuulvalley_day       = <game>_mu_haven
 modaudio_atlyss_map_tuulvalley_night     = <game>_mu_discover04
 modaudio_atlyss_map_tuulenclave_day      = <game>_mu_clave
 modaudio_atlyss_map_tuulenclave_night    = <game>_mu_tex01
+modaudio_atlyss_map_luvoragarden_day     = <game>_mu_sailex
+modaudio_atlyss_map_luvoragarden_night   = <game>_mu_discover04
 modaudio_atlyss_map_wallofthestars_day   = <game>_atlyssSet_track01
 modaudio_atlyss_map_wallofthestars_night = <game>mu_select1
-
-mu_snatchsprings | _mu_snatchNight | _mu_cane | _mu_photo | _mu_cahoots | modaudio_atlyss_map_sanctumarena_null ~ fl : true
-# Looping all unlooped tracks: (Outer) Sanctum (Arena) and Slime Diva. ModAudio is doing a ghost "___default___", Sanctum Arena done differently to not affect Tuul Valley.
+modaudio_atlyss_map_sanctum_day | modaudio_atlyss_map_sanctum_night | modaudio_atlyss_map_sanctumarena_null | modaudio_atlyss_map_outersanctum_day | modaudio_atlyss_map_outersanctum_night | _mu_cahoots ~ fl : true
+# Looping all unlooped tracks. ModAudio is doing a ghost "___default___".
 # ===== Music ===== #
