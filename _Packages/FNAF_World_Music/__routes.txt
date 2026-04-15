@@ -15,7 +15,6 @@ option                                | modaudio_atlyss_map_luvoragarden_null  =
 modaudio_atlyss_map_sanctum_day       | modaudio_atlyss_map_outersanctum_day   = 8Bit_Travel        ~ rel_repl_fx : false | fl : true
 modaudio_atlyss_map_sanctum_night     | modaudio_atlyss_map_outersanctum_night = 8Bit_Broken        ~ rel_repl_fx : false | fl : true
 modaudio_atlyss_map_sanctumarena_null | modaudio_atlyss_map_tuulvalley_null    = Blaster_Cluster    ~ rel_repl_fx : false | fl : true
-
 _atlyssSet_catacomb_action5 = The_Tower_of_Majdel_Shams # Sanctum Catacombs (Action).
 _mu_wasp      = Fear_of_Pixelation        # Geistlords.
 _mu_ecka      = Broken_Crushed_and_Burned # Colossus.

@@ -6,6 +6,7 @@
 # fp  = force_play
 # tg_dyn      = enable_dynamic_targeting
 # tg_smooth   = smooth_dynamic_targeting
+# tg_cont     = continuous_dynamic_targeting
 # rel_repl_fx = relative_replacement_effects
 # chain = chain_route
 # EoF   = End of File
