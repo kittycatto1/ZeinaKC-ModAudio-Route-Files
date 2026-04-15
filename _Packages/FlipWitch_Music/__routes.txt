@@ -5,31 +5,28 @@
 # ===== Metadata ===== #
 
 # ===== Music ===== #
-_mu_flyby = Tutorial           ~ rel_repl_fx : false # Main Menu.
-_mu_selee = Switchcraft        ~ rel_repl_fx : false # Character Selector.
-option    = Waves_of_Nostalgia ~ rel_repl_fx : false # Character Creator.
+_mu_flyby = Tutorial    ~ rel_repl_fx : false # Main menu.
+_mu_selee = Switchcraft ~ rel_repl_fx : false # Character selector.
 modaudio_map_effoldterrace_null    = ___disable___
 modaudio_map_sanctum_day           = Peaches_and_Cream         ~ rel_repl_fx : false | fl : true
 modaudio_map_sanctum_night         = A_Witchs_Thoughts         ~ rel_repl_fx : false | fl : true
 modaudio_map_outersanctum_day      = Melody_of_the_Mushrooms   ~ rel_repl_fx : false | fl : true
 modaudio_map_outersanctum_night    = Lounge_of_the_Dead        ~ rel_repl_fx : false | fl : true
+modaudio_map_executionerstomb_null = Hieroglyphmix             ~ rel_repl_fx : false
 modaudio_map_effoldterrace_day     = Slime_Citadel             ~ rel_repl_fx : false
 modaudio_map_tuulenclave_null      = Hey_Guys_and_Goblins_ONLY ~ rel_repl_fx : false
-modaudio_map_gateofthemoon_null    = Waves_of_Nostalgia        ~ rel_repl_fx : false
 modaudio_map_wallofthestars_null   = Overwhelming_Sensations   ~ rel_repl_fx : false | fl : true
 modaudio_map_trialofthestars_null  = Tengoku_Love              ~ rel_repl_fx : false
-modaudio_map_executionerstomb_null = Hieroglyphmix             ~ rel_repl_fx : false
-modaudio_map_crescentkeep_action   = Gero_Gero_Fun_Time        ~ rel_repl_fx : false | fp : true | chain : true
-modaudio_map_effoldterrace_night   | modaudio_map_luvoragarden_null = Magical_Bubble_Bath ~ rel_repl_fx : false
-modaudio_map_sanctumarena_null     | modaudio_map_tuulvalley_null   = Oh_My_Gobbess       ~ rel_repl_fx : false | fl : true
-
+modaudio_map_crescentkeep_action   = Gero_Gero_Fun_Time        ~ rel_repl_fx : false | chain : true
+option                           | modaudio_map_gateofthemoon_null = Waves_of_Nostalgia  ~ rel_repl_fx : false # Character creator.
+modaudio_map_effoldterrace_night | modaudio_map_luvoragarden_null  = Magical_Bubble_Bath ~ rel_repl_fx : false
+modaudio_map_sanctumarena_null   | modaudio_map_tuulvalley_null    = Oh_My_Gobbess       ~ rel_repl_fx : false | fl : true
 _atlyssSet_catacomb_amb3    = Haunted_Hallow_Halls # Sanctum Catacombs (Ambient).
 _atlyssSet_catacomb_action5 = Club_Demon           # Sanctum Catacombs (Action).
 _mu_ambCrispr               = Temple_of_Chaos      # Crescent Grove (Ambient).
 _mu_wonton5                 = Hieroglyphmix        # Crescent Grove (Action).
-
-_mu_cahoots           = Bubble_Beat      ~ rel_repl_fx : false | fl : true # Slime Diva.
-_mu_wasp              = Substandard      ~ rel_repl_fx : false             # Geistlords.
-_mu_ecka | _mu_wonton = Sludge_Rock      ~ rel_repl_fx : false             # King Golems.
-music_whisper         = Flippin_Peaceful ~ rel_repl_fx : false             # Dungeon boss defeated.
+_mu_cahoots           = Bubble_Beat ~ fl : true # Slime Diva.
+_mu_wasp              = Substandard      # Geistlords.
+_mu_ecka | _mu_wonton = Sludge_Rock      # King Golems.
+music_whisper         = Flippin_Peaceful # Dungeon boss defeated.
 # ===== Music ===== #
