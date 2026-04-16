@@ -8,7 +8,18 @@
 # fp  = force_play
 # tg_dyn      = enable_dynamic_targeting
 # tg_smooth   = smooth_dynamic_targeting
+# tg_cont     = continuous_dynamic_targeting
 # rel_repl_fx = relative_replacement_effects
+# rel_ovl_fx  = relative_overlay_effects
 # chain = chain_route
 # EoF   = End of File
 # ===== References ===== #
+
+# ===== Unused References ===== #
+# w = rw  = weight = replacement_weight
+# v = vol = volume
+# p = pit = pitch
+# ovl_ign_restart   = overlays_ignore_restarts
+# ovl_stop_with_src = overlay_stops_if_source_stops
+# link_ovl_repl     = link_overlay_and_replacement
+# ===== Unused References ===== #

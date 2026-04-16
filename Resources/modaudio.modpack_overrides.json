@@ -1,0 +1,22 @@
+[
+  {
+    "TargetPackId": "",
+    "EnableState": "NoChanges"
+  },
+  {
+    "TargetPackId": "",
+    "EnableState": "EnableByDefault"
+  },
+  {
+    "TargetPackId": "",
+    "EnableState": "DisableByDefault"
+  },
+  {
+    "TargetPackId": "",
+    "EnableState": "AlwaysEnabled"
+  },
+  {
+    "TargetPackId": "",
+    "EnableState": "AlwaysDisabled"
+  }
+]
