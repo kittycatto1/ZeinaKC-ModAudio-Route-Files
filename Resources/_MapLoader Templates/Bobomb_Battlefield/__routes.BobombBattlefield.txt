@@ -1,0 +1,8 @@
+# ===== Metadata ===== #
+%id          Bobomb_Battlefield
+%displayname Bob-omb Battlefield music pack
+# ===== Metadata ===== #
+
+# ===== Bob-omb Battlefield ===== #
+
+# ===== Bob-omb Battlefield ===== #

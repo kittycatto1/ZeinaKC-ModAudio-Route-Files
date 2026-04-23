@@ -1,0 +1,8 @@
+# ===== Metadata ===== #
+%id          Slutsanctum
+%displayname Slutsanctum music pack
+# ===== Metadata ===== #
+
+# ===== Slutsanctum ===== #
+
+# ===== Slutsanctum ===== #

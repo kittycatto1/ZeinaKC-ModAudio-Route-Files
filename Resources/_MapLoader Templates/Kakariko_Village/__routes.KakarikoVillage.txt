@@ -1,0 +1,8 @@
+# ===== Metadata ===== #
+%id          Kakariko_Village
+%displayname Kakariko Village music pack
+# ===== Metadata ===== #
+
+# ===== Kakariko Village ===== #
+
+# ===== Kakariko Village ===== #

@@ -1,0 +1,8 @@
+# ===== Metadata ===== #
+%id          Darnassus
+%displayname Darnassus music pack
+# ===== Metadata ===== #
+
+# ===== Darnassus ===== #
+
+# ===== Darnassus ===== #

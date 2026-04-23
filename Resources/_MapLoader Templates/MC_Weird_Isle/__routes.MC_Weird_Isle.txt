@@ -1,0 +1,8 @@
+# ===== Metadata ===== #
+%id          MC_Weird_Isle
+%displayname MC Weird Isle music pack
+# ===== Metadata ===== #
+
+# ===== MC Weird Isle ===== #
+
+# ===== MC Weird Isle ===== #

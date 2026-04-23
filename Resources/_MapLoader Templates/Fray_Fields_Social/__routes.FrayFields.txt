@@ -1,0 +1,32 @@
+# ===== Metadata ===== #
+%id          Fray_Fields_Social
+%displayname Fray Fields Social music pack
+# ===== Metadata ===== #
+
+# ===== Fray Fields Social ===== #
+modaudio_atlyss_map_frayoutskirts_day                              \
+  = | Voisarium (Talk about it) : 1.0 : 1.0 : 1.0 : Arch_Valley    \
+    | <game>_mu_cane            : 1.0 : 1.0 : 1.0 : Fern_Isles     \
+	| <game>mu_nouCove          : 1.0 : 1.0 : 1.0 : Fray_Outskirts \
+    | <game>_mu_lethargy        : 1.0 : 1.0 : 1.0 : Silverwood     \
+  ~ | target_group_script : target_group_FrayFieldsSocial          \ # Selecting function from the script file.
+    | map_name            : Fray Outskirts                         \ # Restricting vanilla music from being changed.
+    | enable_dynamic_targeting     : true                          \ # Enables scripts to update audio dynamically.
+    | smooth_dynamic_targeting     : true                          \ # Smoothens dynamic targeting.
+    | continuous_dynamic_targeting : false                         \ # Making dynamic targeting continuous.
+    | relative_replacement_effects : true                          \ # Keeping the replacement Volume & Pitch relative instead of absolute.
+    | chain_route : false                                            # EoF.
+
+modaudio_atlyss_map_frayoutskirts_night                       \
+  = | Talk about it (Night : 1.0 : 1.0 : 1.0 : Arch_Valley    \
+    | Incursion            : 1.0 : 1.0 : 1.0 : Fern_Isles     \
+	| <game>_mu_beaver     : 1.0 : 1.0 : 1.0 : Fray_Outskirts \
+    | <game>_mu_botany     : 1.0 : 1.0 : 1.0 : Silverwood     \
+  ~ | target_group_script  : target_group_FrayFieldsSocial    \
+    | map_name             : Fray Outskirts                   \
+    | enable_dynamic_targeting     : true                     \
+    | smooth_dynamic_targeting     : true                     \
+    | continuous_dynamic_targeting : false                    \
+    | relative_replacement_effects : true                     \
+    | chain_route : false                                       # EoF.
+# ===== Fray Fields Social ===== #

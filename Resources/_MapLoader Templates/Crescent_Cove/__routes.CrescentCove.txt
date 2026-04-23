@@ -1,0 +1,8 @@
+# ===== Metadata ===== #
+%id          Crescent_Cove
+%displayname Crescent_Cove music pack
+# ===== Metadata ===== #
+
+# ===== Crescent_Cove ===== #
+
+# ===== Crescent_Cove ===== #

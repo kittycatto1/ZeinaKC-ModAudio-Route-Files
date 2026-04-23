@@ -1,0 +1,8 @@
+# ===== Metadata ===== #
+%id          Isle_Delfino
+%displayname Isle Delfino music pack
+# ===== Metadata ===== #
+
+# ===== Isle Delfino ===== #
+
+# ===== Isle Delfino ===== #

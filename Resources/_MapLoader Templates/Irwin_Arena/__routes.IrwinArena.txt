@@ -1,0 +1,8 @@
+# ===== Metadata ===== #
+%id          Irwin_Arena
+%displayname Irwin Arena music pack
+# ===== Metadata ===== #
+
+# ===== Irwin Arena ===== #
+
+# ===== Irwin Arena ===== #

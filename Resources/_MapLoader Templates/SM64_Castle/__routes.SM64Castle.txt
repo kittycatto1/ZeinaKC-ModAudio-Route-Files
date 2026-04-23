@@ -1,0 +1,8 @@
+# ===== Metadata ===== #
+%id          SM64_Castle
+%displayname SM64 Castle music pack
+# ===== Metadata ===== #
+
+# ===== SM64 Castle ===== #
+
+# ===== SM64 Castle ===== #

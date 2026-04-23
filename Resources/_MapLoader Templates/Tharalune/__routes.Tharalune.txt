@@ -1,0 +1,8 @@
+# ===== Metadata ===== #
+%id          Tharalune
+%displayname Thara'lune music pack
+# ===== Metadata ===== #
+
+# ===== Tharalune ===== #
+
+# ===== Tharalune ===== #

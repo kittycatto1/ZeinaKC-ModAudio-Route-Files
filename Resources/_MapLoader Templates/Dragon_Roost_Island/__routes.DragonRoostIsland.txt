@@ -1,0 +1,8 @@
+# ===== Metadata ===== #
+%id          Dragon_Roost_Island
+%displayname Dragon Roost Island music pack
+# ===== Metadata ===== #
+
+# ===== Dragon Roost Island ===== #
+
+# ===== Dragon Roost Island ===== #

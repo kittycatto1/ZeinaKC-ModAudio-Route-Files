@@ -1,0 +1,8 @@
+# ===== Metadata ===== #
+%id          Epsilon
+%displayname Epsilon music pack
+# ===== Metadata ===== #
+
+# ===== Epsilon ===== #
+
+# ===== Epsilon ===== #

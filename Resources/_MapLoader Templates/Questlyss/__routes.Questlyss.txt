@@ -1,0 +1,8 @@
+# ===== Metadata ===== #
+%id          Questlyss
+%displayname Questlyss music pack
+# ===== Metadata ===== #
+
+# ===== Questlyss ===== #
+
+# ===== Questlyss ===== #

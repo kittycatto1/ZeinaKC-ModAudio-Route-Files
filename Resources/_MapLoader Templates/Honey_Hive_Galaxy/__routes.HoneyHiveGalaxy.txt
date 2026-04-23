@@ -1,0 +1,8 @@
+# ===== Metadata ===== #
+%id          Honey_Hive_Galaxy
+%displayname Honey Hive Galaxy music pack
+# ===== Metadata ===== #
+
+# ===== Honey Hive Galaxy ===== #
+
+# ===== Honey Hive Galaxy ===== #

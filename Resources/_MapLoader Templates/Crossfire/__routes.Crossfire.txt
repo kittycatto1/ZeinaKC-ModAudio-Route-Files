@@ -1,0 +1,8 @@
+# ===== Metadata ===== #
+%id          Crossfire
+%displayname Crossfire music pack
+# ===== Metadata ===== #
+
+# ===== Crossfire ===== #
+
+# ===== Crossfire ===== #

@@ -1,0 +1,8 @@
+# ===== Metadata ===== #
+%id          Paulownia_Mall
+%displayname Paulownia Mall music pack
+# ===== Metadata ===== #
+
+# ===== Paulownia Mall ===== #
+
+# ===== Paulownia Mall ===== #

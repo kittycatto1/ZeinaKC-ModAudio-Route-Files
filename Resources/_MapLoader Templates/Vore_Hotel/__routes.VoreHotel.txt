@@ -1,0 +1,8 @@
+# ===== Metadata ===== #
+%id          Vore_Hotel
+%displayname Vore Hotel music pack
+# ===== Metadata ===== #
+
+# ===== Vore Hotel ===== #
+
+# ===== Vore Hotel ===== #

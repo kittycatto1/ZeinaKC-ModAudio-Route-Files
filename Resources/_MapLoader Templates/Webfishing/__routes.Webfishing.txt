@@ -1,0 +1,8 @@
+# ===== Metadata ===== #
+%id          Webfishing
+%displayname Webfishing music pack
+# ===== Metadata ===== #
+
+# ===== Webfishing ===== #
+
+# ===== Webfishing ===== #

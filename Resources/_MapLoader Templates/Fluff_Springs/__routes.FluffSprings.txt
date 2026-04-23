@@ -1,0 +1,8 @@
+# ===== Metadata ===== #
+%id          Fluff_Springs
+%displayname Fluff Springs music pack
+# ===== Metadata ===== #
+
+# ===== Fluff Springs ===== #
+
+# ===== Fluff Springs ===== #

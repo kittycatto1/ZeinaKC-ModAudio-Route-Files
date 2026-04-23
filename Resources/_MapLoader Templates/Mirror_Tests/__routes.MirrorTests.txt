@@ -1,0 +1,8 @@
+# ===== Metadata ===== #
+%id          Mirror_Tests
+%displayname Mirror Tests music pack
+# ===== Metadata ===== #
+
+# ===== Mirror Tests ===== #
+
+# ===== Mirror Tests ===== #
