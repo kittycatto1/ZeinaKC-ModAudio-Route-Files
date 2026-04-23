@@ -9,7 +9,7 @@ This file serves as a reference for all of the available music clip names within
 | mu_snatchsprings            | _sound/_musics/mu_snatchsprings.ogg            | Sanctum (Day). [Looped]                                                                    |
 | _mu_snatchNight             | _sound/_musics/_mu_snatchNight.ogg             | Sanctum (Night). [Unlooped]                                                                |
 | _mu_cane                    | _sound/_musics/_mu_cane.ogg                    | Outer Sanctum (Day). [Unlooped]                                                            |
-| _mu_photo                   | _sound/_musics/_mu_photo.ogg                   | Outer Sanctum (Night). [Looped]                                                            |
+| _mu_photo                   | _sound/_musics/_mu_photo.ogg                   | Outer Sanctum (Night). [Unlooped]                                                          |
 | _mu_discover02              | _sound/_musics/_mu_discover02.ogg              | Arcwood Pass (Day). [Unlooped]                                                             |
 | _mu_discover03              | _sound/_musics/_mu_discover03.ogg              | Arcwood Pass & Crescent Keep (Night). [Unlooped]                                           |
 | _mu_hell01                  | _sound/_musics/_mu_hell01.ogg                  | Executioner's Tomb. [Looped. P:0.80] (Available in ModAudio, Unused in-game.)              |

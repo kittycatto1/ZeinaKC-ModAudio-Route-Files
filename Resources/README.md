@@ -67,8 +67,8 @@ Script routes use a `Clip_Name : weight : volume : pitch : group` format.
     - `null:` Plays the music indefinitely, overwrites time-based music if used.
   - `<game>target_clip` - Reference audio clips from the game. ([clip_names.md](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/blob/Dominant/Marioalexsan.ModAudio_UserAudioPack/clip_names.md))
   - `___default___`     - Set the replacement to play the original source's clips. Used as replacements fallback support.
-  - `___nothing___`     - Repeat, play nothing.
-  - `___disable___`     - Repeat, when applied to `modaudio_atlyss_map_{map_name}_null` enables using day and night music.
+  - `___nothing___`     - Ditto, play nothing.
+  - `___disable___`     - Ditto, when applied to `modaudio_atlyss_map_{map_name}_null` enables using day and night music.
 - **modpack_overrides**
   - `NoChanges`        - Don't apply any overrides and use inherit behaviour.
   - `EnableByDefault`  - Audio pack is overriden to start enabled when first saved to `Marioalexsan.ModAudio.CFG`.
