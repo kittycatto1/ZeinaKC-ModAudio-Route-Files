@@ -4,5 +4,73 @@
 # ===== Metadata ===== #
 
 # ===== SM64 Castle ===== #
+modaudio_atlyss_map_peachscastle_day    = ___default___
+modaudio_atlyss_map_peachscastle_night  = ___default___
+modaudio_atlyss_map_peachscastle_null   = ___default___
+modaudio_atlyss_map_peachscastle_action = ___default___
 
+modaudio_atlyss_map_whompsfortress_day    = ___default___
+modaudio_atlyss_map_whompsfortress_night  = ___default___
+modaudio_atlyss_map_whompsfortress_null   = ___default___
+modaudio_atlyss_map_whompsfortress_action = ___default___
+
+modaudio_atlyss_map_jollyrogerbay_day    = ___default___
+modaudio_atlyss_map_jollyrogerbay_night  = ___default___
+modaudio_atlyss_map_jollyrogerbay_null   = ___default___
+modaudio_atlyss_map_jollyrogerbay_action = ___default___
+
+modaudio_atlyss_map_coolcoolmountain_day    = ___default___
+modaudio_atlyss_map_coolcoolmountain_night  = ___default___
+modaudio_atlyss_map_coolcoolmountain_null   = ___default___
+modaudio_atlyss_map_coolcoolmountain_action = ___default___
+
+modaudio_atlyss_map_bigbooshaunt_day    = ___default___
+modaudio_atlyss_map_bigbooshaunt_night  = ___default___
+modaudio_atlyss_map_bigbooshaunt_null   = ___default___
+modaudio_atlyss_map_bigbooshaunt_action = ___default___
+
+modaudio_atlyss_map_hazymazecave_day    = ___default___
+modaudio_atlyss_map_hazymazecave_night  = ___default___
+modaudio_atlyss_map_hazymazecave_null   = ___default___
+modaudio_atlyss_map_hazymazecave_action = ___default___
+
+modaudio_atlyss_map_lethallavaland_day    = ___default___
+modaudio_atlyss_map_lethallavaland_night  = ___default___
+modaudio_atlyss_map_lethallavaland_action = ___default___
+modaudio_atlyss_map_lethallavaland_null   = ___default___
+
+modaudio_atlyss_map_shiftingsandland_day    = ___default___
+modaudio_atlyss_map_shiftingsandland_night  = ___default___
+modaudio_atlyss_map_shiftingsandland_null   = ___default___
+modaudio_atlyss_map_shiftingsandland_action = ___default___
+
+modaudio_atlyss_map_snowmansland_day    = ___default___
+modaudio_atlyss_map_snowmansland_night  = ___default___
+modaudio_atlyss_map_snowmansland_null   = ___default___
+modaudio_atlyss_map_snowmansland_action = ___default___
+
+modaudio_atlyss_map_wetdryworld_day    = ___default___
+modaudio_atlyss_map_wetdryworld_night  = ___default___
+modaudio_atlyss_map_wetdryworld_null   = ___default___
+modaudio_atlyss_map_wetdryworld_action = ___default___
+
+modaudio_atlyss_map_tinyhugeisland_day    = ___default___
+modaudio_atlyss_map_tinyhugeisland_night  = ___default___
+modaudio_atlyss_map_tinyhugeisland_null   = ___default___
+modaudio_atlyss_map_tinyhugeisland_action = ___default___
+
+modaudio_atlyss_map_ticktockclock_day    = ___default___
+modaudio_atlyss_map_ticktockclock_night  = ___default___
+modaudio_atlyss_map_ticktockclock_null   = ___default___
+modaudio_atlyss_map_ticktockclock_action = ___default___
+
+modaudio_atlyss_map_princessssecretslider_day    = ___default___
+modaudio_atlyss_map_princessssecretslider_night  = ___default___
+modaudio_atlyss_map_princessssecretslider_null   = ___default___
+modaudio_atlyss_map_princessssecretslider_action = ___default___
+
+modaudio_atlyss_map_secretaquarium_day    = ___default___
+modaudio_atlyss_map_secretaquarium_night  = ___default___
+modaudio_atlyss_map_secretaquarium_null   = ___default___
+modaudio_atlyss_map_secretaquarium_action = ___default___
 # ===== SM64 Castle ===== #

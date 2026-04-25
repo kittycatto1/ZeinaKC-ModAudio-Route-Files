@@ -4,5 +4,20 @@
 # ===== Metadata ===== #
 
 # ===== Distant Memory ===== #
-
+modaudio_atlyss_map_distantmemory_day    = ___default___
+modaudio_atlyss_map_distantmemory_night  = ___default___
+modaudio_atlyss_map_distantmemory_null   = ___default___ # "King's Field IV OST - Dark Reality - Extended - RedKatana87 (youtube)".
+modaudio_atlyss_map_distantmemory_action = ___default___
 # ===== Distant Memory ===== #
+
+# ===== Subregion Scripts ===== #
+modaudio_atlyss_map_distantmemory_null                 \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Distant_Memory \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Bonfire        \
+  ~ | target_group_script : target_group_Slutsanctum   \
+    | enable_dynamic_targeting     : true              \
+    | smooth_dynamic_targeting     : true              \
+    | continuous_dynamic_targeting : false             \
+    | relative_replacement_effects : true              \
+    | chain_route : false
+# ===== Subregion Scripts ===== #

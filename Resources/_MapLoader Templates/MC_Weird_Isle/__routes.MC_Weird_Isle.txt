@@ -4,5 +4,8 @@
 # ===== Metadata ===== #
 
 # ===== MC Weird Isle ===== #
-
+modaudio_atlyss_map_weirdisle_day    = ___default___
+modaudio_atlyss_map_weirdisle_night  = ___default___ # "Weird Isle Night".
+modaudio_atlyss_map_weirdisle_null   = ___default___
+modaudio_atlyss_map_weirdisle_action = ___default___
 # ===== MC Weird Isle ===== #

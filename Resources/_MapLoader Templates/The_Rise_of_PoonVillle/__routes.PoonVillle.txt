@@ -1,8 +1,0 @@
-# ===== Metadata ===== #
-%id          The_Rise_of_PoonVillle
-%displayname The Rise of PoonVillle music pack
-# ===== Metadata ===== #
-
-# ===== The Rise of PoonVillle ===== #
-
-# ===== The Rise of PoonVillle ===== #

@@ -4,5 +4,35 @@
 # ===== Metadata ===== #
 
 # ===== Slutsanctum ===== #
+modaudio_atlyss_map_pathtoslutsanctum_day    = ___default___ # "Relax Enjoy Fun".
+modaudio_atlyss_map_pathtoslutsanctum_night  = ___default___ # "Relax Enjoy Fun (Night)".
+modaudio_atlyss_map_pathtoslutsanctum_null   = ___default___
+modaudio_atlyss_map_pathtoslutsanctum_action = ___default___
 
+modaudio_atlyss_map_slutsanctum_day    = ___default___ # Ditto.
+modaudio_atlyss_map_slutsanctum_night  = ___default___ # Ditto.
+modaudio_atlyss_map_slutsanctum_null   = ___default___
+modaudio_atlyss_map_slutsanctum_action = ___default___ # "Katamari Damacy Soundtrack - 01 - Katamari on the Rocks (128 kbps)"?
 # ===== Slutsanctum ===== #
+
+# ===== Subregion Scripts ===== #
+modaudio_atlyss_map_pathtoslutsanctum_day            \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Slutsanctum  \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Slime_Park   \
+  ~ | target_group_script : target_group_Slutsanctum \
+    | enable_dynamic_targeting     : true            \
+    | smooth_dynamic_targeting     : true            \
+    | continuous_dynamic_targeting : false           \
+    | relative_replacement_effects : true            \
+    | chain_route : false
+
+modaudio_atlyss_map_pathtoslutsanctum_night          \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Slutsanctum  \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Slime_Park   \
+  ~ | target_group_script : target_group_Slutsanctum \
+    | enable_dynamic_targeting     : true            \
+    | smooth_dynamic_targeting     : true            \
+    | continuous_dynamic_targeting : false           \
+    | relative_replacement_effects : true            \
+    | chain_route : false
+# ===== Subregion Scripts ===== # 

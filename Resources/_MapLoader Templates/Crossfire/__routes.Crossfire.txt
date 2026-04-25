@@ -4,5 +4,8 @@
 # ===== Metadata ===== #
 
 # ===== Crossfire ===== #
-
+modaudio_atlyss_map_crossfire_day    = ___default___
+modaudio_atlyss_map_crossfire_night  = ___default___
+modaudio_atlyss_map_crossfire_null   = ___default___ # "_mu_haven".
+modaudio_atlyss_map_crossfire_action = ___default___
 # ===== Crossfire ===== #

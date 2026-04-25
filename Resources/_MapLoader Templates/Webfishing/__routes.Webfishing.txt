@@ -4,5 +4,23 @@
 # ===== Metadata ===== #
 
 # ===== Webfishing ===== #
+modaudio_atlyss_map_pawprintpoint_day    = ___default___ # "WebfishingDayMusic".
+modaudio_atlyss_map_pawprintpoint_night  = ___default___ # "WebfishingSomberMusic".
+modaudio_atlyss_map_pawprintpoint_null   = ___default___
+modaudio_atlyss_map_pawprintpoint_action = ___default___
 
+modaudio_atlyss_map_aquarium_day    = ___default___ # Ditto.
+modaudio_atlyss_map_aquarium_night  = ___default___ # Ditto.
+modaudio_atlyss_map_aquarium_null   = ___default___
+modaudio_atlyss_map_aquarium_action = ___default___
+
+modaudio_atlyss_map_cabin_day    = ___default___ # Ditto.
+modaudio_atlyss_map_cabin_night  = ___default___ # Ditto.
+modaudio_atlyss_map_cabin_null   = ___default___
+modaudio_atlyss_map_cabin_action = ___default___
+
+modaudio_atlyss_map_void_day    = ___default___
+modaudio_atlyss_map_void_night  = ___default___
+modaudio_atlyss_map_void_null   = ___default___
+modaudio_atlyss_map_void_action = ___default___
 # ===== Webfishing ===== #

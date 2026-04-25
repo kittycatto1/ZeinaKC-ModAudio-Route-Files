@@ -1,0 +1,69 @@
+# ===== Metadata ===== #
+%id          Starlight_Magistics_Academy
+%displayname Starlight Magistics Academy music pack
+# ===== Metadata ===== #
+
+# ===== Starlight Magistics Academy ===== #
+modaudio_atlyss_map_frayvalley_day    = ___default___ # "Starlight High School Atlyss (Fray Fields)".
+modaudio_atlyss_map_frayvalley_night  = ___default___ # "Voisarium (Investigation)".
+modaudio_atlyss_map_frayvalley_null   = ___default___
+modaudio_atlyss_map_frayvalley_action = ___default___
+
+modaudio_atlyss_map_thedrift_day      = ___default___
+modaudio_atlyss_map_thedrift_night    = ___default___
+modaudio_atlyss_map_thedrift_null     = ___default___ # "Starlight Magistics Academy (Solarium Inbound)".
+modaudio_atlyss_map_thedrift_action   = ___default___
+
+modaudio_atlyss_map_starlightaether_day    = ___default___ # "StarlightDay".
+modaudio_atlyss_map_starlightaether_night  = ___default___ # "StarlightNight".
+modaudio_atlyss_map_starlightaether_null   = ___default___
+modaudio_atlyss_map_starlightaether_action = ___default___
+# ===== Starlight Magistics Academy ===== #
+
+# ===== Subregion Scripts ===== #
+modaudio_atlyss_map_frayvalley_day                    \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Valley_Gate   \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Fray_Valley   \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Solarium_Gate \
+  ~ | target_group_script : target_group_FrayValley   \
+    | enable_dynamic_targeting     : true             \
+    | smooth_dynamic_targeting     : true             \
+    | continuous_dynamic_targeting : false            \
+    | relative_replacement_effects : true             \
+    | chain_route : false
+
+modaudio_atlyss_map_frayvalley_night                  \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Valley_Gate   \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Fray_Valley   \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Solarium_Gate \
+  ~ | target_group_script : target_group_FrayValley   \
+    | enable_dynamic_targeting     : true             \
+    | smooth_dynamic_targeting     : true             \
+    | continuous_dynamic_targeting : false            \
+    | relative_replacement_effects : true             \
+    | chain_route : false
+
+modaudio_atlyss_map_starlightaether_day                  \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Starlight_Aether \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Aether_Ridge     \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Stradwood        \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Celestial_Canyon \
+  ~ | target_group_script : target_group_StarlightAether \
+    | enable_dynamic_targeting     : true                \
+    | smooth_dynamic_targeting     : true                \
+    | continuous_dynamic_targeting : false               \
+    | relative_replacement_effects : true                \
+    | chain_route : false
+
+modaudio_atlyss_map_starlightaether_night                \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Starlight_Aether \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Aether_Ridge     \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Stradwood        \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Celestial_Canyon \
+  ~ | target_group_script : target_group_StarlightAether \
+    | enable_dynamic_targeting     : true                \
+    | smooth_dynamic_targeting     : true                \
+    | continuous_dynamic_targeting : false               \
+    | relative_replacement_effects : true                \
+    | chain_route : false
+# ===== Subregion Scripts ===== #

@@ -6,7 +6,7 @@ function p.target_group_FrayValley(route)
   elseif atlyss.inGameUI._reigonTitle == "Solarium Gate" then
     route.targetGroup = "Solarium_Gate"
   else
-    route.targetGroup = "FrayValley"
+    route.targetGroup = "Fray_Valley"
   end
 end
 

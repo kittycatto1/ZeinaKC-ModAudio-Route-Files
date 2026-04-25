@@ -56,7 +56,7 @@ function p.target_group_HikariKingdom(route)
   elseif atlyss.inGameUI._reigonTitle == "Arbiter's Grounds" then
     route.targetGroup = "Arbiters_Grounds"
   elseif atlyss.inGameUI._reigonTitle == "Mirror Chamber" then
-    route.targetGroup = "Mirror Chamber"
+    route.targetGroup = "Mirror_Chamber"
   else
     route.targetGroup = "Hikari_Kingdom"
   end

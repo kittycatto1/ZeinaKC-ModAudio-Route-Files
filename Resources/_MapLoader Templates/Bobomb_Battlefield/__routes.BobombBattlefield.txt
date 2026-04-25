@@ -4,5 +4,8 @@
 # ===== Metadata ===== #
 
 # ===== Bob-omb Battlefield ===== #
-
+modaudio_atlyss_map_bobombbattlefield_day    = ___default___ # "BoBTheme".
+modaudio_atlyss_map_bobombbattlefield_night  = ___default___
+modaudio_atlyss_map_bobombbattlefield_null   = ___default___
+modaudio_atlyss_map_bobombbattlefield_action = ___default___
 # ===== Bob-omb Battlefield ===== #

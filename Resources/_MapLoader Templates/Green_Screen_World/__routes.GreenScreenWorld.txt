@@ -4,5 +4,8 @@
 # ===== Metadata ===== #
 
 # ===== Green Screen World ===== #
-
+modaudio_atlyss_map_greenscreenworld_day    = ___default___
+modaudio_atlyss_map_greenscreenworld_night  = ___default___
+modaudio_atlyss_map_greenscreenworld_null   = ___default___
+modaudio_atlyss_map_greenscreenworld_action = ___default___
 # ===== Green Screen World ===== #

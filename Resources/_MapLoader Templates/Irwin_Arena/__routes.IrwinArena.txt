@@ -4,5 +4,8 @@
 # ===== Metadata ===== #
 
 # ===== Irwin Arena ===== #
-
+modaudio_atlyss_map_irwinarenayo_day    = ___default___
+modaudio_atlyss_map_irwinarenayo_night  = ___default___
+modaudio_atlyss_map_irwinarenayo_null   = ___default___ # "Iwrin quotes but vocoded to the billy and mandy theme song".
+modaudio_atlyss_map_irwinarenayo_action = ___default___
 # ===== Irwin Arena ===== #

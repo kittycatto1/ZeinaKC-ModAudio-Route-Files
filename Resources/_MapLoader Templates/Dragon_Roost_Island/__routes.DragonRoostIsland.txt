@@ -4,5 +4,8 @@
 # ===== Metadata ===== #
 
 # ===== Dragon Roost Island ===== #
-
+modaudio_atlyss_map_dragonroostisland_day    = ___default___ # "_mu_dragonroost".
+modaudio_atlyss_map_dragonroostisland_night  = ___default___
+modaudio_atlyss_map_dragonroostisland_null   = ___default___
+modaudio_atlyss_map_dragonroostisland_action = ___default___
 # ===== Dragon Roost Island ===== #

@@ -4,6 +4,8 @@ This file serves as a reference of all the music available in custom maps.\
 <details><summary><b>Audio Aliases</b></summary>
 
 - **Medieval Springs:** `modaudio_atlyss_map_medievalsprings_{day/night/action/null}`
+  - Medieval Springs
+  - Medieval Arena
 - **Dragon Roost Island:** `modaudio_atlyss_map_dragonroostisland_{day/night/action/null}`
 - **Effold Terrace FFA:** `modaudio_atlyss_map_effoldffa_{day/night/action/null}`
 - **Darnassus:** `modaudio_atlyss_map_Darnassus_{day/night/action/null}`
@@ -11,7 +13,7 @@ This file serves as a reference of all the music available in custom maps.\
   - Dolaraar
   - Teldrassil
   - Starbreeze Village
-  - Pools of Arlitherien
+  - Pools of Arlithrien
   - Lake Al'Ameth
   - Gnarlpine
   - Hidden Lake
@@ -73,12 +75,12 @@ This file serves as a reference of all the music available in custom maps.\
   - `modaudio_atlyss_map_cabin_{day/night/action/null}`
   - `modaudio_atlyss_map_void_{day/night/action/null}`
 - **Questlyss:**
-  - `modaudio_atlyss_map_fluffsprings_{day/night/action/null}`
+  - `modaudio_atlyss_map_sacredgateway_{day/night/action/null}`
   - `modaudio_atlyss_map_grodmarsh_{day/night/action/null}`
 - **Fluff Springs:** `modaudio_atlyss_map_fluffsprings_{day/night/action/null}`
 - **MC Weird Isle:** `modaudio_atlyss_map_weirdisle_{day/night/action/null}`
 - **Mirror Tests:** `modaudio_atlyss_map_mirrors_{day/night/action/null}`
-- **Crescent Cove:** `modaudio_atlyss_map_atlysscastle_{day/night/action/null}`
+- **Crescent Cove:** `modaudio_atlyss_map_crescentcove_{day/night/action/null}`
 - **Atlyss FlyBy Castle:** `modaudio_atlyss_map_atlysscastle_{day/night/action/null}`
 - **Slutsanctum:**
   - `modaudio_atlyss_map_pathtoslutsanctum_{day/night/action/null}`
@@ -89,6 +91,7 @@ This file serves as a reference of all the music available in custom maps.\
   - `modaudio_atlyss_map_forest_{day/night/action/null}`
   - `modaudio_atlyss_map_autumn_{day/night/action/null}`
   - `modaudio_atlyss_map_cherryblossom_{day/night/action/null}`
+- **Grove of Memories:** `modaudio_atlyss_map_groveofmemories_{day/night/action/null}`
 - **Crossfire Map:** `modaudio_atlyss_map_crossfire_{day/night/action/null}`
 - **Moo well Farm:** `modaudio_atlyss_map_moowellfarm_{day/night/action/null}`
 - **SM64 Castle:**
@@ -128,10 +131,11 @@ This file serves as a reference of all the music available in custom maps.\
   - Beach Baholah
   - Training Barracks
   - Colosseum Arena
+- **Fallen Sanctum:** `modaudio_atlyss_map_fallensanctum_{day/night/action/null}`
 - **Hyrule And Twilight:**
   - `modaudio_atlyss_map_hikariportalnetwork_{day/night/action/null}`
   - `modaudio_atlyss_map_hikarikovillage_{day/night/action/null}`
-    - Hikari Village
+    - Hikariko Village
     - Elden Springs
   - `modaudio_atlyss_map_faronprovidence_{day/night/action/null}`
     - Faron Providence
@@ -139,6 +143,10 @@ This file serves as a reference of all the music available in custom maps.\
     - Temple of Amork
   - `modaudio_atlyss_map_ordonprovidence_{day/night/action/null}`
   - `modaudio_atlyss_map_sacredrealm_{day/night/action/null}`
+  - `modaudio_atlyss_map_twilightveil_{day/night/action/null}`
+    - Twilight Veil
+    - Twilight Islands
+    - Twilight Wastelands
   - `modaudio_atlyss_map_hikarikingdom_{day/night/action/null}`
     - North Elden Pass
     - Elden Bridge
@@ -166,10 +174,6 @@ This file serves as a reference of all the music available in custom maps.\
     - West Hikari Courtyard
     - Hikari Royal Graveyard
     - East Hikari Courtyard
-  - `modaudio_atlyss_map_twilightveil_{day/night/action/null}`
-    - Twilight Veil
-    - Twilight Islands
-    - Twilight Wastelands
 - **Abyssal Riftlands Arena:** `modaudio_atlyss_map_riftlandsarena_{day/night/action/null}`
   - Riftlands Arena
   - Pit of Heresy
@@ -204,13 +208,13 @@ This file serves as a reference of all the music available in custom maps.\
     - Aurum
     - Glastonbury
     - Northsire Abbey
-  - `modaudio_atlyss_map_oakfields_{day/night/acttion/null}`
+  - `modaudio_atlyss_map_oakfields_{day/night/action/null}`
     - Oak Fields
     - Ordel Village
     - Terrace Mountain
     - Bahi Side
     - Crescent Path
-- **PeacefulLuvoraGarden:** `modaudio_atlyss_map_peacefulluvoragarden_{day/night/acttion/null}`
+- **PeacefulLuvoraGarden:** `modaudio_atlyss_map_peacefulluvoragarden_{day/night/action/null}`
 - **Distant Memory:** `modaudio_atlyss_map_distantmemory_{day/night/action/null}`
   - Bonfire
 </details>
@@ -245,7 +249,6 @@ This file serves as a reference of all the music available in custom maps.\
 | _mu_photo                                                             | _sound/_musics/_mu_photo.ogg                                                        | Grod Marsh, Fluff Springs (Night). [Unlooped]                             |
 | Weird Isle Night                                                      | AudioClip/Weird Isle Night.ogg                                                      | Weird Isle (Night). [Looped]                                              |
 | _mu_flyby                                                             | _sound/_musics/_mu_flyby.ogg                                                        | Atlyss Castle. [Looped]                                                   |
-| Autumn_Music-sharedassets11.assets-42                                 | AudioClip/Autumn_Music-sharedassets11.assets-42.ogg                                 | Autumn (Day). [Looped]                                                    |
 | Relax Enjoy Fun                                                       | AudioClip/Relax Enjoy Fun.ogg                                                       | Path to Slutsanctum (Day). [3D Looped] - SlutSancctum [2D Unlooped]       |
 | Relax Enjoy Fun (Night)                                               | AudioClip/Relax Enjoy Fun (Night).ogg                                               | Path to Slutsanctum (Night). [3D Looped] - SlutSancctum [2D Unlooped]     |
 | Katamari Damacy Soundtrack - 01 - Katamari on the Rocks (128 kbps)    | Audio/Clip/Katamari Damacy Soundtrack - 01 - Katamari on the Rocks (128 kbps).ogg   | SlutSanctum (Action?). [Looped]                                           |
@@ -260,9 +263,9 @@ This file serves as a reference of all the music available in custom maps.\
 | 09. CaveDungeon                                                       | AudioClip/CaveDungeon.ogg                                                           | Hazy Maze Cave, Wet-Dry World. [Looped]                                   |
 | 10. Lethal Lava Land                                                  | AudioClip/10. Lethal Lava Land.ogg                                                  | Lethal Lava Land, Shifting Sand Land. [Looped]                            |
 | 06. Slider                                                            | AudioClip/Slider.ogg                                                                | Tick Tock Clock, Princess's Secret Slider. [Looped]                       |
-| Shin Megami Tensei IV OST - Aboveground Urban Area A -                | AudioClip/Shin Megami Tensei IV OST - Aboveground Urban Area A -.ogg                | Epilson. [Looped]                                                         |
-| The Depths of Amala (Full Suite) - SMT III_ Nocturne                  | AudioClip/The Depths of Amala (Full Suite) - SMT III_ Nocturne.ogg                  | Epilson Dungeon (Ambient). [Looped]                                       |
-| Shin Megami Tensei IV OST - Battle C1 - (VR Battle)                   | AudioClip/Shin Megami Tensei IV OST - Battle C1 - (VR Battle).ogg                   | Epilson Dungeon (Action). [Looped]                                        |
+| Shin Megami Tensei IV OST - Aboveground Urban Area A -                | AudioClip/Shin Megami Tensei IV OST - Aboveground Urban Area A -.ogg                | Epsilon. [Looped]                                                         |
+| The Depths of Amala (Full Suite) - SMT III_ Nocturne                  | AudioClip/The Depths of Amala (Full Suite) - SMT III_ Nocturne.ogg                  | Epsilon Dungeon (Ambient). [Looped]                                       |
+| Shin Megami Tensei IV OST - Battle C1 - (VR Battle)                   | AudioClip/Shin Megami Tensei IV OST - Battle C1 - (VR Battle).ogg                   | Epsilon Dungeon (Action). [Looped]                                        |
 | Iwrin quotes but vocoded to the billy and mandy theme song            | AudioClip/Iwrin quotes but vocoded to the billy and mandy theme song.ogg            | Irwin Arena. [Unlooped]                                                   |
 | Merlin_Cinema                                                         | AudioClip/Merlin_Cinema.ogg                                                         | Thara'lune (Day). [Unlooped]                                              |
 | Amben                                                                 | AudioClip/Amben.ogg                                                                 | Tharalune (Night). [Unlooped]                                             |
@@ -279,14 +282,15 @@ This file serves as a reference of all the music available in custom maps.\
 | Color Your Night 8-bit                                                | AudioClip/Color Your Night 8-bit.ogg                                                | Arcade (Night). [Looped. V:1.00]                                          |
 | the_roost_day                                                         | AudioClip/the_roost_day.ogg                                                         | Cafe Bahi (Day). [Unlooped]                                               |
 | the_roost_night                                                       | AudioClip/the_roost_night.ogg                                                       | Cafe Bahi (Night). [Unlooped]                                             |
-| Kakariko_Day                                                          | AudioClip/Kakariko_Day.ogg                                                          | Kakariko Village (Day). [Looped]                                          |
-| Kakariko_Night                                                        | AudioClip/Kakariko_Night.ogg                                                        | Kakariko Village (Night). [Looped]                                        |
+| Kakariko_Day                                                          | AudioClip/Kakariko_Day.ogg                                                          | Hikariko Village (Day). [Looped]                                          |
+| Kakariko_Night                                                        | AudioClip/Kakariko_Night.ogg                                                        | Hikariko Village (Night). [Looped]                                        |
 | Sans.                                                                 | AudioClip/Sans..ogg                                                                 | Hikari: Portal Network. [Looped]                                          |
 | Faron_Woods_LOZTP                                                     | AudioClip/Faron_Woods_LOZTP.ogg                                                     | Faron Providence (Day). [Looped]                                          |
 | Sacred_Grove_LOZTP                                                    | AudioClip/Kakariko_Night.ogg                                                        | Faron Providence (Night). [Looped]                                        |
 | Ordon_Day                                                             | AudioClip/Ordon_Day.ogg                                                             | Ordon Providence (Day). [Looped]                                          |
 | Ordon_Night                                                           | AudioClip/Ordon_Night.ogg                                                           | Ordon Providence (Night). [Looped]                                        |
 | TPLOZ_SacredRealm                                                     | AudioClip/TPLOZ_SacredRealm.ogg                                                     | Sacred Realm. [Looped]                                                    |
+| Day_Twilight                                                          | AudioClip/Day_Twilight.ogg                                                          | Twilight Veil. [Looped. V:1.00]                                           |
 | Hyrule Field - The Legend of Zelda_ Twilight Princess                 | AudioClip/Hyrule Field - The Legend of Zelda_ Twilight Princess.ogg                 | Hikari Kingdom. [Looped]                                                  |
 | Hyrule Field Night - The Legend of Zelda_ Twilight Princess OST       | AudioClip/Hyrule Field Night - The Legend of Zelda_ Twilight Princess OST.ogg       | Hikari Kingdom. [Looped]                                                  |
 | MUSIC_EDEN_HORSEBATTLE                                                | AudioClip/MUSIC_EDEN_HORSEBATTLE.ogg                                                | Mirror Chamber. [Looped]                                                  |
@@ -295,11 +299,8 @@ This file serves as a reference of all the music available in custom maps.\
 | HC_-02                                                                | AudioClip/HC_-02.ogg                                                                | Hikari Castle second floor. [Looped. V:1.00]                              |
 | HC_-03                                                                | AudioClip/HC_-03.ogg                                                                | Hallways of the second floor. [Looped. V:1.00]                            |
 | HC_-04                                                                | AudioClip/HC_-04.ogg                                                                | Doors to the Throne Room. [Looped. V:1.00]                                |
-| Day_Twilight                                                          | AudioClip/Day_Twilight.ogg                                                          | Twilight Veil. [Looped. V:1.00]                                           |
 | Starlight Friction                                                    | AudioClip/Starlight Friction.ogg                                                    | Riftlands Arena (Day). [Looped]                                           |
 | Starlight Friction Cataclysm                                          | AudioClip/Starlight Friction Cataclysm.ogg                                          | Riftlands Arena (Night). [Looped]                                         |
-| Starlight High School Atlyss (Fray Fields)                            | AudioClip/Starlight High School Atlyss (Fray Fields).ogg                            | Fray Valley (Day). [Unlooped]                                             |
-| Voisarium (Investigation)                                             | AudioClip/Voisarium (Investigation).ogg                                             | Fray Valley (Night). [Unlooped]                                           |
 | Voisarium (Talk about it)                                             | AudioClip/Voisarium (Talk about it).ogg                                             | Arch Valley (Day). [Looped. V:0.65]                                       |
 | Talk about it (Night                                                  | AudioClip/Talk about it (Night.ogg                                                  | Arch Valley (Night). [Looped. V:0.65]                                     |
 | Incursion                                                             | AudioClip/Incursion.ogg                                                             | Fern Isles (Night). [Looped]                                              |
@@ -312,6 +313,8 @@ This file serves as a reference of all the music available in custom maps.\
 | Voisarium Nexus (Threat - Cataclysm)                                  | AudioClip/Voisarium Nexus (Threat - Cataclysm)                                      | Howiling Mountain. [Looped]                                               |
 | Eggular                                                               | AudioClip/Eggular.ogg                                                               | Easter egg on the east mountains in Arch Valley. [Looped]                 |
 | You beg for mercy                                                     | AudioClip/You beg for mercy.ogg                                                     | Easter egg behind Sakura in Howiling Mountains [Looped. V:0.33]           |
+| Starlight High School Atlyss (Fray Fields)                            | AudioClip/Starlight High School Atlyss (Fray Fields).ogg                            | Fray Valley (Day). [Unlooped]                                             |
+| Voisarium (Investigation)                                             | AudioClip/Voisarium (Investigation).ogg                                             | Fray Valley (Night). [Unlooped]                                           |
 | Starlight Magistics Academy (Solarium Inbound)                        | AudioClip/Starlight Magistics Academy (Solarium Inbound).ogg                        | The Drift. [Looped]                                                       |
 | StarlightDay                                                          | AudioClip/StarlightDay.ogg                                                          | Aether Ridge (Day). [Unlooped]                                            |
 | StarlightNight                                                        | AudioClip/StarlightNight.ogg                                                        | Aether Ridge (Night). [Unlooped]                                          |

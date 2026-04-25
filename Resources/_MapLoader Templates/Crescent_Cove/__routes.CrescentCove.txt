@@ -4,5 +4,8 @@
 # ===== Metadata ===== #
 
 # ===== Crescent_Cove ===== #
-
+modaudio_atlyss_map_crescentcove_day    = ___default___
+modaudio_atlyss_map_crescentcove_night  = ___default___
+modaudio_atlyss_map_crescentcove_null   = ___default___
+modaudio_atlyss_map_crescentcove_action = ___default___
 # ===== Crescent_Cove ===== #

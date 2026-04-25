@@ -4,5 +4,8 @@
 # ===== Metadata ===== #
 
 # ===== Vore Hotel ===== #
-
+modaudio_atlyss_map_vorehotel_day    = ___default___
+modaudio_atlyss_map_vorehotel_night  = ___default___
+modaudio_atlyss_map_vorehotel_null   = ___default___
+modaudio_atlyss_map_vorehotel_action = ___default___
 # ===== Vore Hotel ===== #

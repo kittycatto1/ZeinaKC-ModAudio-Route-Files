@@ -4,5 +4,34 @@
 # ===== Metadata ===== #
 
 # ===== Cafe Bahi ===== #
-
+modaudio_atlyss_map_cafebahi_day    = ___default___ # "the_roost_day".
+modaudio_atlyss_map_cafebahi_night  = ___default___ # "the_roost_night".
+modaudio_atlyss_map_cafebahi_null   = ___default___
+modaudio_atlyss_map_cafebahi_action = ___default___
 # ===== Cafe Bahi ===== #
+
+# ===== Subregion Scripts ===== #
+modaudio_atlyss_map_cafebahi_day                          \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Cafe_Bahi         \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Beach_Baholah     \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Training_Barracks \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Colosseum_Arena   \
+  ~ | target_group_script : target_group_CafeBahi         \
+    | enable_dynamic_targeting     : true                 \
+    | smooth_dynamic_targeting     : true                 \
+    | continuous_dynamic_targeting : false                \
+    | relative_replacement_effects : true                 \
+    | chain_route : false
+	
+modaudio_atlyss_map_cafebahi_night                        \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Cafe_Bahi         \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Beach_Baholah     \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Training_Barracks \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Colosseum_Arena   \
+  ~ | target_group_script : target_group_CafeBahi         \
+    | enable_dynamic_targeting     : true                 \
+    | smooth_dynamic_targeting     : true                 \
+    | continuous_dynamic_targeting : false                \
+    | relative_replacement_effects : true                 \
+    | chain_route : false
+# ===== Subregion Scripts ===== #

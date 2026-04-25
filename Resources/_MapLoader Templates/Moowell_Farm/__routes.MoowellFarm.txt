@@ -4,5 +4,8 @@
 # ===== Metadata ===== #
 
 # ===== Moo-well Farm ===== #
-
+modaudio_atlyss_map_moowellfarm_day    = ___default___
+modaudio_atlyss_map_moowellfarm_night  = ___default___
+modaudio_atlyss_map_moowellfarm_null   = ___default___
+modaudio_atlyss_map_moowellfarm_action = ___default___
 # ===== Moo-well Farm ===== #

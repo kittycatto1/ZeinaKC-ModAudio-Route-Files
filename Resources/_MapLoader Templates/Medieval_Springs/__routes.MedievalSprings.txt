@@ -4,5 +4,20 @@
 # ===== Metadata ===== #
 
 # ===== Medieval Springs ===== #
-
+modaudio_atlyss_map_medievalsprings_day    = ___default___
+modaudio_atlyss_map_medievalsprings_night  = ___default___
+modaudio_atlyss_map_medievalsprings_null   = ___default___
+modaudio_atlyss_map_medievalsprings_action = ___default___
 # ===== Medieval Springs ===== #
+
+# ===== Subregion Scripts ===== #
+modaudio_atlyss_map_medievalsprings_null                 \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Medieval_Springs \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Medieval_Arena   \
+  ~ | target_group_script : target_group_MedievalSprings \
+    | enable_dynamic_targeting     : true                \
+    | smooth_dynamic_targeting     : true                \
+    | continuous_dynamic_targeting : false               \
+    | relative_replacement_effects : true                \
+    | chain_route : false
+# ===== Subregion Scripts ===== # 

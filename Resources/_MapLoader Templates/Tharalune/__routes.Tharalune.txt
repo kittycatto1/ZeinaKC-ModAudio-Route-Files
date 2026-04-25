@@ -4,5 +4,13 @@
 # ===== Metadata ===== #
 
 # ===== Tharalune ===== #
+modaudio_atlyss_map_tharalune_day    = ___default___
+modaudio_atlyss_map_tharalune_night  = ___default___
+modaudio_atlyss_map_tharalune_null   = ___default___
+modaudio_atlyss_map_tharalune_action = ___default___
 
+modaudio_atlyss_map_saphresidence_day    = ___default___
+modaudio_atlyss_map_saphresidence_night  = ___default___
+modaudio_atlyss_map_saphresidence_null   = ___default___
+modaudio_atlyss_map_saphresidence_action = ___default___
 # ===== Tharalune ===== #

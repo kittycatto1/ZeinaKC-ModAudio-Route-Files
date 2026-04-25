@@ -4,5 +4,23 @@
 # ===== Metadata ===== #
 
 # ===== Fatum Betula ===== #
+modaudio_atlyss_map_fatumbetula_day    = ___default___
+modaudio_atlyss_map_fatumbetula_night  = ___default___
+modaudio_atlyss_map_fatumbetula_null   = ___default___
+modaudio_atlyss_map_fatumbetula_action = ___default___
 
+modaudio_atlyss_map_forest_day    = ___default___
+modaudio_atlyss_map_forest_night  = ___default___
+modaudio_atlyss_map_forest_null   = ___default___
+modaudio_atlyss_map_forest_action = ___default___
+
+modaudio_atlyss_map_autumn_day    = ___default___ # "Autumn_Music-sharedassets11.assets-42".
+modaudio_atlyss_map_autumn_night  = ___default___
+modaudio_atlyss_map_autumn_null   = ___default___
+modaudio_atlyss_map_autumn_action = ___default___
+
+modaudio_atlyss_map_cherryblossom_day    = ___default___ # "CherryBlossomMusic-sharedassets3.assets-93".
+modaudio_atlyss_map_cherryblossom_night  = ___default___
+modaudio_atlyss_map_cherryblossom_null   = ___default___
+modaudio_atlyss_map_cherryblossom_action = ___default___
 # ===== Fatum Betula ===== #

@@ -4,5 +4,8 @@
 # ===== Metadata ===== #
 
 # ===== Beach Bowl Galaxy ===== #
-
+modaudio_atlyss_map_beachbowlgalaxy_day    = ___default___ # "Beach Bowl Galaxy Loop".
+modaudio_atlyss_map_beachbowlgalaxy_night  = ___default___
+modaudio_atlyss_map_beachbowlgalaxy_null   = ___default___
+modaudio_atlyss_map_beachbowlgalaxy_action = ___default___
 # ===== Beach Bowl Galaxy ===== #

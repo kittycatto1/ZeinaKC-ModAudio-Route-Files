@@ -4,5 +4,8 @@
 # ===== Metadata ===== #
 
 # ===== Honey Hive Galaxy ===== #
-
+modaudio_atlyss_map_honeyhivegalaxy_day    = ___default___
+modaudio_atlyss_map_honeyhivegalaxy_night  = ___default___
+modaudio_atlyss_map_honeyhivegalaxy_null   = ___default___ # "HoneyhiveLoop".
+modaudio_atlyss_map_honeyhivegalaxy_action = ___default___
 # ===== Honey Hive Galaxy ===== #

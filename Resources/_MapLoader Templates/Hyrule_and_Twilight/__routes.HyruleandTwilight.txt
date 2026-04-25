@@ -1,0 +1,159 @@
+# ===== Metadata ===== #
+%id          Hyrule_and_Twilight
+%displayname Hyrule and Twilight music pack
+# ===== Metadata ===== #
+
+# ===== Hyrule and Twilight ===== #
+HC_-01 = ___default___
+HC_-02 = ___default___
+HC_-03 = ___default___
+HC_-04 = ___default___
+# ===== Audio Alias ===== #
+modaudio_atlyss_map_hikarikovillage_day    = ___default___ # "Kakariko_Day".
+modaudio_atlyss_map_hikarikovillage_night  = ___default___ # "Kakariko_Night".
+modaudio_atlyss_map_hikarikovillage_null   = ___default___
+modaudio_atlyss_map_hikarikovillage_action = ___default___
+
+modaudio_atlyss_map_hikariportalnetwork_day    = ___default___
+modaudio_atlyss_map_hikariportalnetwork_night  = ___default___
+modaudio_atlyss_map_hikariportalnetwork_null   = ___default___ # "Sans.".
+modaudio_atlyss_map_hikariportalnetwork_action = ___default___
+
+modaudio_atlyss_map_faronprovidence_day    = ___default___ # "Faron_Woods_LOZTP".
+modaudio_atlyss_map_faronprovidence_night  = ___default___ # "Sacred_Grove_LOZTP".
+modaudio_atlyss_map_faronprovidence_null   = ___default___
+modaudio_atlyss_map_faronprovidence_action = ___default___
+
+modaudio_atlyss_map_ordonprovidence_day    = ___default___ # "Ordon_Day".
+modaudio_atlyss_map_ordonprovidence_night  = ___default___ # "Ordon_Night".
+modaudio_atlyss_map_ordonprovidence_null   = ___default___
+modaudio_atlyss_map_ordonprovidence_action = ___default___
+
+modaudio_atlyss_map_sacredrealm_day    = ___default___
+modaudio_atlyss_map_sacredrealm_night  = ___default___
+modaudio_atlyss_map_sacredrealm_null   = ___default___ # "TPLOZ_SacredRealm".
+modaudio_atlyss_map_sacredrealm_action = ___default___
+
+modaudio_atlyss_map_twilightveil_day    = ___default___
+modaudio_atlyss_map_twilightveil_night  = ___default___
+modaudio_atlyss_map_twilightveil_null   = ___default___ # "Day_Twilight".
+modaudio_atlyss_map_twilightveil_action = ___default___
+
+modaudio_atlyss_map_hikarikingdom_day    = ___default___ # "Hyrule Field - The Legend of Zelda_ Twilight Princess".
+modaudio_atlyss_map_hikarikingdom_night  = ___default___ # "Hyrule Field Night - The Legend of Zelda_ Twilight Princess OST".
+modaudio_atlyss_map_hikarikingdom_null   = ___default___
+modaudio_atlyss_map_hikarikingdom_action = ___default___ # "MUSIC_EDEN_HORSEBATTLE".
+
+modaudio_atlyss_map_butchercircus_day    = ___default___
+modaudio_atlyss_map_butchercircus_night  = ___default___
+modaudio_atlyss_map_butchercircus_null   = ___default___ # "The Hidden Village - The Legend of Zelda_ Twilight Princess OST".
+modaudio_atlyss_map_butchercircus_action = ___default___
+
+modaudio_atlyss_map_hikaricastle_day    = ___default___
+modaudio_atlyss_map_hikaricastle_night  = ___default___
+modaudio_atlyss_map_hikaricastle_null   = ___default___
+modaudio_atlyss_map_hikaricastle_action = ___default___
+# ===== Hyrule and Twilight ===== #
+
+# ===== Subregion Scripts ===== #
+modaudio_atlyss_map_hikarikovillage_day                  \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Hikariko_Village \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Elden_Springs    \
+  ~ | target_group_script : target_group_HikarikoVillage \
+    | enable_dynamic_targeting     : true                \
+    | smooth_dynamic_targeting     : true                \
+    | continuous_dynamic_targeting : false               \
+    | relative_replacement_effects : true                \
+    | chain_route : false
+
+modaudio_atlyss_map_hikarikovillage_night                \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Hikariko_Village \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Elden_Springs    \
+  ~ | target_group_script : target_group_HikarikoVillage \
+    | enable_dynamic_targeting     : true                \
+    | smooth_dynamic_targeting     : true                \
+    | continuous_dynamic_targeting : false               \
+    | relative_replacement_effects : true                \
+    | chain_route : false
+
+modaudio_atlyss_map_faronprovidence_day                  \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Faron_Providence \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Hikari_Temple    \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Temple_of_Amork  \
+  ~ | target_group_script : target_group_FaronProvidence \
+    | enable_dynamic_targeting     : true                \
+    | smooth_dynamic_targeting     : true                \
+    | continuous_dynamic_targeting : false               \
+    | relative_replacement_effects : true                \
+    | chain_route : false
+
+modaudio_atlyss_map_faronprovidence_night                \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Faron_Providence \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Hikari_Temple    \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Temple_of_Amork  \
+  ~ | target_group_script : target_group_FaronProvidence \
+    | enable_dynamic_targeting     : true                \
+    | smooth_dynamic_targeting     : true                \
+    | continuous_dynamic_targeting : false               \
+    | relative_replacement_effects : true                \
+    | chain_route : false
+
+modaudio_atlyss_map_twilightveil_null                       \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Twilight_Veil       \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Twilight_Islands    \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Twilight_Wastelands \
+  ~ | target_group_script : target_group_TwilightVeil       \
+    | enable_dynamic_targeting     : true                   \
+    | smooth_dynamic_targeting     : true                   \
+    | continuous_dynamic_targeting : false                  \
+    | relative_replacement_effects : true                   \
+    | chain_route : false
+
+modaudio_atlyss_map_hikarikingdom_night                         \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : North_Elden_Pass        \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Elden_Bridge            \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Elden_Bridge_Pass       \
+    | ___default___ : 1.0 : 1.0 : 1.0 : James_Village           \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Valkyrian_Mountain_Pass \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Valkyrian_Mountain      \
+	| ___default___ : 1.0 : 1.0 : 1.0 : Lake_Lorelei            \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Lorelei_Springs         \
+    | ___default___ : 1.0 : 1.0 : 1.0 : IronClaw_Village        \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Kami_Fields             \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Twilight_Town           \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Hikari_Kingdom          \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Anmir_Desert            \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Arbiters_Grounds        \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Mirror_Chamber          \
+  ~ | target_group_script : target_group_HikariKingdom          \
+    | enable_dynamic_targeting     : true                       \
+    | smooth_dynamic_targeting     : true                       \
+    | continuous_dynamic_targeting : false                      \
+    | relative_replacement_effects : true                       \
+    | chain_route : false
+
+modaudio_atlyss_map_butchercircus_null                  \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Butchers_Circus \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Battle          \
+  ~ | target_group_script : target_group_ButchersCircus \
+    | enable_dynamic_targeting     : true               \
+    | smooth_dynamic_targeting     : true               \
+    | continuous_dynamic_targeting : false              \
+    | relative_replacement_effects : true               \
+    | chain_route : false
+
+modaudio_atlyss_map_hikaricastle_null                          \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Hikari_Castle_Entrance \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Inside_Hikari_Castle   \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Hikari_Castle          \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Throne_Room            \
+    | ___default___ : 1.0 : 1.0 : 1.0 : West_Hikari_Courtyard  \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Hikari_Royal_Graveyard \
+	| ___default___ : 1.0 : 1.0 : 1.0 : East_Hikari_Courtyard  \
+  ~ | target_group_script : target_group_HikariCastle          \
+    | enable_dynamic_targeting     : true                      \
+    | smooth_dynamic_targeting     : true                      \
+    | continuous_dynamic_targeting : false                     \
+    | relative_replacement_effects : true                      \
+    | chain_route : false
+# ===== Subregion Scripts ===== #

@@ -1,0 +1,65 @@
+# ===== Metadata ===== #
+%id          Fray_Fields_Social
+%displayname Fray Fields Social music pack
+# ===== Metadata ===== #
+
+# ===== Fray Fields Social ===== #
+Voisarium (Talk about it) = ___default___
+Talk about it (Night      = ___default___
+_mu_cane     = ___default___ ~ map : Fray Outskirts
+Incursion    = ___default___
+mu_nouCove   = ___default___
+_mu_beaver   = ___default___
+_mu_lethargy = ___default___
+_mu_botany   = ___default___ ~ map : Fray Outskirts
+Starlight Magistics Academy (Threat - Abyssal Fields) = ___default___
+Starlight Magistics Academy (Abyssal Fields)          = ___default___
+Voisarium Nexus (Threat - Cataclysm)                  = ___default___
+Eggular           = ___default___
+You beg for mercy = ___default___
+# ===== Audio Alias ===== #
+modaudio_atlyss_map_frayoutskirts_day    = ___default___
+modaudio_atlyss_map_frayoutskirts_night  = ___default___
+modaudio_atlyss_map_frayoutskirts_null   = ___default___
+modaudio_atlyss_map_frayoutskirts_action = ___default___
+# ===== Fray Fields Social ===== #
+
+# ===== Subregion Scripts ===== #
+modaudio_atlyss_map_frayoutskirts_day                     \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Arch_Valley       \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Fern_Isles        \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Picnic_Area       \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Camp_Site         \
+    | ___default___ : 1.0 : 1.0 : 1.0 : BrawlZBoy_Tree    \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Fray_Tree         \
+	| ___default___ : 1.0 : 1.0 : 1.0 : Fray_Outskirts    \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Silverwood        \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Abyssal_Riftlands \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Howiling_Mountain \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Sacred_Reach      \
+  ~ | target_group_script : target_group_FrayFieldsSocial \
+    | enable_dynamic_targeting     : true                 \
+    | smooth_dynamic_targeting     : true                 \
+    | continuous_dynamic_targeting : false                \
+    | relative_replacement_effects : true                 \
+    | chain_route : false
+
+modaudio_atlyss_map_frayoutskirts_night                   \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Arch_Valley       \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Fern_Isles        \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Picnic_Area       \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Camp_Site         \
+    | ___default___ : 1.0 : 1.0 : 1.0 : BrawlZBoy_Tree    \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Fray_Tree         \
+	| ___default___ : 1.0 : 1.0 : 1.0 : Fray_Outskirts    \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Silverwood        \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Abyssal_Riftlands \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Howiling_Mountain \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Sacred_Reach      \
+  ~ | target_group_script : target_group_FrayFieldsSocial \
+    | enable_dynamic_targeting     : true                 \
+    | smooth_dynamic_targeting     : true                 \
+    | continuous_dynamic_targeting : false                \
+    | relative_replacement_effects : true                 \
+    | chain_route : false
+# ===== Subregion Scripts ===== #

@@ -1,0 +1,11 @@
+# ===== Metadata ===== #
+%id          Grove_of_Memories
+%displayname Grove of Memories music pack
+# ===== Metadata ===== #
+
+# ===== Grove of Memories ===== #
+modaudio_atlyss_map_groveofmemories_day    = ___default___
+modaudio_atlyss_map_groveofmemories_night  = ___default___
+modaudio_atlyss_map_groveofmemories_null   = ___default___
+modaudio_atlyss_map_groveofmemories_action = ___default___
+# ===== Grove of Memories ===== #

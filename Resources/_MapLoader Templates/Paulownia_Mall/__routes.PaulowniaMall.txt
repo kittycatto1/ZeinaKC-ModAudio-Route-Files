@@ -4,5 +4,52 @@
 # ===== Metadata ===== #
 
 # ===== Paulownia Mall ===== #
-
+Daymix       = ___default___
+Nightmix     = ___default___
+Escapade     = ___default___
+ChagallDay   = ___default___
+ChagallNight = ___default___
+BeBlue       = ___default___
+Shop         = ___default___
+Moon Reaching 8-bit    = ___default___
+Color Your Night 8-bit = ___default___
+# ===== Audio Alias ===== #
+modaudio_atlyss_map_paulowniamall_day    = ___default___
+modaudio_atlyss_map_paulowniamall_night  = ___default___
+modaudio_atlyss_map_paulowniamall_null   = ___default___
+modaudio_atlyss_map_paulowniamall_action = ___default___
 # ===== Paulownia Mall ===== #
+
+# ===== Subregion Scripts ===== #
+modaudio_atlyss_map_paulowniamall_day                      \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Paulownia_Mall     \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Club_Escapade      \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Chagall_Cafe       \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Be_Blue_V          \
+    | ___default___ : 1.0 : 1.0 : 1.0 : East_Tatsumi_Koban \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Mayoido_Antiques   \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Aohige_Pharmancy   \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Arcade             \
+  ~ | target_group_script : target_group_PaulowniaMall     \
+    | enable_dynamic_targeting     : true                  \
+    | smooth_dynamic_targeting     : true                  \
+    | continuous_dynamic_targeting : false                 \
+    | relative_replacement_effects : true                  \
+    | chain_route : false
+
+modaudio_atlyss_map_paulowniamall_night                    \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Paulownia_Mall     \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Club_Escapade      \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Chagall_Cafe       \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Be_Blue_V          \
+    | ___default___ : 1.0 : 1.0 : 1.0 : East_Tatsumi_Koban \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Mayoido_Antiques   \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Aohige_Pharmancy   \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Arcade             \
+  ~ | target_group_script : target_group_PaulowniaMall     \
+    | enable_dynamic_targeting     : true                  \
+    | smooth_dynamic_targeting     : true                  \
+    | continuous_dynamic_targeting : false                 \
+    | relative_replacement_effects : true                  \
+    | chain_route : false
+# ===== Subregion Scripts ===== #

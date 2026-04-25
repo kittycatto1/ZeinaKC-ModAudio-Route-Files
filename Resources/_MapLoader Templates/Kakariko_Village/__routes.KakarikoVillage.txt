@@ -4,5 +4,8 @@
 # ===== Metadata ===== #
 
 # ===== Kakariko Village ===== #
-
+modaudio_atlyss_map_kakarikovillage_day    = ___default___ # "16. Kakariko Village".
+modaudio_atlyss_map_kakarikovillage_night  = ___default___ # Ditto.
+modaudio_atlyss_map_kakarikovillage_null   = ___default___
+modaudio_atlyss_map_kakarikovillage_action = ___default___
 # ===== Kakariko Village ===== #

@@ -4,5 +4,8 @@
 # ===== Metadata ===== #
 
 # ===== Fluff Springs ===== #
-
+modaudio_atlyss_map_fluffsprings_day    = ___default___ # "_mu_cane".
+modaudio_atlyss_map_fluffsprings_night  = ___default___ # "_mu_photo".
+modaudio_atlyss_map_fluffsprings_null   = ___default___
+modaudio_atlyss_map_fluffsprings_action = ___default___
 # ===== Fluff Springs ===== #

@@ -4,5 +4,16 @@
 # ===== Metadata ===== #
 
 # ===== Epsilon ===== #
+The Depths of Amala (Full Suite) - SMT III_ Nocturne = ___default___ # Ambient.
+Shin Megami Tensei IV OST - Battle C1 - (VR Battle)  = ___default___ # Action.
 
+modaudio_atlyss_map_epsilon_day    = ___default___
+modaudio_atlyss_map_epsilon_night  = ___default___
+modaudio_atlyss_map_epsilon_null   = ___default___ # "Shin Megami Tensei IV OST - Aboveground Urban Area A -".
+modaudio_atlyss_map_epsilon_action = ___default___
+
+modaudio_atlyss_map_epsilondungeon_day    = ___default___
+modaudio_atlyss_map_epsilondungeon_night  = ___default___
+modaudio_atlyss_map_epsilondungeon_null   = ___default___
+modaudio_atlyss_map_epsilondungeon_action = ___default___
 # ===== Epsilon ===== #

@@ -4,5 +4,13 @@
 # ===== Metadata ===== #
 
 # ===== Questlyss ===== #
+modaudio_atlyss_map_sacredgateway_day    = ___default___
+modaudio_atlyss_map_sacredgateway_night  = ___default___
+modaudio_atlyss_map_sacredgateway_null   = ___default___
+modaudio_atlyss_map_sacredgateway_action = ___default___
 
+modaudio_atlyss_map_grodmarsh_day    = ___default___
+modaudio_atlyss_map_grodmarsh_night  = ___default___
+modaudio_atlyss_map_grodmarsh_null   = ___default___
+modaudio_atlyss_map_grodmarsh_action = ___default___
 # ===== Questlyss ===== #

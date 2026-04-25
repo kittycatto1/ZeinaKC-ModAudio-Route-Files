@@ -4,5 +4,8 @@
 # ===== Metadata ===== #
 
 # ===== FlyBy Castle ===== #
-
+modaudio_atlyss_map_atlysscastle_day    = ___default___
+modaudio_atlyss_map_atlysscastle_night  = ___default___
+modaudio_atlyss_map_atlysscastle_null   = ___default___ # "_mu_flyby".
+modaudio_atlyss_map_atlysscastle_action = ___default___
 # ===== FlyBy Castle ===== #

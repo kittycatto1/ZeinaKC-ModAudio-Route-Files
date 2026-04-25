@@ -1,8 +1,0 @@
-# ===== Metadata ===== #
-%id          Hyrule_and_Twilight
-%displayname Hyrule and Twilight music pack
-# ===== Metadata ===== #
-
-# ===== Hyrule and Twilight ===== #
-
-# ===== Hyrule and Twilight ===== #

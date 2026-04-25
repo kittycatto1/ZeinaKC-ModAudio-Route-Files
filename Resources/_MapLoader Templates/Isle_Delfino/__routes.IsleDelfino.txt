@@ -4,5 +4,8 @@
 # ===== Metadata ===== #
 
 # ===== Isle Delfino ===== #
-
+modaudio_atlyss_map_delfinoplaza_day    = ___default___
+modaudio_atlyss_map_delfinoplaza_night  = ___default___
+modaudio_atlyss_map_delfinoplaza_null   = ___default___ # Delfino Plaza Loop
+modaudio_atlyss_map_delfinoplaza_action = ___default___
 # ===== Isle Delfino ===== #

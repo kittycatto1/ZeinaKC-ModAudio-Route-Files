@@ -1,0 +1,70 @@
+# ===== Metadata ===== #
+%id          The_Rise_of_PoonVillle
+%displayname The Rise of PoonVillle music pack
+# ===== Metadata ===== #
+
+# ===== The Rise of PoonVillle ===== #
+modaudio_atlyss_map_poonville_day    = ___default___ # "Heavenly".
+modaudio_atlyss_map_poonville_night  = ___default___ # "Aurumn".
+modaudio_atlyss_map_poonville_null   = ___default___
+modaudio_atlyss_map_poonville_action = ___default___
+
+modaudio_atlyss_map_oakfields_day    = ___default___ # "Strolling".
+modaudio_atlyss_map_oakfields_night  = ___default___ # "Spergwallow".
+modaudio_atlyss_map_oakfields_null   = ___default___
+modaudio_atlyss_map_oakfields_action = ___default___
+# ===== The Rise of PoonVillle ===== #
+
+# ===== Subregion Scripts ===== #
+modaudio_atlyss_map_poonville_day                       \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : PoonVillle      \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Reminesecence   \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Aurum           \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Glastonbury     \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Northsire_Abbey \
+  ~ | target_group_script : target_group_PoonVillle     \
+    | enable_dynamic_targeting     : true               \
+    | smooth_dynamic_targeting     : true               \
+    | continuous_dynamic_targeting : false              \
+    | relative_replacement_effects : true               \
+    | chain_route : false
+
+modaudio_atlyss_map_poonville_nighth                    \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : PoonVillle      \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Reminesecence   \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Aurum           \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Glastonbury     \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Northsire_Abbey \
+  ~ | target_group_script : target_group_PoonVillle     \
+    | enable_dynamic_targeting     : true               \
+    | smooth_dynamic_targeting     : true               \
+    | continuous_dynamic_targeting : false              \
+    | relative_replacement_effects : true               \
+    | chain_route : false
+
+modaudio_atlyss_map_oakfields_day                        \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Oak_Fields       \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Ordel_Village    \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Terrace_Mountain \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Bahi_Side        \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Crescent_Path    \
+  ~ | target_group_script : target_group_OakFields       \
+    | enable_dynamic_targeting     : true                \
+    | smooth_dynamic_targeting     : true                \
+    | continuous_dynamic_targeting : false               \
+    | relative_replacement_effects : true                \
+    | chain_route : false
+
+modaudio_atlyss_map_oakfields_night                      \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Oak_Fields       \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Ordel_Village    \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Terrace_Mountain \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Bahi_Side        \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Crescent_Path    \
+  ~ | target_group_script : target_group_OakFields       \
+    | enable_dynamic_targeting     : true                \
+    | smooth_dynamic_targeting     : true                \
+    | continuous_dynamic_targeting : false               \
+    | relative_replacement_effects : true                \
+    | chain_route : false
+# ===== Subregion Scripts ===== #

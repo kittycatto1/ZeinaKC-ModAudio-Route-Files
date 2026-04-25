@@ -1,0 +1,11 @@
+# ===== Metadata ===== #
+%id          Fallen_Sanctum
+%displayname Fallen Sanctum music pack
+# ===== Metadata ===== #
+
+# ===== Fallen Sanctum ===== #
+modaudio_atlyss_map_fallensanctum_day    = ___default___
+modaudio_atlyss_map_fallensanctum_night  = ___default___
+modaudio_atlyss_map_fallensanctum_null   = ___default___
+modaudio_atlyss_map_fallensanctum_action = ___default___
+# ===== Fallen Sanctum ===== #

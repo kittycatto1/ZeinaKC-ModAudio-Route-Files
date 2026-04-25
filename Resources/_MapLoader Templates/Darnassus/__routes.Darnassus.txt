@@ -4,5 +4,9 @@
 # ===== Metadata ===== #
 
 # ===== Darnassus ===== #
-
+darnassusintro = ___default___
+modaudio_atlyss_map_Darnassus_day    = ___default___ # TeldrassilDayMusic
+modaudio_atlyss_map_Darnassus_night  = ___default___ # TeldrassilNightMusic
+modaudio_atlyss_map_Darnassus_null   = ___default___
+modaudio_atlyss_map_Darnassus_action = ___default___
 # ===== Darnassus ===== #

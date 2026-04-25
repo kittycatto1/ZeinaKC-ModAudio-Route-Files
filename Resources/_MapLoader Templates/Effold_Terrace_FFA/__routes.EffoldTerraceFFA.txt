@@ -4,5 +4,8 @@
 # ===== Metadata ===== #
 
 # ===== Effold Terrace FFA ===== #
-
+modaudio_atlyss_map_effoldffa_day    = ___default___ # "_mu_discover01".
+modaudio_atlyss_map_effoldffa_night  = ___default___ # "_mu_discover04".
+modaudio_atlyss_map_effoldffa_null   = ___default___
+modaudio_atlyss_map_effoldffa_action = ___default___
 # ===== Effold Terrace FFA ===== #

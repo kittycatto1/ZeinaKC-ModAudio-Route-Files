@@ -4,5 +4,8 @@
 # ===== Metadata ===== #
 
 # ===== Peaceful Luvora Garden ===== #
-
+modaudio_atlyss_map_peacefulluvoragarden_day    = ___default___
+modaudio_atlyss_map_peacefulluvoragarden_night  = ___default___
+modaudio_atlyss_map_peacefulluvoragarden_null   = ___default___
+modaudio_atlyss_map_peacefulluvoragarden_action = ___default___
 # ===== Peaceful Luvora Garden ===== #

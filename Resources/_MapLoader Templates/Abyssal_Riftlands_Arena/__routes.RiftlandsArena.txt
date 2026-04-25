@@ -1,8 +1,0 @@
-# ===== Metadata ===== #
-%id          Abyssal_Riftlands_Arena
-%displayname Abyssal Riftlands Arena music pack
-# ===== Metadata ===== #
-
-# ===== Abyssal Riftlands Arena ===== #
-
-# ===== Abyssal Riftlands Arena ===== #

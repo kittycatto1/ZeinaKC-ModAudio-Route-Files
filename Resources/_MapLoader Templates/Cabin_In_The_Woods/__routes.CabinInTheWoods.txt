@@ -4,5 +4,8 @@
 # ===== Metadata ===== #
 
 # ===== Cabin In The Woods ===== #
-
+modaudio_atlyss_map_cabininthewoods_day    = ___default___
+modaudio_atlyss_map_cabininthewoods_night  = ___default___
+modaudio_atlyss_map_cabininthewoods_null   = ___default___
+modaudio_atlyss_map_cabininthewoods_action = ___default___
 # ===== Cabin In The Woods ===== #

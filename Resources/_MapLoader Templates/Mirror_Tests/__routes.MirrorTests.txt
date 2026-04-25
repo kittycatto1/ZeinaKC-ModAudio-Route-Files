@@ -4,5 +4,8 @@
 # ===== Metadata ===== #
 
 # ===== Mirror Tests ===== #
-
+modaudio_atlyss_map_mirrors_day    = ___default___
+modaudio_atlyss_map_mirrors_night  = ___default___
+modaudio_atlyss_map_mirrors_null   = ___default___
+modaudio_atlyss_map_mirrors_action = ___default___
 # ===== Mirror Tests ===== #
