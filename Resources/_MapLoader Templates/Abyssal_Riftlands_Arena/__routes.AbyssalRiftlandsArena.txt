@@ -1,0 +1,35 @@
+# ===== Metadata ===== #
+%id          Abyssal_Riftlands_Arena
+%displayname Abyssal Riftlands Arena music pack
+# ===== Metadata ===== #
+
+# ===== Abyssal Riftlands Arena ===== #
+modaudio_atlyss_map_riftlandsarena_day    = ___default___ # "Starlight Friction".
+modaudio_atlyss_map_riftlandsarena_night  = ___default___ # "Starlight Friction Cataclysm".
+modaudio_atlyss_map_riftlandsarena_null   = ___default___
+modaudio_atlyss_map_riftlandsarena_action = ___default___
+# ===== Abyssal Riftlands Arena ===== #
+
+# ===== Subregion Scripts ===== #
+modaudio_atlyss_map_riftlandsarena_day                  \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Riftlands_Arena \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Pit_of_Heresy   \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Piece_of_Fray   \
+  ~ | target_group_script : target_group_RiftlandsArena \
+    | enable_dynamic_targeting     : true               \
+    | smooth_dynamic_targeting     : true               \
+    | continuous_dynamic_targeting : false              \
+    | relative_replacement_effects : true               \
+    | chain_route : false
+
+modaudio_atlyss_map_riftlandsarena_night                \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Riftlands_Arena \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Pit_of_Heresy   \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Piece_of_Fray   \
+  ~ | target_group_script : target_group_RiftlandsArena \
+    | enable_dynamic_targeting     : true               \
+    | smooth_dynamic_targeting     : true               \
+    | continuous_dynamic_targeting : false              \
+    | relative_replacement_effects : true               \
+    | chain_route : false
+# ===== Subregion Scripts ===== #

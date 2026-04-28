@@ -4,12 +4,12 @@ This file serves as a reference of all the music available in custom maps.\
 <details><summary><b>Audio Aliases</b></summary>
 
 - **Medieval Springs:** `modaudio_atlyss_map_medievalsprings_{day/night/action/null}`
-  - Medieval Springs
+  - *Medieval Springs*
   - Medieval Arena
-- **Dragon Roost Island:** `modaudio_atlyss_map_dragonroostisland_{day/night/action/null}`
-- **Effold Terrace FFA:** `modaudio_atlyss_map_effoldffa_{day/night/action/null}`
-- **Darnassus:** `modaudio_atlyss_map_Darnassus_{day/night/action/null}`
-  - Darnassus
+- **Dragon Roost Island:** `modaudio_atlyss_map_dragonroostisland_{day/night/action/null}` (Dragon Roost Island)
+- **Effold Terrace FFA:** `modaudio_atlyss_map_effoldffa_{day/night/action/null}` (Effold FFA)
+- **Darnassus:** `modaudio_atlyss_map_darnassus_{day/night/action/null}`
+  - *Darnassus*
   - Dolaraar
   - Teldrassil
   - Starbreeze Village
@@ -18,7 +18,7 @@ This file serves as a reference of all the music available in custom maps.\
   - Gnarlpine
   - Hidden Lake
 - **Ironforge:** `modaudio_atlyss_map_ironforge_{day/night/action/null}`
-  - Ironforge
+  - *Ironforge*
   - Ironforge Airfield
   - Gates of Ironforge
   - Dun Morogh
@@ -39,7 +39,7 @@ This file serves as a reference of all the music available in custom maps.\
   - Ironbound's Compound
   - South Gate Outpost
 - **Silvermoon:** `modaudio_atlyss_map_eversongwoods_{day/night/action/null}`
-  - Eversong Woods
+  - *Eversong Woods*
   - Silvermoon City
   - Stillwhisper Pond
   - The Dead Scar
@@ -63,62 +63,62 @@ This file serves as a reference of all the music available in custom maps.\
   - Fairbreeze Village
   - Runestone Falithas
   - Lake Elrendar
-- **Vore Hotel:** `modaudio_atlyss_map_vorehotel_{day/night/action/null}`
-- **BeachBowl Map:** `modaudio_atlyss_map_beachbowlgalaxy_{day/night/action/null}`
-- **Bobomb Battlefield Map:** `modaudio_atlyss_map_bobombbattlefield_{day/night/action/null}`
-- **Honey Hive Galaxy Map:** `modaudio_atlyss_map_honeyhivegalaxy_{day/night/action/null}`
-- **Isle Delfino Map:** `modaudio_atlyss_map_delfinoplaza_{day/night/action/null}`
-- **Kakariko Village Map:** `modaudio_atlyss_map_kakarikovillage_{day/night/action/null}`
+- **Vore Hotel:** `modaudio_atlyss_map_vorehotel_{day/night/action/null}` (Vore Hotel)
+- **BeachBowl Map:** `modaudio_atlyss_map_beachbowlgalaxy_{day/night/action/null}` (Beach Bowl Galaxy)
+- **Bobomb Battlefield Map:** `modaudio_atlyss_map_bobombbattlefield_{day/night/action/null}` (Bob-omb Battlefield)
+- **Honey Hive Galaxy Map:** `modaudio_atlyss_map_honeyhivegalaxy_{day/night/action/null}` (Honey Hive Galaxy)
+- **Isle Delfino Map:** `modaudio_atlyss_map_delfinoplaza_{day/night/action/null}` (Delfino Plaza)
+- **Kakariko Village Map:** `modaudio_atlyss_map_kakarikovillage_{day/night/action/null}` (Kakariko Village)
 - **Webfishing Custom Map:**
-  - `modaudio_atlyss_map_pawprintpoint_{day/night/action/null}`
-  - `modaudio_atlyss_map_aquarium_{day/night/action/null}`
-  - `modaudio_atlyss_map_cabin_{day/night/action/null}`
-  - `modaudio_atlyss_map_void_{day/night/action/null}`
+  - `modaudio_atlyss_map_pawprintpoint_{day/night/action/null}` (Pawprint Point)
+  - `modaudio_atlyss_map_aquarium_{day/night/action/null}` (Aquarium)
+  - `modaudio_atlyss_map_cabin_{day/night/action/null}` (Cabin)
+  - `modaudio_atlyss_map_void_{day/night/action/null}` (Void)
 - **Questlyss:**
-  - `modaudio_atlyss_map_sacredgateway_{day/night/action/null}`
-  - `modaudio_atlyss_map_grodmarsh_{day/night/action/null}`
-- **Fluff Springs:** `modaudio_atlyss_map_fluffsprings_{day/night/action/null}`
-- **MC Weird Isle:** `modaudio_atlyss_map_weirdisle_{day/night/action/null}`
-- **Mirror Tests:** `modaudio_atlyss_map_mirrors_{day/night/action/null}`
-- **Crescent Cove:** `modaudio_atlyss_map_crescentcove_{day/night/action/null}`
-- **Atlyss FlyBy Castle:** `modaudio_atlyss_map_atlysscastle_{day/night/action/null}`
+  - `modaudio_atlyss_map_sacredgateway_{day/night/action/null}` (Sacred Gateway)
+  - `modaudio_atlyss_map_grodmarsh_{day/night/action/null}` (Grod Marsh)
+- **Fluff Springs:** `modaudio_atlyss_map_fluffsprings_{day/night/action/null}` (Fluff Springs)
+- **MC Weird Isle:** `modaudio_atlyss_map_weirdisle_{day/night/action/null}` (Weird Isle)
+- **Mirror Tests:** `modaudio_atlyss_map_mirrors_{day/night/action/null}` (Mirrors)
+- **Crescent Cove:** `modaudio_atlyss_map_crescentcove_{day/night/action/null}` (Crescent Cove)
+- **Atlyss FlyBy Castle:** `modaudio_atlyss_map_atlysscastle_{day/night/action/null}` (Atlyss Castle)
 - **Slutsanctum:**
-  - `modaudio_atlyss_map_pathtoslutsanctum_{day/night/action/null}`
-  - `modaudio_atlyss_map_slutsanctum_{day/night/action/null}`
+  - `modaudio_atlyss_map_pathtoslutsanctum_{day/night/action/null}` (Path to Slutsanctum)
+  - `modaudio_atlyss_map_slutsanctum_{day/night/action/null}` (SlutSanctum)
     - Slime Park
 - **Fatum Betula Custom Map:**
-  - `modaudio_atlyss_map_fatumbetula_{day/night/action/null}`
-  - `modaudio_atlyss_map_forest_{day/night/action/null}`
-  - `modaudio_atlyss_map_autumn_{day/night/action/null}`
-  - `modaudio_atlyss_map_cherryblossom_{day/night/action/null}`
-- **Grove of Memories:** `modaudio_atlyss_map_groveofmemories_{day/night/action/null}`
-- **Crossfire Map:** `modaudio_atlyss_map_crossfire_{day/night/action/null}`
-- **Moo well Farm:** `modaudio_atlyss_map_moowellfarm_{day/night/action/null}`
+  - `modaudio_atlyss_map_fatumbetula_{day/night/action/null}` (Fatum Betula)
+  - `modaudio_atlyss_map_forest_{day/night/action/null}` (Forest)
+  - `modaudio_atlyss_map_autumn_{day/night/action/null}` (Autumn)
+  - `modaudio_atlyss_map_cherryblossom_{day/night/action/null}` (Cherry Blossom)
+- **Grove of Memories:** `modaudio_atlyss_map_groveofmemories_{day/night/action/null}` (Grove of Memories)
+- **Crossfire Map:** `modaudio_atlyss_map_crossfire_{day/night/action/null}` (Crossfire)
+- **Moo well Farm:** `modaudio_atlyss_map_moowellfarm_{day/night/action/null}` (Moo-well Farm)
 - **SM64 Castle:**
-  - `modaudio_atlyss_map_peachscastle_{day/night/action/null}`
-  - `modaudio_atlyss_map_whompsfortress_{day/night/action/null}`
-  - `modaudio_atlyss_map_jollyrogerbay_{day/night/action/null}`
-  - `modaudio_atlyss_map_coolcoolmountain_{day/night/action/null}`
-  - `modaudio_atlyss_map_bigbooshaunt_{day/night/action/null}`
-  - `modaudio_atlyss_map_hazymazecave_{day/night/action/null}`
-  - `modaudio_atlyss_map_lethallavaland_{day/night/action/null}`
-  - `modaudio_atlyss_map_shiftingsandland_{day/night/action/null}`
-  - `modaudio_atlyss_map_snowmansland_{day/night/action/null}`
-  - `modaudio_atlyss_map_wetdryworld_{day/night/action/null}`
-  - `modaudio_atlyss_map_tinyhugeisland_{day/night/action/null}`
-  - `modaudio_atlyss_map_ticktockclock_{day/night/action/null}`
-  - `modaudio_atlyss_map_princessssecretslider_{day/night/action/null}`
-  - `modaudio_atlyss_map_secretaquarium_{day/night/action/null}`
-- **Cabin In The Woods:** `modaudio_atlyss_map_cabininthewoods_{day/night/action/null}`
+  - `modaudio_atlyss_map_peachscastle_{day/night/action/null}` (Peach's Castle)
+  - `modaudio_atlyss_map_whompsfortress_{day/night/action/null}` (Whomp's Fortress)
+  - `modaudio_atlyss_map_jollyrogerbay_{day/night/action/null}` (Jolly Roger Bay)
+  - `modaudio_atlyss_map_coolcoolmountain_{day/night/action/null}` (Cool Cool Mountain)
+  - `modaudio_atlyss_map_bigbooshaunt_{day/night/action/null}` (Big Boo's Hunt)
+  - `modaudio_atlyss_map_hazymazecave_{day/night/action/null}` (Hazy Maze Cave)
+  - `modaudio_atlyss_map_lethallavaland_{day/night/action/null}` (Lethal Lava Land)
+  - `modaudio_atlyss_map_shiftingsandland_{day/night/action/null}` (Shifting Sand Land)
+  - `modaudio_atlyss_map_snowmansland_{day/night/action/null}` (Snowman's Island)
+  - `modaudio_atlyss_map_wetdryworld_{day/night/action/null}` (Wet Dry World)
+  - `modaudio_atlyss_map_tinyhugeisland_{day/night/action/null}` (Tiny Huge Island)
+  - `modaudio_atlyss_map_ticktockclock_{day/night/action/null}` (Tick Tock Clock)
+  - `modaudio_atlyss_map_princessssecretslider_{day/night/action/null}` (Princess's Secret Slider)
+  - `modaudio_atlyss_map_secretaquarium_{day/night/action/null}` (Secret Aquarium)
+- **Cabin In The Woods:** `modaudio_atlyss_map_cabininthewoods_{day/night/action/null} (Cabin In The Woods)`
 - **Epsilon:**
-  - `modaudio_atlyss_map_epsilon_{day/night/action/null}`
-  - `modaudio_atlyss_map_epsilondungeon_{day/night/action/null}`
-- **Irwin Arena:** `modaudio_atlyss_map_irwinarenayo_{day/night/action/null}`
+  - `modaudio_atlyss_map_epsilon_{day/night/action/null}` (Epsilon)
+  - `modaudio_atlyss_map_epsilondungeon_{day/night/action/null}` (Epsilon Dungeon)
+- **Irwin Arena:** `modaudio_atlyss_map_irwinarenayo_{day/night/action/null}` (Irwin Arena Yo)
 - **Tharalune:**
-  - `modaudio_atlyss_map_tharalune_{day/night/action/null}`
-  - `modaudio_atlyss_map_saphresidence_{day/night/action/null}`
+  - `modaudio_atlyss_map_tharalune_{day/night/action/null}` (Thara'lune)
+  - `modaudio_atlyss_map_saphresidence_{day/night/action/null}` (Saphre's Residence)
 - **Paulownia Mall:** `modaudio_atlyss_map_paulowniamall_{day/night/action/null}`
-  - Paulownia Mall
+  - *Paulownia Mall*
   - Club Escapade
   - Chagall Cafe
   - Be Blue V
@@ -127,24 +127,24 @@ This file serves as a reference of all the music available in custom maps.\
   - Aohige Pharmancy
   - Arcade
 - **Cafe Bahi:** `modaudio_atlyss_map_cafebahi_{day/night/action/null}`
-  - Cafe Bahi
+  - *Cafe Bahi*
   - Beach Baholah
   - Training Barracks
   - Colosseum Arena
-- **Fallen Sanctum:** `modaudio_atlyss_map_fallensanctum_{day/night/action/null}`
+- **Fallen Sanctum:** `modaudio_atlyss_map_fallensanctum_{day/night/action/null}` (Fallen Sanctum)
 - **Hyrule And Twilight:**
-  - `modaudio_atlyss_map_hikariportalnetwork_{day/night/action/null}`
+  - `modaudio_atlyss_map_hikariportalnetwork_{day/night/action/null}` (Hikari: Portal Network)
   - `modaudio_atlyss_map_hikarikovillage_{day/night/action/null}`
-    - Hikariko Village
+    - *Hikariko Village*
     - Elden Springs
   - `modaudio_atlyss_map_faronprovidence_{day/night/action/null}`
-    - Faron Providence
+    - *Faron Providence*
     - Hikari Temple
     - Temple of Amork
   - `modaudio_atlyss_map_ordonprovidence_{day/night/action/null}`
   - `modaudio_atlyss_map_sacredrealm_{day/night/action/null}`
   - `modaudio_atlyss_map_twilightveil_{day/night/action/null}`
-    - Twilight Veil
+    - *Twilight Veil*
     - Twilight Islands
     - Twilight Wastelands
   - `modaudio_atlyss_map_hikarikingdom_{day/night/action/null}`
@@ -159,29 +159,30 @@ This file serves as a reference of all the music available in custom maps.\
     - IronClaw Village
     - Kami Fields
     - Twilight Town
-    - Hikari Kingdom
+    - *Hikari Kingdom*
     - Anmir Desert
     - Arbiter's Grounds
     - Mirror Chamber
   - `modaudio_atlyss_map_butchercircus_{day/night/action/null}`
-    - Butcher's Circus
+    - *Butcher's Circus*
     - Battle!
   - `modaudio_atlyss_map_hikaricastle_{day/night/action/null}`
     - Hikari Castle Entrance
     - Inside Hikari Castle
-    - Hikari Castle
+    - *Hikari Castle*
     - Throne Room
     - West Hikari Courtyard
     - Hikari Royal Graveyard
     - East Hikari Courtyard
+  - `modaudio_atlyss_map_starduskvalley_{day/night/action/null}` (Stardusk Valley)
 - **Abyssal Riftlands Arena:** `modaudio_atlyss_map_riftlandsarena_{day/night/action/null}`
-  - Riftlands Arena
+  - *Riftlands Arena*
   - Pit of Heresy
   - Piece of Fray
 - **Fray Fields Social:** `modaudio_atlyss_map_frayoutskirts_{day/night/action/null}`
   - Arch Valley
   - Fern Isles
-  - Fray Outskirts
+  - *Fray Outskirts*
   - Picnic Area
   - Camp Site
   - BrawlZBoy Tree
@@ -190,32 +191,37 @@ This file serves as a reference of all the music available in custom maps.\
   - Abyssal Riftlands
   - Howiling Mountain
   - Sacred Reach
-- **Green Screen World:** `modaudio_atlyss_map_greenscreenworld_{day/night/action/null}`
+- **Green Screen World:** `modaudio_atlyss_map_greenscreenworld_{day/night/action/null}` (Green Screen World)
 - **Starlight Magistics Academy:**
   - `modaudio_atlyss_map_frayvalley_{day/night/action/null}`
     - Valley Gate
-    - Fray Valley
+    - *Fray Valley*
     - Solarium Gate
-  - `modaudio_atlyss_map_thedrift_{day/night/action/null}`
+  - `modaudio_atlyss_map_thedrift_{day/night/action/null}` (The Drift)
   - `modaudio_atlyss_map_starlightaether_{day/night/action/null}`
+    - *Starlight Aether*
     - Aether Ridge
     - Stradwood
     - Celestial Canyon
 - **The Rise of PoonVille:**
   - `modaudio_atlyss_map_poonville_{day/night/action/null}`
-    - PoonVille
+    - *PoonVille*
     - Reminesecence
     - Aurum
     - Glastonbury
     - Northsire Abbey
   - `modaudio_atlyss_map_oakfields_{day/night/action/null}`
-    - Oak Fields
+    - *Oak Fields*
     - Ordel Village
     - Terrace Mountain
     - Bahi Side
     - Crescent Path
-- **PeacefulLuvoraGarden:** `modaudio_atlyss_map_peacefulluvoragarden_{day/night/action/null}`
+  - `modaudio_atlyss_map_celesteterrace_{day/night/action/null}`
+    - *Celeste Terrace*
+    - Arenè Opalia
+- **PeacefulLuvoraGarden:** `modaudio_atlyss_map_peacefulluvoragarden_{day/night/action/null}` (Peaceful Luvora Garden)
 - **Distant Memory:** `modaudio_atlyss_map_distantmemory_{day/night/action/null}`
+  - *Distant Memory*
   - Bonfire
 </details>
 
@@ -282,8 +288,8 @@ This file serves as a reference of all the music available in custom maps.\
 | Color Your Night 8-bit                                                | AudioClip/Color Your Night 8-bit.ogg                                                | Arcade (Night). [Looped. V:1.00]                                          |
 | the_roost_day                                                         | AudioClip/the_roost_day.ogg                                                         | Cafe Bahi (Day). [Unlooped]                                               |
 | the_roost_night                                                       | AudioClip/the_roost_night.ogg                                                       | Cafe Bahi (Night). [Unlooped]                                             |
-| Kakariko_Day                                                          | AudioClip/Kakariko_Day.ogg                                                          | Hikariko Village (Day). [Looped]                                          |
-| Kakariko_Night                                                        | AudioClip/Kakariko_Night.ogg                                                        | Hikariko Village (Night). [Looped]                                        |
+| Kakariko_Day                                                          | AudioClip/Kakariko_Day.ogg                                                          | Hikariko Village, Stardusk Valley (Day). [Looped]                         |
+| Kakariko_Night                                                        | AudioClip/Kakariko_Night.ogg                                                        | Hikariko Village, Stardusk Valley (Night). [Looped]                       |
 | Sans.                                                                 | AudioClip/Sans..ogg                                                                 | Hikari: Portal Network. [Looped]                                          |
 | Faron_Woods_LOZTP                                                     | AudioClip/Faron_Woods_LOZTP.ogg                                                     | Faron Providence (Day). [Looped]                                          |
 | Sacred_Grove_LOZTP                                                    | AudioClip/Kakariko_Night.ogg                                                        | Faron Providence (Night). [Looped]                                        |
@@ -322,5 +328,7 @@ This file serves as a reference of all the music available in custom maps.\
 | Aurumn                                                                | AudioClip/Aurumn.ogg                                                                | PoonVille (Night). [Unlooped]                                             |
 | Strolling                                                             | AudioClip/Strolling.ogg                                                             | Oak Fields (Day). [Unlooped]                                              |
 | Spergwallow                                                           | AudioClip/Spergwallow.ogg                                                           | Oak Fields (Night). [Unlooped]                                            |
+| Framework                                                             | AudioClip/Framework.ogg                                                             | Celeste Terrace (Day). [Unlooped]                                         |
+| Convalescence                                                         | AudioClip/Convalescence.ogg                                                         | Celeste Terrace (Night). [Unlooped]                                       |
 | King's Field IV OST - Dark Reality - Extended - RedKatana87 (youtube) | AudioClip/King's Field IV OST - Dark Reality - Extended - RedKatana87 (youtube).ogg | Distant Memory. [Looped. V:1.00]                                          |
 | Name                                                                  | Path                                                                                | Description                                                               |

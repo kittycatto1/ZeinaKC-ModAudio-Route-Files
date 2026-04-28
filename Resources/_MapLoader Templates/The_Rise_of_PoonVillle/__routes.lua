@@ -1,7 +1,7 @@
 p = {}
 
 function p.target_group_PoonVillle(route)
-  elseif atlyss.inGameUI._reigonTitle == "Reminesecence" then
+  if atlyss.inGameUI._reigonTitle == "Reminesecence" then
     route.targetGroup = "Reminesecence"
   elseif atlyss.inGameUI._reigonTitle == "Aurum" then
     route.targetGroup = "Aurum"
@@ -15,7 +15,7 @@ function p.target_group_PoonVillle(route)
 end
 
 function p.target_group_OakFields(route)
-  elseif atlyss.inGameUI._reigonTitle == "Ordel Village" then
+  if atlyss.inGameUI._reigonTitle == "Ordel Village" then
     route.targetGroup = "Ordel_Village"
   elseif atlyss.inGameUI._reigonTitle == "Terrace_Mountain" then
     route.targetGroup = "Terrace_Mountain"
@@ -25,6 +25,14 @@ function p.target_group_OakFields(route)
     route.targetGroup = "Crescent_Path"
   else
     route.targetGroup = "Oak_Fields"
+  end
+end
+
+function p.target_group_CelesteTerrace(route)
+  if atlyss.inGameUI._reigonTitle == "Arenè Opalia" then
+    route.targetGroup = "Arene_Opalia"
+  else
+    route.targetGroup = "Celeste_Terrace"
   end
 end
 

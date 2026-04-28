@@ -53,6 +53,11 @@ modaudio_atlyss_map_hikaricastle_day    = ___default___
 modaudio_atlyss_map_hikaricastle_night  = ___default___
 modaudio_atlyss_map_hikaricastle_null   = ___default___
 modaudio_atlyss_map_hikaricastle_action = ___default___
+
+modaudio_atlyss_map_starduskvalley_day    = ___default___ # "Kakariko_Day".
+modaudio_atlyss_map_starduskvalley_night  = ___default___ # "Kakariko_Night".
+modaudio_atlyss_map_starduskvalley_null   = ___default___
+modaudio_atlyss_map_starduskvalley_action = ___default___
 # ===== Hyrule and Twilight ===== #
 
 # ===== Subregion Scripts ===== #

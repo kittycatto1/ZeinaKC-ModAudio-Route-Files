@@ -13,6 +13,11 @@ modaudio_atlyss_map_oakfields_day    = ___default___ # "Strolling".
 modaudio_atlyss_map_oakfields_night  = ___default___ # "Spergwallow".
 modaudio_atlyss_map_oakfields_null   = ___default___
 modaudio_atlyss_map_oakfields_action = ___default___
+
+modaudio_atlyss_map_celesteterrace_day    = ___default___ # "Framework".
+modaudio_atlyss_map_celesteterrace_night  = ___default___ # "Convalescence".
+modaudio_atlyss_map_celesteterrace_null   = ___default___
+modaudio_atlyss_map_celesteterrace_action = ___default___
 # ===== The Rise of PoonVillle ===== #
 
 # ===== Subregion Scripts ===== #
@@ -29,7 +34,7 @@ modaudio_atlyss_map_poonville_day                       \
     | relative_replacement_effects : true               \
     | chain_route : false
 
-modaudio_atlyss_map_poonville_nighth                    \
+modaudio_atlyss_map_poonville_night                     \
   = | ___default___ : 1.0 : 1.0 : 1.0 : PoonVillle      \
     | ___default___ : 1.0 : 1.0 : 1.0 : Reminesecence   \
     | ___default___ : 1.0 : 1.0 : 1.0 : Aurum           \
@@ -66,5 +71,25 @@ modaudio_atlyss_map_oakfields_night                      \
     | smooth_dynamic_targeting     : true                \
     | continuous_dynamic_targeting : false               \
     | relative_replacement_effects : true                \
+    | chain_route : false
+
+modaudio_atlyss_map_celesteterrace_day                  \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Celeste_Terrace \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Arene_Opalia    \
+  ~ | target_group_script : target_group_CelesteTerrace \
+    | enable_dynamic_targeting     : true               \
+    | smooth_dynamic_targeting     : true               \
+    | continuous_dynamic_targeting : false              \
+    | relative_replacement_effects : true               \
+    | chain_route : false
+
+modaudio_atlyss_map_celesteterrace_night                \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Celeste_Terrace \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Arene_Opalia    \
+  ~ | target_group_script : target_group_CelesteTerrace \
+    | enable_dynamic_targeting     : true               \
+    | smooth_dynamic_targeting     : true               \
+    | continuous_dynamic_targeting : false              \
+    | relative_replacement_effects : true               \
     | chain_route : false
 # ===== Subregion Scripts ===== #
