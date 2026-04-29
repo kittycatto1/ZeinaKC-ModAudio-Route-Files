@@ -29,3 +29,28 @@ _mu_wonton5                                         \
     | enable_dynamic_targeting : true               \
     | chain_route : false
 # ===== Dungeon Scripts ===== #
+
+# ===== Boss Scripts ===== #
+_mu_wasp                                            \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Normal      \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Hard        \
+  ~ | target_group_script : target_group_Difficulty \
+    | enable_dynamic_targeting : true               \
+    | chain_route : false
+
+music_whisper                                       \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Normal      \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Hard        \
+  ~ | target_group_script : target_group_Difficulty \
+    | map_name    : Sanctum Catacombs               \
+    | enable_dynamic_targeting : true               \
+    | chain_route : false
+
+music_whisper                                       \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Normal      \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Hard        \
+  ~ | target_group_script : target_group_Difficulty \
+    | map_name    : Crescent Grove                  \
+    | enable_dynamic_targeting : true               \
+    | chain_route : false
+# ===== Boss Scripts ===== #

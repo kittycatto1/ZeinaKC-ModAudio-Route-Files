@@ -1,6 +1,7 @@
 # ===== References ===== #
 # modaudio_atlyss_map_{map_name}_{day/night/action/null}
 # <game>target_clip = Vanilla clips.
+# v   = vol = volume
 # 1.0 : 1.0 : 1.0   = Weight : Volume : Pitch
 # tg_lua = target_group_script
 # map = map_name
@@ -17,7 +18,6 @@
 
 # ===== Unused References ===== #
 # w = rw  = weight = replacement_weight
-# v = vol = volume
 # p = pit = pitch
 # ovl_ign_restart   = overlays_ignore_restarts
 # ovl_stop_with_src = overlay_stops_if_source_stops

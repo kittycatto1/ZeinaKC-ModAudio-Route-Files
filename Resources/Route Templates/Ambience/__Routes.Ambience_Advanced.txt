@@ -1,7 +1,7 @@
 # ===== Menu Ambience ===== #
 _ambWind01  = ___default___ # Main menu.
 _ambGlyph01 = ___default___ # Character menu.
-_ambWatfall = ___default___ ~ map_name : ___nomap___ # Character menu.
+_ambWatfall = ___default___ ~ map : ___nomap___ # Character menu.
 _ambGlyph02 = ___default___ # Loading loop.
 # ===== Menu Ambience ===== #
 
@@ -13,16 +13,18 @@ _wolfHowl        = ___default___ # Nighttime transition.
 # ===== Special Ambience ===== #
 
 # ===== Field Ambience ===== #
-_ambFire01      = ___default___ # Campfires.
+_ambFire01      = ___default___ # Campfires. Sanctum, Outer Sanctum, Bularr Fortress.
 _ambCoast       = ___default___ ~ map : Sanctum
 _ambCave02      = ___default___ ~ map : Sanctum
 _ambCoast       = ___default___ ~ map : Sanctum Arena
+# ===== Outer Sanctum ===== #
 _ambFrst02      = ___default___ ~ map : Outer Sanctum
 _ambFrst03      = ___default___ ~ map : Outer Sanctum
 _ambWind07      = ___default___ ~ map : Outer Sanctum
 _ambWaterfall01 = ___default___ ~ map : Outer Sanctum
-_ambWater01     = ___default___ # Arcwood Pass.
-_ambCave01      = ___default___ # Arcwood Pass.
+# ===== Arcwood Pass - Executioner's Tomb ===== #
+_ambWater01     = ___default___
+_ambCave01      = ___default___
 _ambFrst02      = ___default___ ~ map : Arcwood Pass
 _ambFrst01      = ___default___ ~ map : Arcwood Pass
 _ambFrst03      = ___default___ ~ map : Arcwood Pass
@@ -30,39 +32,47 @@ _ambCricket01   = ___default___ ~ map : Arcwood Pass
 _ambWind04      = ___default___ ~ map : Arcwood Pass
 _ambCave02      = ___default___ ~ map : Arcwood Pass
 _ambWind07      = ___default___ ~ map : Executioner's Tomb
-_ambBla         = ___default___ # Sanctum Catacombs.
+# ===== Sanctum Catacombs ===== #
+_ambBla         = ___default___
 _ambWind04      = ___default___ ~ map : Sanctum Catacombs
 _ambCave02      = ___default___ ~ map : Sanctum Catacombs
 _ambWat_cave    = ___default___ ~ map : Sanctum Catacombs
+# ===== Effold Terrace ===== #
 _ambOutside02   = ___default___ ~ map : Effold Terrace
 _ambCricket01   = ___default___ ~ map : Effold Terrace
 _ambWaterfall01 = ___default___ ~ map : Effold Terrace
+# ===== Tuul Valley - Tuul Enclave - Bularr Fortress ===== #
+_ambOutside01   = ___default___
 _ambOutside02   = ___default___ ~ map : Tuul Valley
-_ambOutside01   = ___default___ # Tuul Valley.
 _ambCricket01   = ___default___ ~ map : Tuul Valley
 _ambWind05      = ___default___ ~ map : Tuul Valley
 _ambWaterfall01 = ___default___ ~ map : Tuul Valley
+_ambClave       = ___default___ # Tuul Enclave
+_ambWind05      = ___default___ ~ map : Bularr Fortress
+_ambWind02      = ___default___ ~ map : Bularr Fortress
+# ===== Crescent Road ===== #
 _ambFrst02      = ___default___ ~ map : Crescent Road
 _ambFrst03      = ___default___ ~ map : Crescent Road
 _ambCave02      = ___default___ ~ map : Crescent Road
 _ambWat_cave    = ___default___ ~ map : Crescent Road
+# ===== Luvora Garden ===== #
 _ambFrst02      = ___default___ ~ map : Luvora Garden
 _ambCuckoo      = ___default___ ~ map : Luvora Garden
 _ambWaterfall01 = ___default___ ~ map : Luvora Garden
+# ===== Crescent Keep ===== #
 _ambFrst01      = ___default___ ~ map : Crescent Keep
 _ambCuckoo      = ___default___ ~ map : Crescent Keep
 _ambWatfall     = ___default___ ~ map : Crescent Keep
 _ambWaterfall01 = ___default___ ~ map : Crescent Keep
-_ambClave       = ___default___ # Tuul Enclave
-_ambWind05      = ___default___ ~ map : Bularr Fortress
-_ambWind02      = ___default___ ~ map : Bularr Fortress
-_ambWind03      = ___default___ # <Start> Crescent Grove.
-_ambWindChime01 = ___default___ #
-_ambWater02     = ___default___ #
-_amb_jungle02   = ___default___ #
-_amb_jungle00   = ___default___ # <End>
+# ===== Crescent Grove ===== #
+_ambWind03      = ___default___
+_ambWindChime01 = ___default___
+_ambWater02     = ___default___
+_amb_jungle02   = ___default___
+_amb_jungle00   = ___default___
 _ambWind02      = ___default___ ~ map : Crescent Grove
 _ambCave02      = ___default___ ~ map : Crescent Grove
+# ===== Gate of the Moon - Wall of the Stars ===== #
 amb_autum1      = ___default___ # Gate of the Moon.
 _ambFrst01      = ___default___ ~ map : Gate of the Moon
 _ambCuckoo      = ___default___ ~ map : Gate of the Moon

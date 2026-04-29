@@ -29,3 +29,28 @@ _mu_wonton5                                    \
     | tg_dyn : true                            \
     | chain  : false
 # ===== Dungeon Scripts ===== #
+
+# ===== Boss Scripts ===== #
+_mu_wasp                                            \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Normal      \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Hard        \
+  ~ | target_group_script : target_group_Difficulty \
+    | tg_dyn : true                                 \
+    | chain  : false
+
+music_whisper                                  \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Normal \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Hard   \
+  ~ | tg_lua : target_group_Difficulty         \
+    | map    : Sanctum Catacombs               \
+    | tg_dyn : true                            \
+    | chain  : false
+
+music_whisper                                  \
+  = | ___default___ : 1.0 : 1.0 : 1.0 : Normal \
+    | ___default___ : 1.0 : 1.0 : 1.0 : Hard   \
+  ~ | tg_lua : target_group_Difficulty         \
+    | map    : Crescent Grove                  \
+    | tg_dyn : true                            \
+    | chain  : false
+# ===== Boss Scripts ===== #
