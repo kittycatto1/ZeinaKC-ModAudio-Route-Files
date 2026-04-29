@@ -1,36 +1,36 @@
 # Table of Contents
-- [**Medieval Springs**](https://thunderstore.io/c/atlyss/p/Bay/Medieval_Springs/) by [Bay](https://thunderstore.io/c/atlyss/p/Bay/).
-- [**Dragon Roost Island**](https://thunderstore.io/c/atlyss/p/Bippuit/Dragon_Roost_Island/) by [Bippuit](https://thunderstore.io/c/atlyss/p/Bippuit/).
-- [**Effold Terrace FFA**](https://thunderstore.io/c/atlyss/p/CuddlyDragon/Effold_Terrace_FFA/) by [CuddlyDragon](https://thunderstore.io/c/atlyss/p/CuddlyDragon/).
+- [**Medieval Springs**](https://thunderstore.io/c/atlyss/p/Bay/Medieval_Springs/) by [Bay](https://thunderstore.io/c/atlyss/p/Bay/)
+- [**Dragon Roost Island**](https://thunderstore.io/c/atlyss/p/Bippuit/Dragon_Roost_Island/) by [Bippuit](https://thunderstore.io/c/atlyss/p/Bippuit/)
+- [**Effold Terrace FFA**](https://thunderstore.io/c/atlyss/p/CuddlyDragon/Effold_Terrace_FFA/) by [CuddlyDragon](https://thunderstore.io/c/atlyss/p/CuddlyDragon/)
 - [Dipi11](https://thunderstore.io/c/atlyss/p/Dipi11/):
-  - [**Darnassus**](https://thunderstore.io/c/atlyss/p/Dipi11/Darnassus/).
-  - [**Ironforge**](https://thunderstore.io/c/atlyss/p/Dipi11/Ironforge/).
-  - [**Silvermoon**](https://thunderstore.io/c/atlyss/p/Dipi11/Silvermoon/).
+  - [**Darnassus**](https://thunderstore.io/c/atlyss/p/Dipi11/Darnassus/)
+  - [**Ironforge**](https://thunderstore.io/c/atlyss/p/Dipi11/Ironforge/)
+  - [**Silvermoon**](https://thunderstore.io/c/atlyss/p/Dipi11/Silvermoon/)
 - [FireNoobsta](https://thunderstore.io/c/atlyss/p/FireNoobsta/):
-  - [**Beach Bowl Galaxy**](https://thunderstore.io/c/atlyss/p/FireNoobsta/BeachBowl_Map/).
-  - [**Bo-bomb Battlefield**](https://thunderstore.io/c/atlyss/p/FireNoobsta/Bobomb_Battlefield_Map/).
-  - [**Honey Hive Galaxy**](https://thunderstore.io/c/atlyss/p/FireNoobsta/Honey_Hive_Galaxy_Map/).
-  - [**Isle Delfino**](https://thunderstore.io/c/atlyss/p/FireNoobsta/Isle_Delfino_Map/).
-  - [**Kakariko Village**](https://thunderstore.io/c/atlyss/p/FireNoobsta/Kakariko_Village_Map/).
-  - [**Webfishing Pawprint Point**](https://thunderstore.io/c/atlyss/p/FireNoobsta/Webfishing_Custom_Map/).
-- [**Questlyss**](https://thunderstore.io/c/atlyss/p/FishyRegenPotion/Questlyss/) by [FishyRegenPotion](https://thunderstore.io/c/atlyss/p/FishyRegenPotion/).
-- [**Fluff Springs**](https://thunderstore.io/c/atlyss/p/Fluff/Fluff_Springs/) by [Fluff](https://thunderstore.io/c/atlyss/p/Fluff/).
+  - [**Beach Bowl Galaxy**](https://thunderstore.io/c/atlyss/p/FireNoobsta/BeachBowl_Map/)
+  - [**Bo-bomb Battlefield**](https://thunderstore.io/c/atlyss/p/FireNoobsta/Bobomb_Battlefield_Map/)
+  - [**Honey Hive Galaxy**](https://thunderstore.io/c/atlyss/p/FireNoobsta/Honey_Hive_Galaxy_Map/)
+  - [**Isle Delfino**](https://thunderstore.io/c/atlyss/p/FireNoobsta/Isle_Delfino_Map/)
+  - [**Kakariko Village**](https://thunderstore.io/c/atlyss/p/FireNoobsta/Kakariko_Village_Map/)
+  - [**Webfishing Pawprint Point**](https://thunderstore.io/c/atlyss/p/FireNoobsta/Webfishing_Custom_Map/)
+- [**Questlyss**](https://thunderstore.io/c/atlyss/p/FishyRegenPotion/Questlyss/) by [FishyRegenPotion](https://thunderstore.io/c/atlyss/p/FishyRegenPotion/)
+- [**Fluff Springs**](https://thunderstore.io/c/atlyss/p/Fluff/Fluff_Springs/) by [Fluff](https://thunderstore.io/c/atlyss/p/Fluff/)
 - [Glass_Cannon](https://thunderstore.io/c/atlyss/p/Glass_Cannon/):
-  - [**MC Weird Isle**](https://thunderstore.io/c/atlyss/p/Glass_Cannon/MC_Weird_Isle/).
+  - [**MC Weird Isle**](https://thunderstore.io/c/atlyss/p/Glass_Cannon/MC_Weird_Isle/)
   - [**Mirror Tests**](https://thunderstore.io/c/atlyss/p/Glass_Cannon/Mirror_Tests/)
-- [**Crescent Cove**](https://thunderstore.io/c/atlyss/p/Lola/Crescent_Cove/) by [Lola](https://thunderstore.io/c/atlyss/p/Lola/).
-- [**FlyBy Castle**](https://thunderstore.io/c/atlyss/p/MaploaderSociety/Atlyss_FlyBy_Castle/) by [MaploaderSociety](https://thunderstore.io/c/atlyss/p/MaploaderSociety/Atlyss_FlyBy_Castle/).
-- [**Fatum Betula**](https://thunderstore.io/c/atlyss/p/MrLago/Fatum_Betula_Custom_Map/) by [MrLago](https://thunderstore.io/c/atlyss/p/MrLago/).
+- [**Crescent Cove**](https://thunderstore.io/c/atlyss/p/Lola/Crescent_Cove/) by [Lola](https://thunderstore.io/c/atlyss/p/Lola/)
+- [**FlyBy Castle**](https://thunderstore.io/c/atlyss/p/MaploaderSociety/Atlyss_FlyBy_Castle/) by [MaploaderSociety](https://thunderstore.io/c/atlyss/p/MaploaderSociety/Atlyss_FlyBy_Castle/)
+- [**Fatum Betula**](https://thunderstore.io/c/atlyss/p/MrLago/Fatum_Betula_Custom_Map/) by [MrLago](https://thunderstore.io/c/atlyss/p/MrLago/)
 - [**Grove of Memories**](https://thunderstore.io/c/atlyss/p/newt5/Grove_of_Memories/) by [**newt5**](https://thunderstore.io/c/atlyss/p/newt5/)
-- [**Crossfire**](https://thunderstore.io/c/atlyss/p/s07/Crossfire_Map/) by [s07](https://thunderstore.io/c/atlyss/p/s07/).
-- [**SM64 Castle**](https://thunderstore.io/c/atlyss/p/Silverplating/SM64_Castle/) by [Silverplating](https://thunderstore.io/c/atlyss/p/Silverplating/).
-- [**Cabin In The Woods**](https://thunderstore.io/c/atlyss/p/Spag/Cabin_In_The_Woods/) by [Spag](https://thunderstore.io/c/atlyss/p/Spag/).
+- [**Crossfire**](https://thunderstore.io/c/atlyss/p/s07/Crossfire_Map/) by [s07](https://thunderstore.io/c/atlyss/p/s07/)
+- [**SM64 Castle**](https://thunderstore.io/c/atlyss/p/Silverplating/SM64_Castle/) by [Silverplating](https://thunderstore.io/c/atlyss/p/Silverplating/)
+- [**Cabin In The Woods**](https://thunderstore.io/c/atlyss/p/Spag/Cabin_In_The_Woods/) by [Spag](https://thunderstore.io/c/atlyss/p/Spag/)
 - [Sparkyblue](https://thunderstore.io/c/atlyss/p/Sparkyblue/):
-  - [**Epsilon**](https://thunderstore.io/c/atlyss/p/Sparkyblue/Epsilon/).
-  - [**Irwin Arena**](https://thunderstore.io/c/atlyss/p/Sparkyblue/Irwin_Arena/).
-- [**Tharalune**](https://thunderstore.io/c/atlyss/p/Team_Unchained/Tharalune/) by [Team_Unchained](https://thunderstore.io/c/atlyss/p/Team_Unchained/).
-- [**Paulownia Mall**](https://thunderstore.io/c/atlyss/p/The_Queue_Of_Em/Paulownia_Mall/) by [The_Queue_of_Em](https://thunderstore.io/c/atlyss/p/The_Queue_Of_Em/).
-- [**Cafe Bahi**](https://thunderstore.io/c/atlyss/p/Urnix/Cafe_Bahi/) by [Urnix](https://thunderstore.io/c/atlyss/p/Urnix/).
+  - [**Epsilon**](https://thunderstore.io/c/atlyss/p/Sparkyblue/Epsilon/)
+  - [**Irwin Arena**](https://thunderstore.io/c/atlyss/p/Sparkyblue/Irwin_Arena/)
+- [**Tharalune**](https://thunderstore.io/c/atlyss/p/Team_Unchained/Tharalune/) by [Team_Unchained](https://thunderstore.io/c/atlyss/p/Team_Unchained/)
+- [**Paulownia Mall**](https://thunderstore.io/c/atlyss/p/The_Queue_Of_Em/Paulownia_Mall/) by [The_Queue_of_Em](https://thunderstore.io/c/atlyss/p/The_Queue_Of_Em/)
+- [**Cafe Bahi**](https://thunderstore.io/c/atlyss/p/Urnix/Cafe_Bahi/) by [Urnix](https://thunderstore.io/c/atlyss/p/Urnix/)
 - [WolfKann](https://thunderstore.io/c/atlyss/p/WolfKann/):
   - [**Fallen Sanctum**](https://thunderstore.io/c/atlyss/p/WolfKann/Fallen_Sanctum/)
   - [**Hyrule and Twilight**](https://thunderstore.io/c/atlyss/p/WolfKann/Hyrule_And_Twilight/)
@@ -41,4 +41,4 @@
   - [**Starlight Magistics Academy**](https://thunderstore.io/c/atlyss/p/ZenFishes/Starlight_Magistics_Academy/)
   - [**The Rise of PoonVille**](https://thunderstore.io/c/atlyss/p/ZenFishes/The_Rise_of_PoonVille/)
 - [**Peaceful Luvora Garden**](https://thunderstore.io/c/atlyss/p/ZipperIndustries/PeacefulLuvoraGarden/) by [ZipperIndustries](https://thunderstore.io/c/atlyss/p/ZipperIndustries/)
-- [**Distant Memory**](https://thunderstore.io/c/atlyss/p/ZweiHanda/Distant_Memory/) by [ZweiHanda](https://thunderstore.io/c/atlyss/p/ZweiHanda/).
+- [**Distant Memory**](https://thunderstore.io/c/atlyss/p/ZweiHanda/Distant_Memory/) by [ZweiHanda](https://thunderstore.io/c/atlyss/p/ZweiHanda/)
