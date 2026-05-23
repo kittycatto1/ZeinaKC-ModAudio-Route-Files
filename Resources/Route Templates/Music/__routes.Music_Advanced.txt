@@ -22,10 +22,16 @@ modaudio_atlyss_map_arcwoodpass_night     = ___default___ ~ fl : true # "_mu_dis
 modaudio_atlyss_map_executionerstomb_null = ___default___ ~ rel_repl_fx : false | v : 0.75 # "_mu_hell01".
 modaudio_atlyss_map_effoldterrace_null    = ___default___             # "_mu_discover01".
 modaudio_atlyss_map_tuulvalley_null       = ___default___             # "_mu_haven".
+modaudio_atlyss_map_crescentroad_day      = ___default___
+modaudio_atlyss_map_crescentroad_night    = ___default___
+modaudio_atlyss_map_luvoragarden_day      = ___default___
+modaudio_atlyss_map_luvoragarden_night    = ___default___
 modaudio_atlyss_map_crescentkeep_day      = ___default___             # "_mu_laid".
 modaudio_atlyss_map_crescentkeep_night    = ___default___ ~ fl : true # "_mu_discover03".
 modaudio_atlyss_map_tuulenclave_null      = ___default___             # "_mu_clave".
 modaudio_atlyss_map_bularrfortress_null   = ___default___             # "_mu_encoderStrife".
+modaudio_atlyss_map_gateofthemoon_day     = ___default___
+modaudio_atlyss_map_gateofthemoon_night   = ___default___
 modaudio_atlyss_map_wallofthestars_null   = ___default___ ~ fl : true # "_atlyssSet_track01".
 modaudio_atlyss_map_trialofthestars_day   = ___default___             # "_mu_calp".
 modaudio_atlyss_map_trialofthestars_night = ___default___             # "_mu_botany".
@@ -48,3 +54,11 @@ music_whisper = ___default___ # Dungeon boss defeated.
 # music_whisper = ___default___ ~ map : Sanctum Catacombs
 # music_whisper = ___default___ ~ map : Crescent Grove
 # ===== Boss Music ===== #
+
+# ===== Null -> Day/Night ===== #
+# Simple conversion for turning null (indefinite) music into Day/Night (definite) music.
+# Day/Night sources are simply overwritten when a valid null source is supplied.
+modaudio_atlyss_map_{map_name}_null  = ___disable___
+modaudio_atlyss_map_{map_name}_day   = ___default___
+modaudio_atlyss_map_{map_name}_night = ___default___
+# ===== Null -> Day/Night ===== #

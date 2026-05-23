@@ -1,0 +1,62 @@
+# ===== References ===== #
+# modaudio_atlyss_map_{map_name}_{day/night/action/null}
+# map = map_name
+# fl  = force_loop
+# rel_repl_fx = relative_replacement_effects
+# ===== References ===== #
+
+# ===== Menu Music ===== #
+_mu_flyby = ___default___ ~ rel_repl_fx : false
+_mu_selee = ___default___ ~ rel_repl_fx : false
+option    = ___default___ ~ rel_repl_fx : false
+# ===== Menu Music ===== #
+
+# ===== Field Music ===== #
+modaudio_atlyss_map_sanctum_day           = ___default___ ~ fl : true | rel_repl_fx : false
+modaudio_atlyss_map_sanctum_night         = ___default___ ~ fl : true | rel_repl_fx : false
+modaudio_atlyss_map_sanctumarena_null     = ___default___ ~ fl : true | rel_repl_fx : false
+modaudio_atlyss_map_outersanctum_day      = ___default___ ~ fl : true | rel_repl_fx : false
+modaudio_atlyss_map_outeresanctum_night   = ___default___ ~ fl : true | rel_repl_fx : false
+modaudio_atlyss_map_arcwoodpass_day       = ___default___ ~ fl : true | rel_repl_fx : false
+modaudio_atlyss_map_arcwoodpass_night     = ___default___ ~ fl : true | rel_repl_fx : false
+modaudio_atlyss_map_executionerstomb_null = ___default___ ~ rel_repl_fx : false
+modaudio_atlyss_map_effoldterrace_null    = ___default___ ~ rel_repl_fx : false
+modaudio_atlyss_map_tuulvalley_null       = ___default___ ~ rel_repl_fx : false
+modaudio_atlyss_map_crescentroad_day      = ___default___ ~ rel_repl_fx : false
+modaudio_atlyss_map_crescentroad_night    = ___default___ ~ rel_repl_fx : false
+modaudio_atlyss_map_luvoragarden_day      = ___default___ ~ rel_repl_fx : false
+modaudio_atlyss_map_luvoragarden_night    = ___default___ ~ rel_repl_fx : false
+modaudio_atlyss_map_crescentroad_day      = ___default___ ~ rel_repl_fx : false
+modaudio_atlyss_map_crescentroad_night    = ___default___ ~ rel_repl_fx : false
+modaudio_atlyss_map_luvoragarden_day      = ___default___ ~ rel_repl_fx : false
+modaudio_atlyss_map_luvoragarden_night    = ___default___ ~ rel_repl_fx : false
+modaudio_atlyss_map_crescentkeep_day      = ___default___ ~ rel_repl_fx : false
+modaudio_atlyss_map_crescentkeep_night    = ___default___ ~ fl : true | rel_repl_fx : false
+modaudio_atlyss_map_tuulenclave_null      = ___default___ ~ rel_repl_fx : false
+modaudio_atlyss_map_bularrfortress_null   = ___default___ ~ rel_repl_fx : false
+modaudio_atlyss_map_gateofthemoon_day     = ___default___ ~ rel_repl_fx : false
+modaudio_atlyss_map_gateofthemoon_night   = ___default___ ~ rel_repl_fx : false
+modaudio_atlyss_map_gateofthemoon_day     = ___default___ ~ rel_repl_fx : false
+modaudio_atlyss_map_gateofthemoon_night   = ___default___ ~ rel_repl_fx : false
+modaudio_atlyss_map_wallofthestars_null   = ___default___ ~ fl : true | rel_repl_fx : false
+modaudio_atlyss_map_trialofthestars_day   = ___default___ ~ rel_repl_fx : false
+modaudio_atlyss_map_trialofthestars_night = ___default___ ~ rel_repl_fx : false
+# ===== Field Music ===== #
+
+# ===== Dungeon Music ===== #
+_atlyssSet_catacomb_amb3    = ___default___
+_atlyssSet_catacomb_action5 = ___default___
+_mu_ambCrispr               = ___default___
+_mu_wonton5                 = ___default___
+# ===== Dungeon Music ===== #
+
+# ===== Boss Music ===== #
+_mu_cahoots   = ___default___ ~ fl : true
+_mu_wasp      = ___default___
+_mu_ecka      = ___default___
+_mu_wonton    = ___default___
+_mu_hermit    = ___default___
+music_whisper = ___default___
+# music_whisper = ___default___ ~ map : Sanctum Catacombs
+# music_whisper = ___default___ ~ map : Crescent Grove
+# ===== Boss Music ===== #
