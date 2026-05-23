@@ -3,6 +3,7 @@ This file serves as a reference of all the music available in custom maps.\
 \- Music clip notes apply here!
 <details><summary><b>Audio Aliases</b></summary>
 
+- **AtlyssCasino:** `modaudio_atlyss_map_atlysscasino_{day/night/action/null}` (AtlyssCasino)
 - **Medieval Springs:** `modaudio_atlyss_map_medievalsprings_{day/night/action/null}`
   - *Medieval Springs*
   - Medieval Arena
@@ -85,6 +86,7 @@ This file serves as a reference of all the music available in custom maps.\
 - **Slutsanctum:**
   - `modaudio_atlyss_map_pathtoslutsanctum_{day/night/action/null}` (Path to Slutsanctum)
   - `modaudio_atlyss_map_slutsanctum_{day/night/action/null}` (SlutSanctum)
+    - Fight Club
     - Slime Park
 - **Fatum Betula Custom Map:**
   - `modaudio_atlyss_map_fatumbetula_{day/night/action/null}` (Fatum Betula)
@@ -92,6 +94,7 @@ This file serves as a reference of all the music available in custom maps.\
   - `modaudio_atlyss_map_autumn_{day/night/action/null}` (Autumn)
   - `modaudio_atlyss_map_cherryblossom_{day/night/action/null}` (Cherry Blossom)
 - **Grove of Memories:** `modaudio_atlyss_map_groveofmemories_{day/night/action/null}` (Grove of Memories)
+- **Final Destination:** `modaudio_atlyss_map_finaldestination_{day/night/action/null}` (Final Destination)
 - **Crossfire Map:** `modaudio_atlyss_map_crossfire_{day/night/action/null}` (Crossfire)
 - **Moo well Farm:** `modaudio_atlyss_map_moowellfarm_{day/night/action/null}` (Moo-well Farm)
 - **SM64 Castle:**
@@ -260,6 +263,7 @@ This file serves as a reference of all the music available in custom maps.\
 | Katamari Damacy Soundtrack - 01 - Katamari on the Rocks (128 kbps)    | Audio/Clip/Katamari Damacy Soundtrack - 01 - Katamari on the Rocks (128 kbps).ogg   | SlutSanctum (Action?). [Looped]                                           |
 | Autumn_Music-sharedassets11.assets-42                                 | AudioClip/Autumn_Music-sharedassets11.assets-42.ogg                                 | Autumn (Day). [Looped]                                                    |
 | CherryBlossomMusic-sharedassets3.assets-93                            | AudioClip/CherryBlossomMusic-sharedassets3.assets-93.ogg                            | Cherry Blossom (Day). [Looped]                                            |
+| Final Destination (Super Smash Bros. Melee)                           | AudioClip/Final Destination (Super Smash Bros. Melee).ogg                           | Final Destination. [Looped. V0.60]                                        |
 | _mu_haven                                                             | _sound/_musics/_mu_haven.ogg                                                        | Crossfire. [Unlooped]                                                     |
 | Inside The Castle Walls                                               | AudioClip/Inside The Castle Walls.ogg                                               | Inside Peach's Castle. [Looped]                                           |
 | MainTheme                                                             | AudioClip/MainTheme.ogg                                                             | Whomp's Fortress, Tiny-Huge Island. [Looped]                              |
