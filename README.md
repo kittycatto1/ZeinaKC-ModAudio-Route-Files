@@ -1,22 +1,22 @@
 # README
-This a repository for ATLYSS Modding's [**ModAudio**](https://thunderstore.io/c/atlyss/p/Marioalexsan/ModAudio/) and contains the works of the [**ZeinaKC Thunderstore team**](https://thunderstore.io/c/atlyss/p/ZeinaKC/). It contains: Routes, scripts, Clip Information, Templates, and documentation, all licensed under ***CC BY-NC-SA*** including Thunderstore uploads.
+This a repository for ATLYSS Modding's [**ModAudio**](https://thunderstore.io/c/atlyss/p/Marioalexsan/ModAudio/) and contains the works of the [**ZeinaKC Thunderstore team**](https://thunderstore.io/c/atlyss/p/ZeinaKC/). Routes, Scripts, Clip Information, Templates, and Documentation, all licensed under ***CC BY-NC-SA*** including Thunderstore uploads.
 # Table of Contents
-- [**Clip Documentation**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/tree/Dominant/Marioalexsan.ModAudio_UserAudioPack)
-  - [**XYZ Image Dump**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/tree/Dominant/Image%20Dump)
+- [**Clip Documentation**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/tree/Dominant/Clip%20Documentation)
 - [**Resources**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/tree/Dominant/Resources)
 - [**Packages**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/tree/Dominant/_Packages)
-- **SEPARATOR**
+- [**XYZ Image Dump**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/tree/Dominant/Image%20Dump)
+-
 - [**List of Packages**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/edit/Dominant/README.md#list-of-packages)
 - [**External Resources**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/edit/Dominant/README.md#external-resources)
 - [**Contributors**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/edit/Dominant/README.md#contributor-credits--attributions)
 - [**License**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/edit/Dominant/README.md#license-cc-by-nc-sa)
 #
 ## List of Packages
-The goal of putting my ModAudio files on Github was to allow others to easily learn off of my projects. So I ranked their complexity:\
+My goal of putting the files on Github was to allow others to easily learn off my work. I ranked their complexity:\
 \- T1 (Basic ModAudio): Beginners learning ModAudio can use this.\
 \- T2 (Advanced ModAudio): Still friendly but begins relying on more advanced features.\
 \- T3 (Scripting Territory): Massive with several effects and scripting, still useful for learning about mega-packs.\
-Based on the above, I'll add the **[CURATED]** label to packs I think can help you learn about something, I.E. making huge mods.
+I'll add the **[CURATED]** label to packs I think can help others learn about something, like making huge mods.
 - `T1` [**Vanilla Music Improved**](https://thunderstore.io/c/atlyss/p/ZeinaKC/Vanilla_Music_Improved/) ([**Source**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/tree/Dominant/_Packages/Vanilla_Music_Improved)) **[CURATED]**
 - `T1` [**ChangKaBang OST Pack**](https://thunderstore.io/c/atlyss/p/ZeinaKC/ChangKaBang_OST_Pack/) ([**Source**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/tree/Dominant/_Packages/ChangKaBang_OST_Pack))
 - `T2` [**FlipWitch Music**](https://thunderstore.io/c/atlyss/p/ZeinaKC/FlipWitch_Music/) ([**Source**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/tree/Dominant/_Packages/FlipWitch_Music))
@@ -52,13 +52,13 @@ Based on the above, I'll add the **[CURATED]** label to packs I think can help y
 - `Stoingularity:` Weapons script sourced from [**Sybil Clothes**](https://thunderstore.io/c/atlyss/p/Stoingularity/Sybil_Clothes/). ([**Thunderstore**](https://thunderstore.io/c/atlyss/p/Stoingularity/))
 ### Copyright Holder Attributions
 - `Kiseff (KisSoft):` Developer and music composer of [**ATLYSS**](https://store.steampowered.com/app/2768430/ATLYSS/) and [**CHANGkaBANG!**](https://kiseff.itch.io/changkabang).
-- `MomoJams:` Music composer for [**FlipWitch: Forbidden Sex Hex**](https://store.steampowered.com/app/1748620/FlipWitch__Forbidden_Sex_Hex/). ([**Twitter**](https://x.com/MomoErogeMusic) - [**Bandcamp**](https://momojams.bandcamp.com/album/flipwitch-original-game-soundtrack))
+- `MomoJams:` Music composer for [**FlipWitch: Forbidden Sex Hex**](https://store.steampowered.com/app/1748620/FlipWitch__Forbidden_Sex_Hex/). ([**Twitter**](https://x.com/MomoErogeMusic) - [**SoundCloud**](https://soundcloud.com/momo-jams))
 - `Laura Shigihara:` Music composer for [**Plants vs. Zombies**](https://store.steampowered.com/app/3590/Plants_vs_Zombies_GOTY_Edition/). ([**Website**](https://www.laurashigihara.com/))
 - `Leon Riskin:` Music composer for [**FNAF World**](https://gamejolt.com/games/fnaf-world/124921). ([**Website**](https://www.leonriskin.com/))
 - `Miro Haverinen (Happy Paintings):` Developer and music composer of [**Funger & Hunger**](https://store.steampowered.com/app/1002300/Fear__Hunger/) and [**Termina**](https://store.steampowered.com/app/2171440/Fear__Hunger_2_Termina/).
   - The original "Ghostpocalypse - 5 Apotheosis" is created by Kevin MacLeod.
-  - 8 Original soundtracks were contributed to Termina by Chilly Makes Music. ([**Twitter**](https://x.com/Chilly_Tweets) - [**Bandcamp**](https://chillymakesmusic.bandcamp.com/album/fear-hunger-2-termina-the-chilly-tracks))
-- [**OpenNSFW**](https://opennsfw.carrd.co/)'s collaborative soundpack was used to create Sexual Sounds Pack, below is the Twitter links of the used contributors. 
+  - Chilly Makes Music contributed "Lost Haven/Shillings", "Denied The Light", "Wayward Souls" and "Unknowable" for Termina. ([**Twitter**](https://x.com/Chilly_Tweets) - [**SoundCloud**](https://soundcloud.com/user-396657368))
+- [**OpenNSFW**](https://opennsfw.carrd.co/)'s collaborative soundpack was used to create Sexual Sounds Pack, below is the Twitter links of the used contributors.
   - [**KGF_Kiko**](https://x.com/KGF_Kiko)
   - [**Pixelcarnagee**](https://x.com/pixelcarnagee)
   - [**SquishSuccubus**](https://x.com/SquishSuccubus)
