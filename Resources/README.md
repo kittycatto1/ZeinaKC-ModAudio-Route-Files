@@ -14,17 +14,17 @@ Depending on your use case you may create different audio packs or will need to 
   - [**Combat**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/tree/Dominant/Resources/Lua%20Templates/Combat)   - [**Advanced**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/tree/Dominant/Resources/Lua%20Templates/Combat_Advanced)
   - [**Weapons**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/tree/Dominant/Resources/Lua%20Templates/Weapons) - [**Advanced**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/tree/Dominant/Resources/Lua%20Templates/Weapons_Advanced)
 - [**MapLoader Templates**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/tree/Dominant/Resources/_MapLoader%20Templates)
-- [**References**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/edit/Dominant/Resources/README.md#references)
-  - [**Characters**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/edit/Dominant/Resources/README.md#characters)
-  - [**Effects**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/edit/Dominant/Resources/README.md#effects)
-  - [**Script Effects**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/edit/Dominant/Resources/README.md#script-effects)
-  - [**Metadata**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/edit/Dominant/Resources/README.md#metadata)
-  - [**Extras**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/edit/Dominant/Resources/README.md#extras)
-  - [**modpack_overrides**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/edit/Dominant/Resources/README.md#modpack_overrides)
+- [**References**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/tree/Dominant/Resources#references)
+  - [**Characters**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/tree/Dominant/Resources#characters)
+  - [**Effects**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/tree/Dominant/Resources#effects)
+  - [**Script Effects**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/tree/Dominant/Resources#script-effects)
+  - [**Metadata**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/tree/Dominant/Resources#metadata)
+  - [**Extras**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/tree/Dominant/Resources#extras)
+  - [**modpack_overrides**]https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/tree/Dominant/Resources#modpack_overrides)
 #
 ## References
 Each line is a "route" that needs a source clip followed by a character and then audio clip, I.E. `Source_Clip = Target_Clip`.\
-Find [**source clips here**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/blob/Dominant/Marioalexsan.ModAudio_UserAudioPack/clip_names.md) or use `modaudio_atlyss_map_{map_name}_{day/night/action/null}` ([**link**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/edit/Dominant/Resources/README.md#extras)) for most music.
+Find [**source clips here**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/blob/Dominant/Marioalexsan.ModAudio_UserAudioPack/clip_names.md) or use `modaudio_atlyss_map_{map_name}_{day/night/action/null}` ([**link**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/tree/Dominant/Resources#extras)) for most music.
 
 ModAudio is mostly backwards compatible but some features have been removed or deprecated (no longer achieving support).\
 I'll focus on the latest format (V4.5.X) but older formats include different solutions for specific problems. Major landmarks are:\
@@ -40,7 +40,7 @@ ModAudio comes with a folder called "TestPacks" that can be enabled in-game via 
 ### Characters
 The (script) format extends like this: `source = target : weight : volume : pitch : group`. Only previous parameters are "required", ahead ones can be skipped. W/V/P have better solutions but scripting strictly requires this.
 - `=` - Replacement. If it isn't present ModAudio will assume and auto-fill the route with `___default___` during parsing.
-- `@` - Overlay. When the source clip is played, play this on top. (Read [link_overlay_and_replacement](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/edit/Dominant/Resources/README.md#effects))
+- `@` - Overlay. When the source clip is played, play this on top. (Read [link_overlay_and_replacement](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/tree/Dominant/Resources#effects))
 - `~` - Effect. Additional modifiers for route customisation.
   - Overlays and Effects can go before or after each other, limited to one of each per route.
 - `|` - Pipeline. Allows you to combine multiple sources, replacements, overlays, and effects into one route.
