@@ -20,7 +20,7 @@ Depending on your use case you may create different audio packs or will need to 
   - [**Script Effects**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/tree/Dominant/Resources#script-effects)
   - [**Metadata**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/tree/Dominant/Resources#metadata)
   - [**Extras**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/tree/Dominant/Resources#extras)
-  - [**modpack_overrides**]https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/tree/Dominant/Resources#modpack_overrides)
+  - [**modpack_overrides**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/tree/Dominant/Resources#modpack_overrides)
 #
 ## References
 Each line is a "route" that needs a source clip followed by a character and then audio clip, I.E. `Source_Clip = Target_Clip`.\
