@@ -6,10 +6,10 @@ This a repository for ATLYSS Modding's [**ModAudio**](https://thunderstore.io/c/
 - [**Packages**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/tree/Dominant/_Packages)
 - [**XYZ Image Dump**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/tree/Dominant/Image%20Dump)
 -
-- [**List of Packages**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/edit/Dominant/README.md#list-of-packages)
-- [**External Resources**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/edit/Dominant/README.md#external-resources)
-- [**Contributors**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/edit/Dominant/README.md#contributor-credits--attributions)
-- [**License**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/edit/Dominant/README.md#license-cc-by-nc-sa)
+- [**List of Packages**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files#list-of-packages)
+- [**External Resources**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files#external-resources)
+- [**Contributors**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files#contributor-credits--attributions)
+- [**License**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files#license-cc-by-nc-sa)
 #
 ## List of Packages
 My goal of putting the files on Github was to allow others to easily learn off my work. I ranked their complexity:\
