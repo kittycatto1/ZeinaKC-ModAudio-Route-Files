@@ -9,7 +9,7 @@ This a repository for ATLYSS Modding's [**ModAudio**](https://thunderstore.io/c/
 - [**List of Packages**](/#list-of-packages)
 - [**External Resources**](/#external-resources)
 - [**Contributors**](/#contributor-credits--attributions)
-- [**License**](/#license-cc-by-nc-sa)
+- [**License**](/README.md#license-cc-by-nc-sa)
 #
 ## List of Packages
 My goal of putting the files on Github was to allow others to easily learn off my work. I ranked their complexity:\
