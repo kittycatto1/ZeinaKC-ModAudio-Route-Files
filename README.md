@@ -6,9 +6,9 @@ This a repository for ATLYSS Modding's [**ModAudio**](https://thunderstore.io/c/
 - [**Packages**](/_Packages)
 - [**XYZ Image Dump**](/Image%20Dump)
 -
-- [**List of Packages**](/#list-of-packages)
-- [**External Resources**](/#external-resources)
-- [**Contributors**](/#contributor-credits--attributions)
+- [**List of Packages**](/README.md#list-of-packages)
+- [**External Resources**](/README.md/#external-resources)
+- [**Contributors**](/README.md#contributor-credits--attributions)
 - [**License**](/README.md#license-cc-by-nc-sa)
 #
 ## List of Packages
