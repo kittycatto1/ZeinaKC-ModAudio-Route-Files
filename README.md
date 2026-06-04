@@ -1,10 +1,10 @@
 # README
 This a repository for ATLYSS Modding's [**ModAudio**](https://thunderstore.io/c/atlyss/p/Marioalexsan/ModAudio/) and contains the works of the [**ZeinaKC Thunderstore team**](https://thunderstore.io/c/atlyss/p/ZeinaKC/). Routes, Scripts, Clip Information, Templates, and Documentation, all licensed under ***CC BY-NC-SA*** including Thunderstore uploads.
 # Table of Contents
-- [**Clip Documentation**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/tree/Dominant/Clip%20Documentation)
-- [**Resources**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/tree/Dominant/Resources)
-- [**Packages**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/tree/Dominant/_Packages)
-- [**XYZ Image Dump**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/tree/Dominant/Image%20Dump)
+- [**Clip Documentation**](/Clip%20Documentation)
+- [**Resources**](/Resources)
+- [**Packages**](/_Packages)
+- [**XYZ Image Dump**](/Image%20Dump)
 -
 - [**List of Packages**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files#list-of-packages)
 - [**External Resources**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files#external-resources)
@@ -17,14 +17,14 @@ My goal of putting the files on Github was to allow others to easily learn off m
 \- T2 (Advanced ModAudio): Still friendly but begins relying on more advanced features.\
 \- T3 (Scripting Territory): Massive with several effects and scripting, still useful for learning about mega-packs.\
 I'll add the **[CURATED]** label to packs I think can help others learn about something, like making huge mods.
-- `T1` [**Vanilla Music Improved**](https://thunderstore.io/c/atlyss/p/ZeinaKC/Vanilla_Music_Improved/) ([**Source**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/tree/Dominant/_Packages/Vanilla_Music_Improved)) **[CURATED]**
-- `T1` [**ChangKaBang OST Pack**](https://thunderstore.io/c/atlyss/p/ZeinaKC/ChangKaBang_OST_Pack/) ([**Source**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/tree/Dominant/_Packages/ChangKaBang_OST_Pack))
-- `T2` [**FlipWitch Music**](https://thunderstore.io/c/atlyss/p/ZeinaKC/FlipWitch_Music/) ([**Source**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/tree/Dominant/_Packages/FlipWitch_Music))
-- `T2` [**PVZ Music**](https://thunderstore.io/c/atlyss/p/ZeinaKC/PVZ_Music/) ([**Source**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/tree/Dominant/_Packages/PVZ_Music))
-- `T3` [**FNAF World Music**](https://thunderstore.io/c/atlyss/p/ZeinaKC/FNAF_World_Music/) ([**Source**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/tree/Dominant/_Packages/FNAF_World_Music)) **[CURATED]**
-- `T3` [**Funger Combat Pack**](https://thunderstore.io/c/atlyss/p/ZeinaKC/Funger_Combat_Pack/) ([**Source**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/tree/Dominant/_Packages/Funger_Combat_Pack)) **[CURATED]**
-- `T1` [**Sexual Sounds Pack**](https://thunderstore.io/c/atlyss/p/ZeinaKC/Sexual_Sounds_Pack/) ([**Source**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/tree/Dominant/_Packages/Sexual_Sounds_Pack))
-- `T1` [**Suki Nipps Moans**](https://thunderstore.io/c/atlyss/p/ZeinaKC/Suki_Nipps_Moans/) ([**Source**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/tree/Dominant/_Packages/Suki_Nipps_Moans))
+- `T1` [**Vanilla Music Improved**](https://thunderstore.io/c/atlyss/p/ZeinaKC/Vanilla_Music_Improved/) ([**Source**](/_Packages/Vanilla_Music_Improved)) **[CURATED]**
+- `T1` [**ChangKaBang OST Pack**](https://thunderstore.io/c/atlyss/p/ZeinaKC/ChangKaBang_OST_Pack/) ([**Source**](/_Packages/ChangKaBang_OST_Pack))
+- `T2` [**FlipWitch Music**](https://thunderstore.io/c/atlyss/p/ZeinaKC/FlipWitch_Music/) ([**Source**](/_Packages/FlipWitch_Music))
+- `T2` [**PVZ Music**](https://thunderstore.io/c/atlyss/p/ZeinaKC/PVZ_Music/) ([**Source**](/_Packages/PVZ_Music))
+- `T3` [**FNAF World Music**](https://thunderstore.io/c/atlyss/p/ZeinaKC/FNAF_World_Music/) ([**Source**](/_Packages/FNAF_World_Music)) **[CURATED]**
+- `T3` [**Funger Combat Pack**](https://thunderstore.io/c/atlyss/p/ZeinaKC/Funger_Combat_Pack/) ([**Source**](/_Packages/Funger_Combat_Pack)) **[CURATED]**
+- `T1` [**Sexual Sounds Pack**](https://thunderstore.io/c/atlyss/p/ZeinaKC/Sexual_Sounds_Pack/) ([**Source**](/_Packages/Sexual_Sounds_Pack))
+- `T1` [**Suki Nipps Moans**](https://thunderstore.io/c/atlyss/p/ZeinaKC/Suki_Nipps_Moans/) ([**Source**](/_Packages/Suki_Nipps_Moans))
 #
 ## External Resources
 - [**How to optimise audio**](https://github.com/AtlyssModding/ATLYSS-Modding-Resources/wiki/How-to-optimise-audio) (Combination of Catman and Pipeargill's help.)
