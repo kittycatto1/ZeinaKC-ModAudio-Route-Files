@@ -14,17 +14,17 @@ Depending on your use case you may create different audio packs or will need to 
   - [**Combat**](/Resources/Lua%20Templates/Combat)   - [**Advanced**](/Resources/Lua%20Templates/Combat_Advanced)
   - [**Weapons**](/Resources/Lua%20Templates/Weapons) - [**Advanced**](/Resources/Lua%20Templates/Weapons_Advanced)
 - [**MapLoader Templates**](/Resources/_MapLoader%20Templates)
-- [**References**](/Resources#references)
-  - [**Characters**](/Resources#characters)
-  - [**Effects**](/Resources#effects)
-  - [**Script Effects**](/Resources#script-effects)
-  - [**Metadata**](/Resources#metadata)
-  - [**Extras**](/Resources#extras)
-  - [**modpack_overrides**](/Resources#modpack_overrides)
+- [**References**](/Resources/README.md#references)
+  - [**Characters**](/Resources/README.md#characters)
+  - [**Effects**](/Resources/README.md#effects)
+  - [**Script Effects**](/Resources/README.md#script-effects)
+  - [**Metadata**](/Resources/README.md#metadata)
+  - [**Extras**](/Resources/README.md#extras)
+  - [**modpack_overrides**](/Resources/README.md#modpack_overrides)
 #
 ## References
 Each line is a "route" that needs a source clip followed by a character and then audio clip, I.E. `Source_Clip = Target_Clip`.\
-Find [**source clips here**](../Clip%20Documentation/clip_names.md) or use `modaudio_atlyss_map_{map_name}_{day/night/action/null}` ([**link**](/Resources#extras)) for most music.
+Find [**source clips here**](../Clip%20Documentation/clip_names.md) or use `modaudio_atlyss_map_{map_name}_{day/night/action/null}` ([**link**](/Resources/README.md#extras)) for most music.
 
 ModAudio is mostly backwards compatible but some features have been removed or deprecated (no longer achieving support).\
 I'll focus on the latest format (V4.5.X) but older formats include different solutions for specific problems. Major landmarks are:\
@@ -40,7 +40,7 @@ ModAudio comes with a folder called "TestPacks" that can be enabled in-game via 
 ### Characters
 The (script) format extends like this: `source = target : weight : volume : pitch : group`. Only previous parameters are "required", ahead ones can be skipped. W/V/P have better solutions but scripting strictly requires this.
 - `=` - Replacement. If it isn't present ModAudio will assume and auto-fill the route with `___default___` during parsing.
-- `@` - Overlay. When the source clip is played, play this on top. (Read [link_overlay_and_replacement](/Resources#effects))
+- `@` - Overlay. When the source clip is played, play this on top. (Read [link_overlay_and_replacement](/Resources/README.md#effects))
 - `~` - Effect. Additional modifiers for route customisation.
   - Overlays and Effects can go before or after each other, limited to one of each per route.
 - `|` - Pipeline. Allows you to combine multiple sources, replacements, overlays, and effects into one route.
@@ -98,7 +98,7 @@ Property Type: **Boolean** (true/false).
 - `smooth_dynamic_targeting`     / `tg_smooth` - Adds in a fading effect to allow for smoother transitions.
 - `continuous_dynamic_targeting` / `tg_cont`   - Preserves and wraps audio play positions to play them "in parallel".
 ### Metadata
-All `@` properties were categorised under metadata. ([**Example**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/blob/Dominant/Resources/__routes.txt))\
+All `@` properties were categorised under metadata. ([**Example**](/Resources/__routes.txt))\
 They range from package details, custom clip modifications, to scripting features.
 - `%id`          **[String]** - Audio pack identifier for ModAudio, otherwise using folder paths as IDs.
 - `@displayname` **[String]** - Displayed name on EasySettings.
@@ -119,7 +119,7 @@ These are built-in "Source_Clip" and "target_clips"s provided by ModAudio and AT
 - `___nothing___`     - Ditto, play nothing.
 - `___disable___`     - Ditto, when applied to `modaudio_atlyss_map_{map_name}_null` enables using day and night music.
 ### modpack_overrides
-[**modaudio.modpack_overrides.json**](https://github.com/kittycatto1/ZeinaKC-ModAudio-Route-Files/blob/Dominant/Resources/modaudio.modpack_overrides.json)\
+[**modaudio.modpack_overrides.json**](/Resources/modaudio.modpack_overrides.json)\
 Property Type: **String Flags** (values below).
 - `"NoChanges"`        - Don't apply any overrides and use inherit behaviour.
 - `"EnableByDefault"`  - Audio pack is overriden to start enabled when first saved to `Marioalexsan.ModAudio.CFG`.
