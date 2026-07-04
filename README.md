@@ -1,5 +1,7 @@
 # README
 This a repository for ATLYSS Modding's [**ModAudio**](https://thunderstore.io/c/atlyss/p/Marioalexsan/ModAudio/) and contains the works of the [**ZeinaKC Thunderstore team**](https://thunderstore.io/c/atlyss/p/ZeinaKC/). Routes, Scripts, Clip Information, Templates, and Documentation, all licensed under ***CC BY-NC-SA*** including Thunderstore uploads.
+
+**NOTICE:** I'm slowly moving over to [**ATLYSS Modding Resources**](https://github.com/AtlyssModding/ATLYSS-Modding-Resources). For now resources will remain here until later notice but may get removed in the future.
 # Table of Contents
 - [**Clip Documentation**](/Clip%20Documentation)
 - [**Resources**](/Resources)
